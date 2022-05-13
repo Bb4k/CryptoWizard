@@ -20,6 +20,7 @@ function AppProvider(props) {
     bulletBackground: 'rgba(183, 186, 192, 0.75)',
     subtext: '#A2A2A2',
     loss: '#B20F0F',
+    scrollbar: '#B7BAC0',
   })
 
   const [user, setUser] = useState(null);
