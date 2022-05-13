@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from "react-native";
 import { AppContext } from "../../context/app.context";
 import { HorizontalScroll, StatusCard } from '../../components';
 
-export default function DashboardScreen({ navigation }) {
+export default function ProfileScreen({ navigation }) {
 
   const { themeColors, deviceW } = useContext(AppContext);
 
@@ -22,7 +22,11 @@ export default function DashboardScreen({ navigation }) {
 
   const user = {
     first_name: 'Sebastian',
-    plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
+    plan: {
+      name: 'Star',
+      cost: '$25/mo.',
+      image: 'https://i.ibb.co/VmW8X2c/status-star.webp',
+    }
   };
 
   var cryptoCurrencies = [];
@@ -46,15 +50,15 @@ export default function DashboardScreen({ navigation }) {
     <ScrollView style={styles.canvas}>
       <View style={[styles.container, { marginBottom: 23 }]}>
         <Text style={{ fontFamily: 'Montserrat-Medium', color: 'white', fontSize: 20 }}>Hello,</Text>
-        <Text style={{ fontFamily: 'Montserrat-Bold', color: 'white', fontSize: 20 }}>{user.first_name }</Text>
+        <Text style={{ fontFamily: 'Montserrat-Bold', color: 'white', fontSize: 20 }}>{user.first_name}</Text>
       </View>
 
       <StatusCard
-        title1='Invested:'
-        value1='$456.90'
-        title2='Profit:'
-        value2='+$36.90' 
-        plan={user.plan}
+        title1='Current status:'
+        value1={user.plan.name}
+        title2='Cost:'
+        value2={user.plan.cost}
+        plan={user.plan.image}
         containerStyle={styles.container}
       />
 
