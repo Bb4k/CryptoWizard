@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, Image } from "react-native";
 import { AppContext } from "../../context/app.context";
 
 export default function Footer({ navigate }) {
-  const localRoutes = ["Dashboard", "Wallets", "Profile"];
+  const localRoutes = ["Dashboard", "Profile"];
   const { themeColors } = useContext(AppContext);
   const [focused, setFocused] = useState('Dashboard');
 
@@ -24,15 +24,10 @@ export default function Footer({ navigate }) {
       return <FooterButton image={require('../../assets/dashboard.png')} isFocused={isFocused} />;
     }
 
-    if (routeName == 'Wallets') {
-      return <FooterButton image={require('../../assets/wallet.png')} isFocused={isFocused} />;
-    }
-
     if (routeName == 'Profile') {
       return <FooterButton image={require('../../assets/profile.png')} isFocused={isFocused} />;
     }
   }
-
 
   return (
     <View
@@ -61,12 +56,8 @@ export default function Footer({ navigate }) {
               navigate(route);
             }}
             style={{
-              // flex: 1,
-              // paddingVertical: 0,
               justifyContent: 'center',
               alignContent: 'center',
-              // width: '15%',
-              // height: '100%'
             }}
           >
             {renderIcon({ routeName: route, isFocused })}

@@ -1,50 +1,82 @@
-import React, { useState, useContext, useEffect } from 'react';
-import { View, Image } from "react-native";
-import { CustomInput } from '../../components';
-import { CustomButton } from '../../components';
-import { AppContext } from '../../context/app.context';
+import React, { useContext, useState } from 'react';
+import { View, Text, StyleSheet, ScrollView } from "react-native";
+import { AppContext } from "../../context/app.context";
+import { HorizontalScroll, StatusCard } from '../../components';
 
-export default function ProfileScreen({ navigation }) {
-  const [password, setPassword] = useState();
-  const { themeColors, user, setUser, deviceH, deviceW } = useContext(AppContext);
-  const profilePicture = 'https://i.ibb.co/K09KSHT/4904883e-aa4b-448a-8296-a09a8d7e3bd0.jpg';
+export default function DashboardScreen({ navigation }) {
+
+  const { themeColors, deviceW } = useContext(AppContext);
+
+  const styles = StyleSheet.create({
+    canvas: {
+      backgroundColor: themeColors.primary,
+      width: '100%',
+      height: '100%',
+      paddingTop: 17,
+    },
+    container: {
+      width: '100%',
+      paddingHorizontal: deviceW * 0.1,
+    },
+  });
+
+  const user = {
+    first_name: 'Sebastian',
+    plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
+  };
+
+  var cryptoCurrencies = [];
+  var cryptoCoin = {
+    image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
+    name: "EGLD",
+    profit: "-10.34"
+  }
+  cryptoCurrencies.push(cryptoCoin);
+  cryptoCoin = {
+    image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
+    name: "EGLD",
+    profit: "10.34"
+  }
+  cryptoCurrencies.push(cryptoCoin);
+  cryptoCurrencies.push(cryptoCoin);
+  cryptoCurrencies.push(cryptoCoin);
+  cryptoCurrencies.push(cryptoCoin);
 
   return (
-    <View
-      style={{
-        height: '100%',
-        width: '100%',
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingHorizontal: 63,
-        backgroundColor: themeColors.primary,
-      }}>
-      <View style={{ width: '100%', flex:1, alignItems: 'center', justifyContent: 'space-around' }}>
-        <Image source={{ uri: profilePicture }} style={{ width: deviceW * 0.5, height: deviceW * 0.5, borderRadius: 100 }}/>
-
-        <View style={{width: '100%'}}>
-          <CustomInput
-            title={'user'}
-            value={user}
-            editable={false}
-          />
-          <CustomInput
-            title={'email'}
-            value={password}
-            password
-          />
-        </View>
-
-        <CustomButton
-          buttonStyle={{ backgroundColor: themeColors.lightPrimary }}
-          text={"Log out"}
-          inputStyle={{ color: 'black' }}
-          onPress={() => {
-            setUser(null);
-            // handleLogout din AppContext
-          }}
-        />
+    <ScrollView style={styles.canvas}>
+      <View style={[styles.container, { marginBottom: 23 }]}>
+        <Text style={{ fontFamily: 'Montserrat-Medium', color: 'white', fontSize: 20 }}>Hello,</Text>
+        <Text style={{ fontFamily: 'Montserrat-Bold', color: 'white', fontSize: 20 }}>{user.first_name }</Text>
       </View>
-    </View>
+
+      <StatusCard
+        title1='Invested:'
+        value1='$456.90'
+        title2='Profit:'
+        value2='+$36.90' 
+        plan={user.plan}
+        containerStyle={styles.container}
+      />
+
+      <HorizontalScroll
+        title='Investments'
+        containerStyle={styles.container}
+        subtitle='Portfolio'
+        profit
+        data={cryptoCurrencies}
+        attribute1='image'
+        attribute2='name'
+        attribute3='profit'
+      />
+      <HorizontalScroll
+        title='Follows'
+        containerStyle={styles.container}
+        subtitle='Current price'
+        data={cryptoCurrencies}
+        attribute1='image'
+        attribute2='name'
+        attribute3='profit'
+      />
+    </ScrollView>
   );
 }

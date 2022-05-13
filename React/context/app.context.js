@@ -17,7 +17,9 @@ function AppProvider(props) {
     almostWhite: '#ECF0F1',
     darkPrimary: '#1B2A53',
     lightPrimary: '#C5FEED',
-    bulletBackground: 'rgba(183, 186, 192, 0.75)'
+    bulletBackground: 'rgba(183, 186, 192, 0.75)',
+    subtext: '#A2A2A2',
+    loss: '#B20F0F',
   })
 
   const [user, setUser] = useState(null);

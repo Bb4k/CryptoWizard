@@ -1,80 +1,82 @@
 import React, { useContext, useState } from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, FlatList } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 import { AppContext } from "../../context/app.context";
+import { HorizontalScroll, StatusCard } from '../../components';
 
 export default function DashboardScreen({ navigation }) {
-  // nft2Store, setNft2Store
-  const { themeColors, deviceH, deviceW } = useContext(AppContext);
+
+  const { themeColors, deviceW } = useContext(AppContext);
+
   const styles = StyleSheet.create({
     canvas: {
       backgroundColor: themeColors.primary,
-      alignItems: 'center',
       width: '100%',
       height: '100%',
-      paddingHorizontal: deviceW * 0.1,
-      paddingTop: deviceW * 0.1,
+      paddingTop: 17,
     },
     container: {
       width: '100%',
+      paddingHorizontal: deviceW * 0.1,
     },
-    elementContainer: {
-      height: deviceW * 0.33,
-      width: deviceW * 0.33,
-      backgroundColor: themeColors.almostWhite
-    },
-    previewStyle: {
-      padding: 5,
-      paddingTop: 0,
-      backgroundColor: themeColors.lightPrimary,
-      borderRadius: 10,
-      zIndex: 1,
-      position: 'absolute',
-      alignItems: 'center',
-    },
-    imageStyle: {
-      flex: 1,
-      borderRadius: 8,
-      width: deviceW * 0.8 * 0.55,
-      height: deviceW * 0.8 * 0.55,
-    }
   });
 
-  const renderCrypto = (crypto, index) => (
-    <TouchableOpacity
-      key={index}
-      activeOpacity={0.9}
-      style={styles.elementContainer}
-      onPress={() => { }}
-    >
-
-    </TouchableOpacity>
-  )
+  const user = {
+    first_name: 'Sebastian',
+    plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
+  };
 
   var cryptoCurrencies = [];
-  const cryptoCoin = {
-    crypto: {
-      image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
-      name: "EGLD",
-      profit: "10.34"
-    }
+  var cryptoCoin = {
+    image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
+    name: "EGLD",
+    profit: "-10.34"
   }
   cryptoCurrencies.push(cryptoCoin);
+  cryptoCoin = {
+    image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
+    name: "EGLD",
+    profit: "10.34"
+  }
   cryptoCurrencies.push(cryptoCoin);
   cryptoCurrencies.push(cryptoCoin);
   cryptoCurrencies.push(cryptoCoin);
   cryptoCurrencies.push(cryptoCoin);
 
   return (
-    <View style={styles.canvas}>
-      <FlatList
-        data={cryptoCurrencies}
-        keyExtractor={(item, index) => `${index}`}
-        renderItem={({ index, item }) => (
-          renderCrypto(item, index)
-        )}
-        horizontal={true}
-        showsHorizontalScrollIndicator={false}
+    <ScrollView style={styles.canvas}>
+      <View style={[styles.container, { marginBottom: 23 }]}>
+        <Text style={{ fontFamily: 'Montserrat-Medium', color: 'white', fontSize: 20 }}>Hello,</Text>
+        <Text style={{ fontFamily: 'Montserrat-Bold', color: 'white', fontSize: 20 }}>{user.first_name }</Text>
+      </View>
+
+      <StatusCard
+        title1='Invested:'
+        value1='$456.90'
+        title2='Profit:'
+        value2='+$36.90' 
+        plan={user.plan}
+        containerStyle={styles.container}
       />
-    </View>
+
+      <HorizontalScroll
+        title='Investments'
+        containerStyle={styles.container}
+        subtitle='Portfolio'
+        profit
+        data={cryptoCurrencies}
+        attribute1='image'
+        attribute2='name'
+        attribute3='profit'
+      />
+      <HorizontalScroll
+        title='Follows'
+        containerStyle={styles.container}
+        subtitle='Current price'
+        data={cryptoCurrencies}
+        attribute1='image'
+        attribute2='name'
+        attribute3='profit'
+      />
+    </ScrollView>
   );
 }
