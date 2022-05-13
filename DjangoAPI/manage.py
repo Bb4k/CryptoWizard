@@ -3,6 +3,9 @@
 import os
 import sys
 
+import django
+import datetime
+
 
 def main():
     """Run administrative tasks."""
@@ -19,4 +22,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
