@@ -32,10 +32,9 @@ export default function Footer({ navigate }) {
   return (
     <View
       style={{
+        zIndex: 100,
         height: '13%',
-        // width: '100%',
         flexDirection: 'row',
-        // alignContent: 'space-around',
         alignContent: 'center',
         justifyContent: 'space-around',
         borderTopRightRadius: 30,

@@ -51,7 +51,6 @@ export default function HorizontalScroll({ data, title, subtitle, attribute1, at
             activeOpacity={0.9}
             onPress={() => { }}
         >
-            {console.log(data, data[attribute3])}
             <View style={[styles.elementContainer, index == 0 && { marginLeft: deviceW * 0.1 }]}>
                 <View style={{ alignItems: 'center', flexDirection: 'row', marginBottom: 22 }}>
                     <View style={[styles.imageBg, customBgStyle]}>

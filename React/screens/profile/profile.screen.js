@@ -5,13 +5,12 @@ import { HorizontalScroll, StatusCard } from '../../components';
 
 export default function ProfileScreen({ navigation }) {
 
-  const { themeColors, deviceW } = useContext(AppContext);
+  const { themeColors, deviceW, deviceH } = useContext(AppContext);
 
   const styles = StyleSheet.create({
     canvas: {
       backgroundColor: themeColors.primary,
       width: '100%',
-      height: '100%',
       paddingTop: 17,
     },
     container: {
@@ -72,6 +71,17 @@ export default function ProfileScreen({ navigation }) {
         attribute2='name'
         attribute3='cost'
       />
-    </ScrollView>
+
+      <View style={{ 
+        backgroundColor: themeColors.almostWhite, 
+        borderTopLeftRadius: 30,
+        borderTopRightRadius: 30,
+        paddingHorizontal: deviceW * 0.1, 
+        paddingTop: deviceW * 0.1 
+        }}>
+
+      </View>
+
+    </ScrollView >
   );
 }
