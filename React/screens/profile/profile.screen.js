@@ -31,17 +31,16 @@ export default function ProfileScreen({ navigation }) {
 
   var cryptoCurrencies = [];
   var cryptoCoin = {
-    image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
-    name: "EGLD",
-    profit: "-10.34"
+    name: 'Basic',
+    cost: 'FREE',
+    image: 'https://i.ibb.co/Ryz48Pp/status-bronze.webp',
   }
   cryptoCurrencies.push(cryptoCoin);
   cryptoCoin = {
-    image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
-    name: "EGLD",
-    profit: "10.34"
+    name: 'Star',
+    cost: '$25/mo.',
+    image: 'https://i.ibb.co/VmW8X2c/status-star.webp',
   }
-  cryptoCurrencies.push(cryptoCoin);
   cryptoCurrencies.push(cryptoCoin);
   cryptoCurrencies.push(cryptoCoin);
   cryptoCurrencies.push(cryptoCoin);
@@ -63,23 +62,15 @@ export default function ProfileScreen({ navigation }) {
       />
 
       <HorizontalScroll
-        title='Investments'
+        title='Upgrade plan'
         containerStyle={styles.container}
-        subtitle='Portfolio'
-        profit
+        customImageStyle={{ height: 50, width: 50 }}
+        customBgStyle={{ padding: 3 }}
+        subtitle='Cost:'
         data={cryptoCurrencies}
         attribute1='image'
         attribute2='name'
-        attribute3='profit'
-      />
-      <HorizontalScroll
-        title='Follows'
-        containerStyle={styles.container}
-        subtitle='Current price'
-        data={cryptoCurrencies}
-        attribute1='image'
-        attribute2='name'
-        attribute3='profit'
+        attribute3='cost'
       />
     </ScrollView>
   );

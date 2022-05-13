@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Text, TouchableOpacity, StyleSheet, View, FlatList, Image } from "react-native";
 import { AppContext } from "../../context/app.context";
 
-export default function HorizontalScroll({ data, title, subtitle, attribute1, attribute2, attribute3, containerStyle, profit = false }) {
+export default function HorizontalScroll({ data, title, subtitle, attribute1, attribute2, attribute3, containerStyle, customImageStyle, customBgStyle, profit = false }) {
     const { themeColors, deviceW } = useContext(AppContext);
     const styles = StyleSheet.create({
         elementContainer: {
@@ -51,10 +51,11 @@ export default function HorizontalScroll({ data, title, subtitle, attribute1, at
             activeOpacity={0.9}
             onPress={() => { }}
         >
+            {console.log(data, data[attribute3])}
             <View style={[styles.elementContainer, index == 0 && { marginLeft: deviceW * 0.1 }]}>
                 <View style={{ alignItems: 'center', flexDirection: 'row', marginBottom: 22 }}>
-                    <View style={styles.imageBg}>
-                        <Image source={{ uri: data[attribute1] }} style={styles.imageStyle} />
+                    <View style={[styles.imageBg, customBgStyle]}>
+                        <Image source={{ uri: data[attribute1] }} style={[styles.imageStyle, customImageStyle]} />
                     </View>
                     <Text style={styles.cryptoName}>{data[attribute2]}</Text>
                 </View>
