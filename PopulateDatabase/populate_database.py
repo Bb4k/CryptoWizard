@@ -43,7 +43,7 @@ tokens = [
 
 
 def populate_tokens():
-    url_post_tokens = 'http://127.0.0.1:8000/api/token-create/'
+    url_post_tokens = 'http://192.168.0.111:8000/api/token-create/'
 
     for token in tokens:
         response = requests.post(url_post_tokens, data=json.dumps(token))
@@ -51,7 +51,7 @@ def populate_tokens():
 
 
 def populate_price():
-    url_post_prices = 'http://127.0.0.1:8000/api/price-create/'
+    url_post_prices = 'http://192.168.0.111:8000/api/price-create/'
     for i, token in enumerate(tokens):
         f = open('price_history/' + token['token_sym'] + '.json')
         data = json.load(f)

@@ -22,12 +22,9 @@ function AppProvider(props) {
   const [lightArrow, setLightArrow] = useState('https://i.ibb.co/4PyHD87/right-arrow.png');
   const [darkArrow, setDarkArrow] = useState('https://i.ibb.co/nfY83my/right-arrow-dark.png');
 
-  const [user, setUser] = useState({
-    firstname: 'Billy Boy',
-    plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
-  });
+  const [user, setUser] = useState(null);
 
-  const [API_URL, SET_API_URL] = useState("link//");
+  const [API_URL, SET_API_URL] = useState("http://192.168.0.111:8000");
 
   const [deviceW, setDeviceW] = useState(Dimensions.get('window').width);
   const [deviceH, setDeviceH] = useState(Dimensions.get('window').height);
@@ -96,45 +93,31 @@ function AppProvider(props) {
   };
 
   const handleSignup = async (formData) => {
-    setIsLoading(true);
-
-    // TODO: accept termenii si conditiile
 
     const bodyFormData = new FormData();
-    bodyFormData.append("username", formData.username);
+    bodyFormData.append("user_f_name", formData.firstname);
+    bodyFormData.append("user_l_name", formData.lastname);
+    bodyFormData.append("user_email", formData.email);
     bodyFormData.append("password", formData.password);
-    bodyFormData.append("password", formData.phoneNumber);
-    bodyFormData.append("role", formData.role);
+    bodyFormData.append("user_plan", Math.random() * 4 + 1);
 
     axios({
       method: "post",
-      url: `${API_URL}/auth-signup`,
+      url: `${API_URL}/user-create`,
       data: bodyFormData,
       headers: { "Content-Type": "multipart/form-data" },
     })
       .then((response) => {
-        setIsLoading(false);
-
-        /*
-            response:
-            {
-                username: "",
-                userId: "",
-                role: "",
-                wallets: [],
-                NFTs: [],
-                cooldownedNFTs: []
-            }
-            */
-
-        setUser(response.data);
-
-        navigate("Dashboard");
+        if (response.ok) {
+          setUser(bodyFormData);
+          navigate("Dashboard");
+        } else {
+          console.log(response.ok);
+        }
       })
       .catch((response) => {
-        setIsLoading(false);
         try {
-          show({ message: response.response.data.message, type: "error" });
+          show({ message: response.response?.data?.message, type: "error" });
         } catch (e) {
           console.log("Response rgvv: ", response);
         }
@@ -151,7 +134,7 @@ function AppProvider(props) {
     setIsLoading,
     lightArrow,
     darkArrow,
-    
+
     // User data
     user,
     setUser,
