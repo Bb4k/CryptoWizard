@@ -8,8 +8,9 @@ from django.core.exceptions import ValidationError
 class Plan(models.Model):
     plan_id = models.AutoField(primary_key=True)
     plan_name = models.CharField(max_length=8)
-    plan_price = models.IntegerField()
+    plan_price = models.CharField(max_length=10)
     plan_img = models.URLField()
+    plan_benefits = models.CharField(max_length=1024)
 
 
 # - User model -

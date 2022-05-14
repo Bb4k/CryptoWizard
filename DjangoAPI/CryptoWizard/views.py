@@ -45,6 +45,7 @@ def user_data(request, email):
     print([user_plan.json()] + [user_investments.json()] + [user_follows.json()] + [user_serializer.data])
     return Response([user_serializer.data] + [user_plan.json()] + [user_investments.json()] + [user_follows.json()])
 
+
 @api_view(['GET'])
 def plan_list(request):
     plans = models.Plan.objects.all()
@@ -138,9 +139,9 @@ def user_create(request):
         user_data = requests.get(f"http://127.0.0.1:8000/api/user/{user_data['user_email']}")
 
         pw_data = {
-                    "pw_user_id": user_data.json()['user_id'],
-                    "pw_encr_str": user_pw
-                  }
+            "pw_user_id": user_data.json()['user_id'],
+            "pw_encr_str": user_pw
+        }
 
         pw_serializer = serializers.PasswordSerializer(data=pw_data)
 
@@ -169,8 +170,21 @@ def token_create(request):
         return Response("Failed to Add.")
 
 
+@api_view(['POST'])
+def plan_create(request):
+    data = JSONParser().parse(request)
+    plan = serializers.PlanSerializer(data=data)
+
+    if plan.is_valid():
+        print("plan ok")
+        plan.save()
+        print(plan.data)
+        return Response("Added Successfully!!")
+    else:
+        return Response("Failed to Add.")
+
+
 # -- update method --
-# te lasa sa faci update daca oferi parametru la toate datele => facem celelalte campuri blank = True
 @api_view(['PUT'])
 def token_update(request, token_sym):
     token_data = models.Token.objects.get(token_sym=token_sym)
