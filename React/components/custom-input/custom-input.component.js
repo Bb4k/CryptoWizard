@@ -9,15 +9,16 @@ export default function CustomInput({ title, value, onChangeText, password, edit
         input: {
             paddingLeft: 15,
             fontSize: 20,
-            fontWeight: 'bold',
+            fontFamily: 'Montserrat-Bold',
             paddingVertical: 12,
             borderRadius: 10,
             marginBottom: 8,
-            backgroundColor: themeColors.darkPrimary,
+            backgroundColor: themeColors.lightPrimary,
+            color: themeColors.darkPrimary
         },
         title: {
             fontSize: 15,
-            fontWeight: 'bold',
+            fontFamily: 'Montserrat-Bold',
             color: themeColors.lightPrimary,
             paddingBottom: 5,
         }

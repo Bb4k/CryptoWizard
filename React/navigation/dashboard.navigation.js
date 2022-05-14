@@ -1,28 +1,16 @@
 // import toate paginile existente
 import React, { memo } from "react";
-import { CardStyleInterpolators, createStackNavigator, TransitionPresets } from "@react-navigation/stack";
+import { CardStyleInterpolators, createStackNavigator } from "@react-navigation/stack";
 import {
     DashboardScreen,
     ProfileScreen,
     RoleSelectScreen,
     LoginScreen,
-    SignupUser,
-    SignupService,
+    Signup,
 } from "../screens";
 
 function DashboardStackScreenSimple({ navigation }) {
     const DashboardStack = createStackNavigator();
-    const animConfig = {
-        animation: 'spring',
-        config: {
-            stiffness: 1000,
-            damping: 50,
-            mass: 3,
-            overshootClamping: false,
-            restDisplacementThreshold: 0.01,
-            restSpeedThreshold: 0.01,
-        },
-    };
 
     return (
         <DashboardStack.Navigator
@@ -34,8 +22,7 @@ function DashboardStackScreenSimple({ navigation }) {
             <DashboardStack.Screen options={{ headerShown: false }} name="Profile" component={ProfileScreen} />
 
             <DashboardStack.Screen options={{ headerShown: false }} name="Login" component={LoginScreen} />
-            <DashboardStack.Screen options={{ headerShown: false }} name="SignupUser" component={SignupUser} />
-            <DashboardStack.Screen options={{ headerShown: false }} name="SignupService" component={SignupService} />
+            <DashboardStack.Screen options={{ headerShown: false }} name="Signup" component={Signup} />
         </DashboardStack.Navigator>
     );
 }

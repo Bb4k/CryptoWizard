@@ -5,7 +5,7 @@ import { HorizontalScroll, StatusCard } from '../../components';
 
 export default function DashboardScreen({ navigation }) {
 
-  const { themeColors, deviceW, deviceH } = useContext(AppContext);
+  const { themeColors, deviceW, deviceH, user } = useContext(AppContext);
 
   const styles = StyleSheet.create({
     canvas: {
@@ -19,12 +19,7 @@ export default function DashboardScreen({ navigation }) {
       paddingHorizontal: deviceW * 0.1,
     },
   });
-
-  const user = {
-    first_name: 'Sebastian',
-    plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
-  };
-
+  
   var cryptoCurrencies = [];
   var cryptoCoin = {
     image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
@@ -46,7 +41,7 @@ export default function DashboardScreen({ navigation }) {
     <ScrollView style={styles.canvas}>
       <View style={[styles.container, { marginBottom: 23 }]}>
         <Text style={{ fontFamily: 'Montserrat-Medium', color: 'white', fontSize: 20 }}>Hello,</Text>
-        <Text style={{ fontFamily: 'Montserrat-Bold', color: 'white', fontSize: 20 }}>{user.first_name}</Text>
+        <Text style={{ fontFamily: 'Montserrat-Bold', color: 'white', fontSize: 20 }}>{user.firstname}</Text>
       </View>
 
       <StatusCard

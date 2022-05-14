@@ -5,7 +5,7 @@ import { CustomButton } from '../../components';
 import { AppContext } from '../../context/app.context';
 
 export default function LoginScreen({ navigation }) {
-  const [username, setUsername] = useState();
+  const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const { themeColors, setUser } = useContext(AppContext);
 
@@ -21,9 +21,9 @@ export default function LoginScreen({ navigation }) {
       }}>
       <View style={{ width: '100%' }}>
         <CustomInput
-          title={'user'}
-          value={username}
-          onChangeText={setUsername}
+          title={'email'}
+          value={email}
+          onChangeText={setEmail}
         />
         <CustomInput
           title={'password'}
@@ -35,8 +35,10 @@ export default function LoginScreen({ navigation }) {
           buttonStyle={{ backgroundColor: themeColors.lightPrimary, marginTop: 115 }}
           text={"Submit"}
           onPress={() => {
-            setUser(username);
-            // handleLogin din AppContext
+            setUser({
+              firstname: email,
+              plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
+            });
           }}
         />
       </View>

@@ -6,8 +6,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import {
   RoleSelectScreen,
   LoginScreen,
-  SignupUser,
-  SignupService,
+  Signup,
 } from "../screens";
 
 export const navigationRef = React.createRef();
@@ -18,7 +17,7 @@ export function navigate(name, params) {
 
 function RootNavigation() {
   const Stack = createStackNavigator();
-  // const { user } = useContext(AppContext);
+  const { user } = useContext(AppContext);
 
   const renderLoggedInUser = () => (
     <>
@@ -46,16 +45,8 @@ function RootNavigation() {
       />
 
       <Stack.Screen
-        name="SignupUser"
-        component={SignupUser}
-        options={{
-          headerShown: false
-        }}
-      />
-
-      <Stack.Screen
-        name="SignupService"
-        component={SignupService}
+        name="Signup"
+        component={Signup}
         options={{
           headerShown: false
         }}
@@ -63,8 +54,7 @@ function RootNavigation() {
     </Stack.Navigator>
   );
 
-  // return user == null ? renderLoggedOutUser() : renderLoggedInUser();
-  return renderLoggedInUser();
+  return user == null ? renderLoggedOutUser() : renderLoggedInUser();
 }
 
 export default RootNavigation;
