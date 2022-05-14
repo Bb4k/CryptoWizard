@@ -19,7 +19,7 @@ class WizardUser(models.Model):
     user_email = models.EmailField(max_length=254, unique=True)
     user_f_name = models.CharField(max_length=32)
     user_l_name = models.CharField(max_length=32)
-    user_dob = models.DateField(blank=True)
+    user_dob = models.DateField(null=True, blank=True)
     user_last_access = models.DateTimeField(auto_now_add=True, blank=True)
     user_active = models.BooleanField(default=False, blank=True)
     user_created = models.DateTimeField(auto_now_add=True, blank=True)
