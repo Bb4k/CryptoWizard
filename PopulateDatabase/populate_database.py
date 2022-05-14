@@ -46,23 +46,23 @@ def populate_tokens():
     url_post_tokens = 'http://127.0.0.1:8000/api/token-create/'
 
     for token in tokens:
-        response = requests.post(url_post_tokens, data=token)
+        response = requests.post(url_post_tokens, data=json.dumps(token))
         print(response.text)
 
 
 def populate_price():
     url_post_prices = 'http://127.0.0.1:8000/api/price-create/'
     for i, token in enumerate(tokens):
-        f = open('price_history/' + token['name'] + '.json')
+        f = open('price_history/' + token['token_sym'] + '.json')
         data = json.load(f)
         for price in data['data']:
             date_value = datetime.datetime.fromtimestamp(float(price[0]))
-            response = requests.post(url_post_prices, data={
+            response = requests.post(url_post_prices, data=json.dumps({
                 "price_token_id": i + 1,
                 "price_timestamp": f"{date_value:%Y-%m-%d}",
                 "price_real": price[1],
                 "price_predicted": price[2]
-            })
+            }))
             print(response.text)
 
         f.close()
@@ -72,4 +72,5 @@ def populate_plans():
     pass
 
 
+populate_tokens()
 populate_price()

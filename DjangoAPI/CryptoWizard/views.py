@@ -117,6 +117,14 @@ def user_follow(request, user_id):
     return Response(serializer.data)
 
 
+@api_view(['GET'])
+def price_get_by_token(request, token_id):
+    prices = models.Price.objects.filter(price_token_id_id=token_id)
+    serializer = serializers.PriceSerializer(prices, many=True)
+
+    return Response(serializer.data)
+
+
 @api_view(['POST'])
 def user_create(request):
     data = JSONParser().parse(request)

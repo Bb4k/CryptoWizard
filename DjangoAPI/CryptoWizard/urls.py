@@ -14,6 +14,7 @@ urlpatterns = [
     path('investments/<str:user_id>', views.user_investments, name="user-investments"),
     path('follows/<str:user_id>', views.user_follow, name="user-follows"),
     path('price-create/', views.price_create, name="price-create"),
+    path('price/<str:token_id>', views.price_get_by_token, name="price-get-by-token"),
     path('token-create/', views.token_create, name="token-create"),
     path('token-update/<str:token_id>', views.token_update, name="token-update"),
 
