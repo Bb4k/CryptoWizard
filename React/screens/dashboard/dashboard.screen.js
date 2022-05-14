@@ -63,7 +63,7 @@ export default function DashboardScreen({ navigation }) {
           attribute1='image'
           attribute2='name'
           attribute3='profit'
-          onPress={(data) => { navigation.navigate('Graph', { params: data }) }}
+          onPress={(data) => { navigation.navigate('Graph', { data }) }}
         />
         <HorizontalScroll
           title='Follows'

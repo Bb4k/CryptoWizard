@@ -6,14 +6,14 @@ import { LineChart } from 'react-native-chart-kit';
 
 import data from './data.json';
 
-export default function Graph({ navigation }) {
+export default function Graph({ navigation, route }) {
 
-    const { themeColors, deviceW, deviceH } = useContext(AppContext);
-
+    const { themeColors, deviceW, deviceH, darkArrow } = useContext(AppContext);
+    
     const styles = StyleSheet.create({
         canvas: {
             height: deviceH,
-            backgroundColor: themeColors.primary,
+            backgroundColor: themeColors.almostWhite,
             width: '100%',
             paddingTop: 17,
             justifyContent: 'space-between',
@@ -27,23 +27,16 @@ export default function Graph({ navigation }) {
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'space-between',
-            paddingBottom: deviceW * 0.1
+            marginBottom: 17
         },
         popupTitle: {
-            color: themeColors.darkPrimary,
-            fontSize: 30,
+            color: themeColors.scrollbar,
+            fontSize: 25,
             fontFamily: 'Montserrat-Bold'
         },
         popupImage: {
-            height: 60,
-            width: 60,
-        },
-        dominantText: {
-            color: themeColors.darkPrimary,
-            fontFamily: 'Montserrat-Bold',
-            fontSize: 19,
-            paddingBottom: 2,
-            marginRight: 48,
+            height: 50,
+            width: 50,
         }
     });
 
@@ -58,7 +51,7 @@ export default function Graph({ navigation }) {
     var price_days = [];
     var price_values = [];
     var price_predicts = [];
-    data.prices.forEach(function (elem) {
+    data.prices.slice(1).forEach(function (elem) {
         price_days.push(elem['price_timestamp']);
         price_values.push(elem['price_real']);
         price_predicts.push(elem['price_predicted']);
@@ -92,16 +85,29 @@ export default function Graph({ navigation }) {
     return (
         <>
             <View style={styles.canvas}>
-                <View style={[styles.container, { marginBottom: 23 }]}>
+                <View style={[styles.container, styles.popupHeader]}>
                     <TouchableOpacity
                         activeOpacity={0.9}
                         style={{ height: 50, justifyContent: 'center' }}
                         onPress={() => { navigation.goBack() }}
                     >
-                        <Image source={{ uri: 'https://i.ibb.co/4PyHD87/right-arrow.png' }} style={{ width: 45, height: 45 }} />
+                        <Image source={{ uri: darkArrow }} style={{ width: 45, height: 45 }} />
                     </TouchableOpacity>
+                    <Image source={{ uri: data.image }} style={styles.popupImage} />
                 </View>
-                <View style={{ left: -40, bottom: -20 }}>
+
+                <View style={[styles.container, styles.popupHeader]}>
+                    <View>
+                        <Text style={[styles.popupTitle, { fontSize: 15 }]}>Current price:</Text>
+                        <Text style={styles.popupTitle}>${parseFloat(data.prices[0]['price_real']).toFixed(2)}</Text>
+                    </View>
+                    <View style={{ alignItems: 'flex-end' }}>
+                        <Text style={[styles.popupTitle, , { fontSize: 15 }, { color: themeColors.darkPrimary }]}>Next price:</Text>
+                        <Text style={[styles.popupTitle, { color: themeColors.darkPrimary }]}>${parseFloat(data.prices[0]['price_predicted']).toFixed(2)}</Text>
+                    </View>
+                </View>
+
+                <View style={{ left: -40 }}>
                     <LineChart
                         bezier
                         data={{
@@ -121,7 +127,7 @@ export default function Graph({ navigation }) {
                         withShadow={false}
                     />
                 </View>
-                <View style={{ position: 'absolute', left: -40, bottom: -20 }}>
+                <View style={{ position: 'absolute', left: -40, bottom: 0 }}>
                     <LineChart
                         bezier
                         data={{

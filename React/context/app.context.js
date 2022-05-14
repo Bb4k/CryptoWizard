@@ -19,6 +19,9 @@ function AppProvider(props) {
     scrollbar: '#B7BAC0',
   })
 
+  const [lightArrow, setLightArrow] = useState('https://i.ibb.co/4PyHD87/right-arrow.png');
+  const [darkArrow, setDarkArrow] = useState('https://i.ibb.co/nfY83my/right-arrow-dark.png');
+
   const [user, setUser] = useState({
     firstname: 'Billy Boy',
     plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
@@ -146,7 +149,9 @@ function AppProvider(props) {
     // General app
     isLoading,
     setIsLoading,
-
+    lightArrow,
+    darkArrow,
+    
     // User data
     user,
     setUser,

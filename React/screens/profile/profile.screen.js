@@ -6,7 +6,7 @@ import { CustomButton } from '../../components';
 
 export default function ProfileScreen({ navigation }) {
 
-  const { themeColors, deviceW, deviceH } = useContext(AppContext);
+  const { themeColors, deviceW, deviceH, lightArrow } = useContext(AppContext);
   const [selectedPlan, setSelectedPlan] = useState(false);
 
   const styles = StyleSheet.create({
@@ -180,7 +180,7 @@ export default function ProfileScreen({ navigation }) {
               }
             }}
           >
-            <Image source={{ uri: 'https://i.ibb.co/4PyHD87/right-arrow.png' }} style={{ width: 45, height: 45 }} />
+            <Image source={{ uri: lightArrow }} style={{ width: 45, height: 45 }} />
           </TouchableOpacity>
         </View>
 
