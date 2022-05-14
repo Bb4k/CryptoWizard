@@ -45,3 +45,10 @@ class WizardUserTransactionsSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.WizardUserTransactions
         fields = '__all__'
+
+
+# - WizardUserTransactions model -
+class WizardFollowSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.WizardUserFollow
+        fields = '__all__'

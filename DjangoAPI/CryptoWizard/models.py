@@ -64,7 +64,7 @@ class Token(models.Model):
 # - WizardUserFollow
 class WizardUserFollow(models.Model):
     follow_id = models.AutoField(primary_key=True)
-    follow_user_id = models.ForeignKey(WizardUser, on_delete=models.CASCADE)
+    follow_user_id = models.ForeignKey(WizardUser, on_delete=models.DO_NOTHING)
     follow_token = models.ForeignKey(Token, on_delete=models.DO_NOTHING)
 
 

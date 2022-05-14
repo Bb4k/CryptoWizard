@@ -33,21 +33,31 @@ def user_data(request, email):
     _user = models.WizardUser.objects.get(user_email=email)
     user_serializer = serializers.UserSerializer(_user, many=False)
 
-    user_plan = requests.get(f"http://127.0.0.1:8000/api/user/{user_data['user_email']}")
+    user_plan = requests.get(f"http://127.0.0.1:8000/api/plan/{user_serializer.data['user_id']}")
+    user_investments = requests.get(f"http://127.0.0.1:8000/api/investments/{user_serializer.data['user_id']}")
+    user_follows = requests.get(f"http://127.0.0.1:8000/api/follows/{user_serializer.data['user_id']}")
 
+    print(user_plan.json())
+    print(user_investments.json())
+    print(user_follows.json())
+    print(user_serializer.data)
+
+    print([user_plan.json()] + [user_investments.json()] + [user_follows.json()] + [user_serializer.data])
+    return Response([user_serializer.data] + [user_plan.json()] + [user_investments.json()] + [user_follows.json()])
 
 @api_view(['GET'])
 def plan_list(request):
-    plan = models.Plan.objects.all()
-    serializer = serializers.PlanSerializer(plan, many=True)
+    plans = models.Plan.objects.all()
+    serializer = serializers.PlanSerializer(plans, many=True)
 
     return Response(serializer.data)
+
 
 @api_view(['GET'])
 def plan(request, _id):
     _plan = models.Plan.objects.get(plan_id=_id)
-    serializer = serializers.PlanSerializer(_plan, many=True)
-
+    serializer = serializers.PlanSerializer(_plan, many=False)
+    print(serializer.data)
     return Response(serializer.data)
 
 
@@ -68,8 +78,8 @@ def token_details(request, pk):
 
 
 @api_view(['GET'])
-def user_investments(requser, user_id):
-    investments = models.WizardUserInvestments.objects.get(investment_user_id=user_id)
+def user_investments(request, user_id):
+    investments = models.WizardUserInvestments.objects.filter(investment_user_id=user_id)
     serializer = serializers.WizardUserInvestmentsSerializer(investments, many=True)
 
     return Response(serializer.data)
@@ -77,7 +87,7 @@ def user_investments(requser, user_id):
 
 @api_view(['GET'])
 def user_transactions(request, user_id):
-    transactions = models.WizardUserTransactions.objects.get(investment_user_id=user_id)
+    transactions = models.WizardUserTransactions.objects.filter(investment_user_id=user_id)
     serializer = serializers.WizardUserTransactionsSerializer(transactions, many=True)
 
     return Response(serializer.data)
@@ -93,11 +103,18 @@ def prices(request):
 
 @api_view(['GET'])
 def token_price(request, pk):
-    coin = models.Token.objects.all()
-    serializer = serializers.TokenSerializer(coin, many=False)
+    coin = models.Token.objects.filter(token_id=pk)
+    serializer = serializers.TokenSerializer(coin, many=True)
 
     return Response(serializer.data)
 
+
+@api_view(['GET'])
+def user_follow(request, user_id):
+    user_follows = models.WizardUserFollow.objects.filter(follow_user_id=user_id)
+    serializer = serializers.WizardFollowSerializer(user_follows, many=True)
+
+    return Response(serializer.data)
 
 @api_view(['POST'])
 def user_create(request):

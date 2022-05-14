@@ -9,5 +9,7 @@ urlpatterns = [
     path('user/<str:email>', views.user_id, name="get-user"),
     path('user-data/<str:email>', views.user_data, name="user-data"),
     path('plan-list/', views.plan_list, name="plan-list"),
-    path('plan/<str:_id>', views.plan)
+    path('plan/<str:_id>', views.plan, name="user-plan"),
+    path('investments/<str:user_id>', views.user_investments, name="user-investments"),
+    path('follows/<str:user_id>', views.user_follow, name="user-follows")
 ]
