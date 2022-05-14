@@ -146,7 +146,7 @@ def user_create(request):
         print('user not valid')
         return Response("Failed to Add.")
 
-# TODO test all below v----------v
+
 @api_view(['POST'])
 def token_create(request):
     data = JSONParser().parse(request)
@@ -162,7 +162,8 @@ def token_create(request):
 
 
 # -- update method --
-@api_view(['POST'])
+# te lasa sa faci update daca oferi parametru la toate datele => facem celelalte campuri blank = True
+@api_view(['PUT'])
 def token_update(request, token_id):
     token_data = models.Token.objects.get(token_id=token_id)
     serialized_token = serializers.TokenSerializer(instance=token_data, data=request.data)
@@ -177,7 +178,7 @@ def token_update(request, token_id):
 @api_view(['POST'])
 def price_create(request):
     data = JSONParser().parse(request)
-    price = serializers.TokenSerializer(data, many=False)
+    price = serializers.PriceSerializer(data=data)
 
     if price.is_valid():
         price.save()
