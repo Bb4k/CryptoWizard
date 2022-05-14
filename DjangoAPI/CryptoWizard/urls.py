@@ -5,6 +5,7 @@ urlpatterns = [
 
     path('users/', views.user_list, name="user-list"),
     path('user-create/', views.user_create, name="create-user"),
+    path('user-login/<str:user_email>', views.user_login, name="user-login"),
     path('user/<str:email>', views.user_id, name="get-user"),
     path('user-data/<str:email>', views.user_data, name="user-data"),
 
@@ -23,6 +24,8 @@ urlpatterns = [
 
     path('price-create/', views.price_create, name="price-create"),
     path('price/<str:token_id>', views.price_get_by_token, name="price-get-by-token"),
+
+    path('password/<str:user_id>', views.get_password, name="user-password")
 
 
 

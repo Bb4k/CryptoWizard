@@ -126,6 +126,28 @@ def price_get_by_token(request, token_id):
     return Response(serializer.data)
 
 
+@api_view(['GET'])
+def get_password(request, user_id):
+    password = models.Password.objects.filter(pw_user_id_id=user_id)
+    serializer = serializers.PasswordSerializer(password, many=True)
+    return Response(serializer.data)
+
+
+@api_view(['POST'])
+def user_login(request, user_email):
+    if models.WizardUser.objects.filter(user_email=user_email).exists():
+        user = models.WizardUser.objects.get(user_email=user_email)
+        user_serializer = serializers.UserSerializer(user, many=False)
+        password_raw_data = requests.get(f"http://127.0.0.1:8000/api/password/{user_serializer.data['user_id']}")
+        password_data = password_raw_data.json()
+        request_data = JSONParser().parse(request)
+        if password_data[0]['pw_encr_str'] == request_data["user_password"]:
+            return Response("User exists in db")
+        return Response("Incorrect password")
+    else:
+        return Response("No user with this mail")
+
+
 @api_view(['POST'])
 def user_create(request):
     data = JSONParser().parse(request)
