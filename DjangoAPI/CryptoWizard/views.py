@@ -36,45 +36,6 @@ def token_list(request):
     return Response(serializer.data)
 
 
-@api_view(['POST'])
-def user_create(request):
-    data = JSONParser().parse(request)
-    user_pw = data['user_password']
-    print(user_pw)
-    del data['user_password']
-    print(type(data))
-    print(data)
-    user_data = data
-    print(user_data)
-    user_serializer = serializers.UserSerializer(data=user_data)
-    print(user_serializer)
-    if user_serializer.is_valid():
-        print('ok')
-        user_serializer.save()
-        #print(user_data)
-        user_data = requests.get(f"http://127.0.0.1:8000/api/user/{user_data['user_email']}")
-        print(user_data.json())
-        pw_data = {
-                    "pw_user_id": user_data.json()['user_id'],
-                    "pw_encr_str": user_pw
-                }
-
-        print(type(pw_data))
-        pw_serializer = serializers.PasswordSerializer(data=pw_data)
-
-        print(pw_serializer)
-
-        if pw_serializer.is_valid():
-            pw_serializer.save()
-            return Response("Added Successfully!!")
-        else:
-            print('password not valid')
-            return Response("Failed to Add.")
-    else:
-        print('user not valid')
-        return Response("Failed to Add.")
-
-
 @api_view(['GET'])
 def token_details(request, pk):
     coin = models.Token.objects.get(token_sym=pk)
@@ -97,4 +58,37 @@ def token_price(request, pk):
     serializer = serializers.TokenSerializer(coin, many=False)
 
     return Response(serializer.data)
+
+
+@api_view(['POST'])
+def user_create(request):
+    data = JSONParser().parse(request)
+    user_pw = data['user_password']
+    del data['user_password']
+    user_data = data
+    user_serializer = serializers.UserSerializer(data=user_data)
+    if user_serializer.is_valid():
+        user_serializer.save()
+
+        user_data = requests.get(f"http://127.0.0.1:8000/api/user/{user_data['user_email']}")
+
+        pw_data = {
+                    "pw_user_id": user_data.json()['user_id'],
+                    "pw_encr_str": user_pw
+                  }
+
+        pw_serializer = serializers.PasswordSerializer(data=pw_data)
+
+        if pw_serializer.is_valid():
+            pw_serializer.save()
+            return Response("Added Successfully!!")
+        else:
+            print('password not valid')
+            return Response("Failed to Add.")
+    else:
+        print('user not valid')
+        return Response("Failed to Add.")
+
+
+
 

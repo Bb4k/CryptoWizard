@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'CryptoWizard.apps.CryptowizardConfig',
     'rest_framework',
-    'requests'
+    'requests',
+    'bcrypt'
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
