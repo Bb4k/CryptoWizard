@@ -19,7 +19,7 @@ export default function DashboardScreen({ navigation }) {
       paddingHorizontal: deviceW * 0.1,
     },
   });
-  
+
   var cryptoCurrencies = [];
   var cryptoCoin = {
     image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
@@ -63,6 +63,7 @@ export default function DashboardScreen({ navigation }) {
           attribute1='image'
           attribute2='name'
           attribute3='profit'
+          onPress={(data) => { navigation.navigate('Graph', { params: data }) }}
         />
         <HorizontalScroll
           title='Follows'

@@ -7,6 +7,7 @@ import {
     RoleSelectScreen,
     LoginScreen,
     Signup,
+    Graph,
 } from "../screens";
 
 function DashboardStackScreenSimple({ navigation }) {
@@ -20,6 +21,8 @@ function DashboardStackScreenSimple({ navigation }) {
             }}>
             <DashboardStack.Screen options={{ headerShown: false }} name="Dashboard" component={DashboardScreen} />
             <DashboardStack.Screen options={{ headerShown: false }} name="Profile" component={ProfileScreen} />
+
+            <DashboardStack.Screen options={{ headerShown: false }} name="Graph" component={Graph} />
 
             <DashboardStack.Screen options={{ headerShown: false }} name="Login" component={LoginScreen} />
             <DashboardStack.Screen options={{ headerShown: false }} name="Signup" component={Signup} />

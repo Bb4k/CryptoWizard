@@ -1,0 +1,114 @@
+{
+    "prices": [
+        {
+            "price_timestamp": "2000-10-10",
+            "price_real": 9123.41015,
+            "price_predicted": 9622.88574
+        },
+        {
+            "price_timestamp": "2000-10-11",
+            "price_real": 8123.41015,
+            "price_predicted": 8622.88574
+        },
+        {
+            "price_timestamp": "2000-10-12",
+            "price_real": 8023.41015,
+            "price_predicted": 8522.88574
+        },
+        {
+            "price_timestamp": "2000-10-13",
+            "price_real": 9000.41015,
+            "price_predicted": 9500.88574
+        },
+        {
+            "price_timestamp": "2000-10-14",
+            "price_real": 10000.41015,
+            "price_predicted": 9622.88574
+        },
+        {
+            "price_timestamp": "2000-10-15",
+            "price_real": 8400.41015,
+            "price_predicted": 9000.88574
+        },
+        {
+            "price_timestamp": "2000-10-16",
+            "price_real": 9123.41015,
+            "price_predicted": 9622.88574
+        },
+        {
+            "price_timestamp": "2000-10-17",
+            "price_real": 6123.41015,
+            "price_predicted": 6622.88574
+        },
+        {
+            "price_timestamp": "2000-10-18",
+            "price_real": 4123.41015,
+            "price_predicted": 4622.88574
+        },
+        {
+            "price_timestamp": "2000-10-19",
+            "price_real": 5123.41015,
+            "price_predicted": 6622.88574
+        },
+        {
+            "price_timestamp": "2000-10-20",
+            "price_real": 7123.41015,
+            "price_predicted": 6622.88574
+        },
+        {
+            "price_timestamp": "2000-10-21",
+            "price_real": 4123.41015,
+            "price_predicted": 3622.88574
+        },
+        {
+            "price_timestamp": "2000-10-22",
+            "price_real": 3123.41015,
+            "price_predicted": 5622.88574
+        },
+        {
+            "price_timestamp": "2000-10-23",
+            "price_real": 9123.41015,
+            "price_predicted": 9622.88574
+        },
+        {
+            "price_timestamp": "2000-10-24",
+            "price_real": 5673.41015,
+            "price_predicted": 3222.88574
+        },
+        {
+            "price_timestamp": "2000-10-25",
+            "price_real": 7023.41015,
+            "price_predicted": 5022.88574
+        },
+        {
+            "price_timestamp": "2000-10-26",
+            "price_real": 1123.41015,
+            "price_predicted": 1622.88574
+        },
+        {
+            "price_timestamp": "2000-10-27",
+            "price_real": 1923.41015,
+            "price_predicted": 3022.88574
+        },
+        {
+            "price_timestamp": "2000-10-28",
+            "price_real": 2023.41015,
+            "price_predicted": 1022.88574
+        },
+        {
+            "price_timestamp": "2000-10-29",
+            "price_real": 5023.41015,
+            "price_predicted": 4522.88574
+        },
+        {
+            "price_timestamp": "2000-10-30",
+            "price_real": 6023.41015,
+            "price_predicted": 7722.88574
+        },
+        {
+            "price_timestamp": "2000-10-31",
+            "price_real": 8023.41015,
+            "price_predicted": 9622.88574
+        }
+    ]
+}

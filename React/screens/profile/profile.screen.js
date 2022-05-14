@@ -1,8 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ScrollView, Image, TouchableOpacity, Modal } from "react-native";
+import { View, Text, StyleSheet, ScrollView, Image, TouchableOpacity, FlatList } from "react-native";
 import { AppContext } from "../../context/app.context";
 import { HorizontalScroll, StatusCard } from '../../components';
-import { FlatList } from 'react-native-gesture-handler';
 import { CustomButton } from '../../components';
 
 export default function ProfileScreen({ navigation }) {

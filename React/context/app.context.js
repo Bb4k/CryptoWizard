@@ -1,16 +1,12 @@
 import { createContext, useState, useMemo } from "react";
 import { Dimensions } from 'react-native';
-import { Camera } from "expo-camera";
 import axios from "axios";
 import { navigate } from "../navigation/root.navigation";
 
 const AppContext = createContext();
 
 function AppProvider(props) {
-  const [enableKeyboard, setEnableKeyboard] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [fileUploading, setFileUploading] = useState(false);
-  const [orientation, setOrientation] = useState(null);
 
   const [themeColors, setThemeColors] = useState({
     primary: '#263963',
@@ -23,27 +19,15 @@ function AppProvider(props) {
     scrollbar: '#B7BAC0',
   })
 
-  const [user, setUser] = useState(null);
-  const [nft2Store, setNft2Store] = useState(null);
-  const [connectedWallets, setConnectedWallets] = useState(null);
-  const [cooldownNfts, setCooldownNfts] = useState(null);
-
-  const [permissionCamera, setPermissionCamera] = useState(false);
-  const [checkedCamera, setCheckedCamera] = useState(false);
+  const [user, setUser] = useState({
+    firstname: 'Billy Boy',
+    plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
+  });
 
   const [API_URL, SET_API_URL] = useState("link//");
 
   const [deviceW, setDeviceW] = useState(Dimensions.get('window').width);
   const [deviceH, setDeviceH] = useState(Dimensions.get('window').height);
-
-  const checkpermissionCamera = async () => {
-    const { status } = await Camera.getPermissionAsync();
-    if (status === "granted") {
-      setPermissionCamera(true);
-    } else {
-      setPermissionCamera(false);
-    }
-  };
 
   const handleLogin = (formData) => {
     setIsLoading(true);
@@ -95,9 +79,6 @@ function AppProvider(props) {
             */
 
         setUser(response.data);
-        setNft2Store(response.data.NFTs);
-        setConnectedWallets(response.data.wallets);
-        setCooldownNfts(response.data.cooldownedNFTs);
 
         navigate("Dashboard");
       })
@@ -159,38 +140,16 @@ function AppProvider(props) {
 
   const handleSignout = async () => {
     setUser(null);
-    setNft2Store(null);
-    setConnectedWallets(null);
-    setCooldownNfts(null);
   };
 
   const store = {
     // General app
-    enableKeyboard,
-    setEnableKeyboard,
     isLoading,
     setIsLoading,
-    orientation,
-    setOrientation,
-
-    // File upload
-    fileUploading,
-    setFileUploading,
 
     // User data
     user,
     setUser,
-    nft2Store,
-    setNft2Store,
-    connectedWallets,
-    setConnectedWallets,
-    cooldownNfts,
-    setCooldownNfts,
-
-    // Permissions
-    permissionCamera,
-    setPermissionCamera,
-    checkedCamera,
 
     // API
     API_URL,
