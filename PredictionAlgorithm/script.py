@@ -13,42 +13,42 @@ from tensorflow.keras.models import Sequential
 
 # BTC, Ethereum, Elrond, Solana, Dogecoin, Binance Coin
 crypto_currencies = [
-    {
-        'name': "BTC",
-        'year': 2016,
-        'month': 1,
-        'day': 1
-    },
-    {
-        'name': "ETH",
-        'year': 2016,
-        'month': 1,
-        'day': 1
-    },
+    # {
+    #     'name': "BTC",
+    #     'year': 2016,
+    #     'month': 1,
+    #     'day': 1
+    # },
+    # {
+    #     'name': "ETH",
+    #     'year': 2016,
+    #     'month': 1,
+    #     'day': 1
+    # },
     {
         'name': "EGLD",
         'year': 2020,
         'month': 10,
         'day': 10
     },
-    {
-        'name': "SOL",
-        'year': 2020,
-        'month': 10,
-        'day': 10
-    },
-    {
-        'name': "DOGE",
-        'year': 2016,
-        'month': 1,
-        'day': 1
-    },
-    {
-        'name': "BNB",
-        'year': 2016,
-        'month': 1,
-        'day': 1
-    }
+    # {
+    #     'name': "SOL",
+    #     'year': 2020,
+    #     'month': 10,
+    #     'day': 10
+    # },
+    # {
+    #     'name': "DOGE",
+    #     'year': 2016,
+    #     'month': 1,
+    #     'day': 1
+    # },
+    # {
+    #     'name': "BNB",
+    #     'year': 2016,
+    #     'month': 1,
+    #     'day': 1
+    # }
 ]
 against_currency = "USD"
 
@@ -116,25 +116,24 @@ for crypto_currency in crypto_currencies:
     prediction_prices = scaler.inverse_transform(prediction_prices)
 
     # [DEBUG ONLY] Generate graphs
-    plt.figure(figsize=(20, 10))
-    plt.plot(actual_prices, color='black', label='Actual Prices')
-    plt.plot(prediction_prices, color='green', label='Predicted Prices')
-    plt.title(f'{crypto_currency["name"]} price prediction'), plt.xlabel('Time')
-    plt.ylabel('Price')
-    plt.legend(loc='upper left')
-    plt.show()
+    # plt.figure(figsize=(20, 10))
+    # plt.plot(actual_prices, color='black', label='Actual Prices')
+    # plt.plot(prediction_prices, color='green', label='Predicted Prices')
+    # plt.title(f'{crypto_currency["name"]} price prediction'), plt.xlabel('Time')
+    # plt.ylabel('Price')
+    # plt.legend(loc='upper left')
+    # plt.show()
 
-    print(actual_prices)
-    print(prediction_prices)
-    print(len(prediction_prices), len(actual_prices), data.size)
+    # print(actual_prices)
+    # print(prediction_prices)
+    # print(len(prediction_prices), len(actual_prices), data.size)
 
     real_data = [model_inputs[len(model_inputs) - prediction_days:len(model_inputs) + 1, 0]]
     real_data = np.array(real_data)
     real_data = np.reshape(real_data, (real_data.shape[0], real_data.shape[1], 1))
     prediction = model.predict(real_data)
     prediction = scaler.inverse_transform(prediction)
-    print(prediction)
-
+    # print(float(prediction[0]))
 
     # [DEBUG ONLY] Generate history data
     # f = open("../PopulateDatabase/price_history/" + crypto_currency["name"] + ".json", "w")
@@ -147,6 +146,11 @@ for crypto_currency in crypto_currencies:
     # f.write(json.dumps(history_data))
     # f.close()
 
-    # url_put_token = 'https://www.w3schools.com/python/demopage.php'
-    # prediction_data_next_day = {'somekey': 'somevalue'}
-    # x = requests.post(url_put_token, data=prediction_data_next_day)
+    headers = {'content-type': 'application/json'}
+    url_put_token = 'http://127.0.0.1:8000/api/token-update/' + crypto_currency['name']
+    response = requests.put(url_put_token, headers=headers, data=json.dumps({
+        "token_sym": crypto_currency['name'],
+        "token_next_price": float(prediction[0])
+    }))
+
+    print(response.text)

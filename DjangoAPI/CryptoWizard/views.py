@@ -172,8 +172,8 @@ def token_create(request):
 # -- update method --
 # te lasa sa faci update daca oferi parametru la toate datele => facem celelalte campuri blank = True
 @api_view(['PUT'])
-def token_update(request, token_id):
-    token_data = models.Token.objects.get(token_id=token_id)
+def token_update(request, token_sym):
+    token_data = models.Token.objects.get(token_sym=token_sym)
     serialized_token = serializers.TokenSerializer(instance=token_data, data=request.data)
 
     if serialized_token.is_valid():
