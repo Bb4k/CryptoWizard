@@ -24,13 +24,12 @@ function AppProvider(props) {
 
   const [user, setUser] = useState(null);
 
-  const [API_URL, SET_API_URL] = useState("http://192.168.0.111:8000");
+  const [API_URL, SET_API_URL] = useState("http://192.168.0.111:8000/api");
 
   const [deviceW, setDeviceW] = useState(Dimensions.get('window').width);
   const [deviceH, setDeviceH] = useState(Dimensions.get('window').height);
 
   const handleLogin = (formData) => {
-    setIsLoading(true);
 
     const bodyFormData = new FormData();
     bodyFormData.append("username", formData.username);
@@ -44,46 +43,10 @@ function AppProvider(props) {
       headers: { "Content-Type": "multipart/form-data" },
     })
       .then((response) => {
-        setIsLoading(false);
-
-        /*
-            response:
-            {
-                username: "",
-                userId: "",
-                role: "",
-                wallets: [
-                    {
-                        type: "elrond",
-                        logo: "",
-                        ... [to-do]
-                    },
-                    ... pt fiecare portofel cu care s-a conectat vreodata
-                ],
-                NFTs: [
-                    {
-                        collectionTicker: "",
-                        associateStoreId: ""
-                    },
-                    ... pt fiecare colectie de NFT-uri
-                ],
-                cooldownedNFTs: [
-                    {
-                        NFTicker: "",
-                        usedDate: "",
-                        cooldown: ""
-                    },
-                    ... pt fiecare NFT
-                ]
-            }
-            */
-
         setUser(response.data);
-
         navigate("Dashboard");
       })
       .catch((response) => {
-        setIsLoading(false);
         try {
           show({ message: response.response.data.message, type: "error" });
         } catch (e) {
@@ -94,25 +57,19 @@ function AppProvider(props) {
 
   const handleSignup = async (formData) => {
 
-    const bodyFormData = new FormData();
-    bodyFormData.append("user_f_name", formData.firstname);
-    bodyFormData.append("user_l_name", formData.lastname);
-    bodyFormData.append("user_email", formData.email);
-    bodyFormData.append("password", formData.password);
-    bodyFormData.append("user_plan", Math.random() * 4 + 1);
-
+    console.log(formData);
     axios({
       method: "post",
       url: `${API_URL}/user-create/`,
-      data: bodyFormData,
+      data: formData,
       headers: { "Content-Type": "multipart/form-data" },
     })
       .then((response) => {
-        if (response.ok) {
-          setUser(bodyFormData);
+        if (response.status === 200) {
+          setUser(formData);
           navigate("Dashboard");
         } else {
-          console.log(response.ok);
+          console.log(response);
         }
       })
       .catch((response) => {

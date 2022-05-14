@@ -233,6 +233,7 @@ export default function ProfileScreen({ navigation }) {
               renderTransacation(item, index)
             )}
             showsVerticalScrollIndicator={false}
+            nestedScrollEnabled
           />
         </View>
       </ScrollView>
