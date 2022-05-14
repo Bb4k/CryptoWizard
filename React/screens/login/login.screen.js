@@ -7,7 +7,7 @@ import { AppContext } from '../../context/app.context';
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
-  const { themeColors, setUser } = useContext(AppContext);
+  const { themeColors, handleLogin, setUser } = useContext(AppContext);
 
   return (
     <View
@@ -35,10 +35,8 @@ export default function LoginScreen({ navigation }) {
           buttonStyle={{ backgroundColor: themeColors.lightPrimary, marginTop: 115 }}
           text={"Submit"}
           onPress={() => {
-            setUser({
-              firstname: email,
-              plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
-            });
+            setUser(email);
+            // handleLogin({ email, password });
           }}
         />
       </View>

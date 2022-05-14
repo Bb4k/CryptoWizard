@@ -9,7 +9,6 @@ export default function Signup({ navigation }) {
   const [lastname, setLastname] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
-  const [repassword, setRepassword] = useState();
   const { themeColors, setUser, handleSignup } = useContext(AppContext);
 
   return (
@@ -45,21 +44,16 @@ export default function Signup({ navigation }) {
             onChangeText={setPassword}
             password
           />
-          <CustomInput
-            title={'repeat password'}
-            value={repassword}
-            onChangeText={setRepassword}
-            password
-          />
         </View>
         <CustomButton
           text={"Submit"}
           onPress={() => {
             handleSignup({
-              firstname,
-              lastname,
-              email,
-              password
+              user_f_name: firstname,
+              user_l_name: lastname,
+              user_email: email,
+              user_password: password,
+              user_plan: parseInt(Math.random() * 4 + 1)
             });
           }}
         />

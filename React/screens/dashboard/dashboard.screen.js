@@ -41,7 +41,7 @@ export default function DashboardScreen({ navigation }) {
     <ScrollView style={styles.canvas}>
       <View style={[styles.container, { marginBottom: 23 }]}>
         <Text style={{ fontFamily: 'Montserrat-Medium', color: 'white', fontSize: 20 }}>Hello,</Text>
-        <Text style={{ fontFamily: 'Montserrat-Bold', color: 'white', fontSize: 20 }}>{user.firstname}</Text>
+        <Text style={{ fontFamily: 'Montserrat-Bold', color: 'white', fontSize: 20 }}>{user.user_f_name}</Text>
       </View>
 
       <StatusCard
