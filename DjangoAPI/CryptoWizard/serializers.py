@@ -41,7 +41,7 @@ class WizardUserInvestmentsSerializer(serializers.ModelSerializer):
 
 
 # - WizardUserTransactions model -
-class WizardUserTransactions(serializers.ModelSerializer):
+class WizardUserTransactionsSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.WizardUserTransactions
         fields = '__all__'

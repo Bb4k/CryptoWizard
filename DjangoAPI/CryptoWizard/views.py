@@ -21,9 +21,32 @@ def user_list(request):
 
 
 @api_view(['GET'])
-def user(request, email):
+def user_id(request, email):
     _user = models.WizardUser.objects.get(user_email=email)
     serializer = serializers.UserSerializer(_user, many=False)
+
+    return Response(serializer.data)
+
+
+@api_view(['GET'])
+def user_data(request, email):
+    _user = models.WizardUser.objects.get(user_email=email)
+    user_serializer = serializers.UserSerializer(_user, many=False)
+
+    user_plan = requests.get(f"http://127.0.0.1:8000/api/user/{user_data['user_email']}")
+
+
+@api_view(['GET'])
+def plan_list(request):
+    plan = models.Plan.objects.all()
+    serializer = serializers.PlanSerializer(plan, many=True)
+
+    return Response(serializer.data)
+
+@api_view(['GET'])
+def plan(request, _id):
+    _plan = models.Plan.objects.get(plan_id=_id)
+    serializer = serializers.PlanSerializer(_plan, many=True)
 
     return Response(serializer.data)
 
@@ -40,6 +63,22 @@ def token_list(request):
 def token_details(request, pk):
     coin = models.Token.objects.get(token_sym=pk)
     serializer = serializers.TokenSerializer(coin, many=False)
+
+    return Response(serializer.data)
+
+
+@api_view(['GET'])
+def user_investments(requser, user_id):
+    investments = models.WizardUserInvestments.objects.get(investment_user_id=user_id)
+    serializer = serializers.WizardUserInvestmentsSerializer(investments, many=True)
+
+    return Response(serializer.data)
+
+
+@api_view(['GET'])
+def user_transactions(request, user_id):
+    transactions = models.WizardUserTransactions.objects.get(investment_user_id=user_id)
+    serializer = serializers.WizardUserTransactionsSerializer(transactions, many=True)
 
     return Response(serializer.data)
 

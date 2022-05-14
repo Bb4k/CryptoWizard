@@ -23,7 +23,7 @@ class WizardUser(models.Model):
     user_active = models.BooleanField(default=False, blank=True)
     user_created = models.DateTimeField(auto_now_add=True, blank=True)
     user_updated = models.DateTimeField(auto_now=True, blank=True)
-    user_plan = models.ForeignKey(Plan, on_delete=models.DO_NOTHING)
+    user_plan = models.ForeignKey(Plan, on_delete=models.DO_NOTHING, default=0)
 
 
 # - WizardUserInvestments model -
@@ -37,8 +37,12 @@ class WizardUserInvestments(models.Model):
 
 # - WizardUserTransactions model -
 class WizardUserTransactions(models.Model):
-    transaction_id = models.AutoField(primary_key = True)
+    transaction_id = models.AutoField(primary_key=True)
     transaction_user_id = models.ForeignKey(WizardUser, on_delete=models.DO_NOTHING)
+    transaction_value = models.FloatField()
+    transaction_deposit = models.BooleanField()
+    transaction_success = models.BooleanField()
+    transaction_timestamp = models.DateTimeField(auto_now_add=True, blank=True)
 
 
 # - Password model -
@@ -62,6 +66,7 @@ class WizardUserFollow(models.Model):
     follow_id = models.AutoField(primary_key=True)
     follow_user_id = models.ForeignKey(WizardUser, on_delete=models.CASCADE)
     follow_token = models.ForeignKey(Token, on_delete=models.DO_NOTHING)
+
 
 # - Price model -
 class Price(models.Model):
