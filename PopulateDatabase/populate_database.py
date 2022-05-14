@@ -69,8 +69,38 @@ def populate_price():
 
 
 def populate_plans():
-    pass
+    url_post_plans = 'http://127.0.0.1:8000/api/plan-create/'
+    plans = [
+        {
+            "plan_name": "Basic",
+            "plan_price": "FREE",
+            "plan_img": "https://i.ibb.co/Ryz48Pp/status-bronze.webp",
+            "plan_benefits": "See predictions for 5 cryptos"
+        },
+        {
+            "plan_name": "Gold",
+            "plan_price": "$10/mo.",
+            "plan_img": "https://i.ibb.co/VJxt4hR/status-gold.webp",
+            "plan_benefits": "See predictions for 10 cryptos & Get tips when to buy/sell"
+        },
+        {
+            "plan_name": "Star",
+            "plan_price": "$25/mo.",
+            "plan_img": "https://i.ibb.co/VmW8X2c/status-star.webp",
+            "plan_benefits": "See predictions for UNLIMITED cryptos&Get tips when to buy/sell&Get notifications when to buy/sell"
+        },
+        {
+            "plan_name": "Plus",
+            "plan_price": "$50/mo.",
+            "plan_img": "https://i.ibb.co/Fns4MG6/status-diamond.webp",
+            "plan_benefits": "See predictions for UNLIMITED cryptos&Get tips when to buy/sell&Get notifications when to buy/sell&Set the bot to automatically buy/sell crypto coins"
+        },
+    ]
+    for plan in plans:
+        response = requests.post(url_post_plans, data=json.dumps(plan))
+        print(response.text)
 
 
 populate_tokens()
 populate_price()
+populate_plans()
