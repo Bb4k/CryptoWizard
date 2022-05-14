@@ -116,6 +116,7 @@ def user_follow(request, user_id):
 
     return Response(serializer.data)
 
+
 @api_view(['POST'])
 def user_create(request):
     data = JSONParser().parse(request)
@@ -145,6 +146,41 @@ def user_create(request):
         print('user not valid')
         return Response("Failed to Add.")
 
+# TODO test all below v----------v
+@api_view(['POST'])
+def token_create(request):
+    data = JSONParser().parse(request)
+    token = serializers.TokenSerializer(data=data)
+
+    if token.is_valid():
+        print("token ok")
+        token.save()
+        print(token.data)
+        return Response("Added Successfully!!")
+    else:
+        return Response("Failed to Add.")
 
 
+# -- update method --
+@api_view(['POST'])
+def token_update(request, token_id):
+    token_data = models.Token.objects.get(token_id=token_id)
+    serialized_token = serializers.TokenSerializer(instance=token_data, data=request.data)
 
+    if serialized_token.is_valid():
+        serialized_token.save()
+        return Response("Updated successfully!!")
+    else:
+        return Response("Failed to update.")
+
+
+@api_view(['POST'])
+def price_create(request):
+    data = JSONParser().parse(request)
+    price = serializers.TokenSerializer(data, many=False)
+
+    if price.is_valid():
+        price.save()
+        return Response("Added Successfully!!")
+    else:
+        return Response("Failed to Add.")
