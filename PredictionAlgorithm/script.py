@@ -1,6 +1,7 @@
+import datetime
 import json
-
 import requests
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -13,42 +14,49 @@ from tensorflow.keras.models import Sequential
 
 # BTC, Ethereum, Elrond, Solana, Dogecoin, Binance Coin
 crypto_currencies = [
-    # {
-    #     'name': "BTC",
-    #     'year': 2016,
-    #     'month': 1,
-    #     'day': 1
-    # },
-    # {
-    #     'name': "ETH",
-    #     'year': 2016,
-    #     'month': 1,
-    #     'day': 1
-    # },
     {
+        'id': 1,
+        'name': "BTC",
+        'year': 2016,
+        'month': 1,
+        'day': 1,
+
+    },
+    {
+        'id': 2,
+        'name': "ETH",
+        'year': 2016,
+        'month': 1,
+        'day': 1
+    },
+    {
+        'id': 6,
         'name': "EGLD",
         'year': 2020,
         'month': 10,
         'day': 10
     },
-    # {
-    #     'name': "SOL",
-    #     'year': 2020,
-    #     'month': 10,
-    #     'day': 10
-    # },
-    # {
-    #     'name': "DOGE",
-    #     'year': 2016,
-    #     'month': 1,
-    #     'day': 1
-    # },
-    # {
-    #     'name': "BNB",
-    #     'year': 2016,
-    #     'month': 1,
-    #     'day': 1
-    # }
+    {
+        'id': 4,
+        'name': "SOL",
+        'year': 2020,
+        'month': 10,
+        'day': 10
+    },
+    {
+        'id': 5,
+        'name': "DOGE",
+        'year': 2016,
+        'month': 1,
+        'day': 1
+    },
+    {
+        'id': 3,
+        'name': "BNB",
+        'year': 2016,
+        'month': 1,
+        'day': 1
+    }
 ]
 against_currency = "USD"
 
@@ -148,9 +156,18 @@ for crypto_currency in crypto_currencies:
 
     headers = {'content-type': 'application/json'}
     url_put_token = 'http://127.0.0.1:8000/api/token-update/' + crypto_currency['name']
-    response = requests.put(url_put_token, headers=headers, data=json.dumps({
+    response_put = requests.put(url_put_token, headers=headers, data=json.dumps({
         "token_sym": crypto_currency['name'],
         "token_next_price": float(prediction[0])
     }))
+    print(response_put.text)
 
-    print(response.text)
+    url_post_price = 'http://127.0.0.1:8000/api/price-create/'
+    date_value = datetime.datetime.fromtimestamp(float(str(test_data.index[-1].timestamp())))
+    response_post = requests.post(url_post_price, data=json.dumps({
+        "price_token_id": crypto_currency['id'],
+        "price_timestamp": f"{date_value:%Y-%m-%d}",
+        "price_real": float(actual_prices[-1]),
+        "price_predicted": float(prediction_prices[-1])
+    }))
+    print(response_post.text)
