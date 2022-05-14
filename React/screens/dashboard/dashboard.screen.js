@@ -5,7 +5,7 @@ import { HorizontalScroll, StatusCard } from '../../components';
 
 export default function DashboardScreen({ navigation }) {
 
-  const { themeColors, deviceW } = useContext(AppContext);
+  const { themeColors, deviceW, deviceH } = useContext(AppContext);
 
   const styles = StyleSheet.create({
     canvas: {
@@ -58,7 +58,7 @@ export default function DashboardScreen({ navigation }) {
         containerStyle={styles.container}
       />
 
-      <View style={{ paddingBottom: 17 }}>
+      <View style={{ paddingBottom: 17 + deviceH * 0.13 }}>
         <HorizontalScroll
           title='Investments'
           containerStyle={styles.container}

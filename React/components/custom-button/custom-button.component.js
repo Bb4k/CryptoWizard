@@ -11,13 +11,12 @@ export default function CustomButton({ navigation, buttonStyle, textStyle, text,
             paddingVertical: 13,
             // paddingHorizontal: 93,
             minWidth: deviceW * 0.5,
-            borderRadius: 10,
-            marginBottom: 14,
+            borderRadius: 50,
+            marginBottom: 20,
         },
         buttonTextStyle: {
             color: themeColors.primary,
             fontSize: 20,
-            fontWeight: 'bold',
         },
     });
 

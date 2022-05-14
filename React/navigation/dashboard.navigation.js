@@ -3,14 +3,11 @@ import React, { memo } from "react";
 import { CardStyleInterpolators, createStackNavigator, TransitionPresets } from "@react-navigation/stack";
 import {
     DashboardScreen,
-    WalletsScreen,
     ProfileScreen,
     RoleSelectScreen,
     LoginScreen,
     SignupUser,
     SignupService,
-    NFTCollectionScreen,
-    NFTScreen
 } from "../screens";
 
 function DashboardStackScreenSimple({ navigation }) {
@@ -34,11 +31,7 @@ function DashboardStackScreenSimple({ navigation }) {
                 cardStyleInterpolator: CardStyleInterpolators.forVerticalIOS,
             }}>
             <DashboardStack.Screen options={{ headerShown: false }} name="Dashboard" component={DashboardScreen} />
-            <DashboardStack.Screen options={{ headerShown: false }} name="Wallets" component={WalletsScreen} />
             <DashboardStack.Screen options={{ headerShown: false }} name="Profile" component={ProfileScreen} />
-
-            <DashboardStack.Screen options={{ headerShown: false }} name="NftCollection" component={NFTCollectionScreen} />
-            <DashboardStack.Screen options={{ headerShown: false }} name="NFT" component={NFTScreen} />
 
             <DashboardStack.Screen options={{ headerShown: false }} name="Login" component={LoginScreen} />
             <DashboardStack.Screen options={{ headerShown: false }} name="SignupUser" component={SignupUser} />

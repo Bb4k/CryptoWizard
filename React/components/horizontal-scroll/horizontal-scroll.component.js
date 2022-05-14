@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Text, TouchableOpacity, StyleSheet, View, FlatList, Image } from "react-native";
 import { AppContext } from "../../context/app.context";
 
-export default function HorizontalScroll({ data, title, subtitle, attribute1, attribute2, attribute3, containerStyle, customImageStyle, customBgStyle, profit = false }) {
+export default function HorizontalScroll({ data, onPress, title, subtitle, attribute1, attribute2, attribute3, containerStyle, customImageStyle, customBgStyle, profit = false }) {
     const { themeColors, deviceW } = useContext(AppContext);
     const styles = StyleSheet.create({
         elementContainer: {
@@ -49,7 +49,7 @@ export default function HorizontalScroll({ data, title, subtitle, attribute1, at
         <TouchableOpacity
             key={`${title}-${index}`}
             activeOpacity={0.9}
-            onPress={() => { }}
+            onPress={() => { onPress(data) }}
         >
             <View style={[styles.elementContainer, index == 0 && { marginLeft: deviceW * 0.1 }]}>
                 <View style={{ alignItems: 'center', flexDirection: 'row', marginBottom: 22 }}>
@@ -67,7 +67,7 @@ export default function HorizontalScroll({ data, title, subtitle, attribute1, at
                     <Text style={[styles.price, { color: themeColors.loss }]}>{data[attribute3].replace('-', '-$')}</Text>
                 }
                 {!profit &&
-                    <Text style={[styles.price]}>{data[attribute3].replace('-', '-$')}</Text>
+                    <Text style={[styles.price]}>{('$'+data[attribute3]).replace('$-', '-$')}</Text>
                 }
             </View>
         </TouchableOpacity>
