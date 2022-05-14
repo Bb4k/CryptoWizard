@@ -103,7 +103,7 @@ function AppProvider(props) {
 
     axios({
       method: "post",
-      url: `${API_URL}/user-create`,
+      url: `${API_URL}/user-create/`,
       data: bodyFormData,
       headers: { "Content-Type": "multipart/form-data" },
     })

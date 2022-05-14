@@ -69,7 +69,7 @@ def populate_price():
 
 
 def populate_plans():
-    url_post_plans = 'http://127.0.0.1:8000/api/plan-create/'
+    url_post_plans = 'http://192.168.0.111:8000/api/plan-create/'
     plans = [
         {
             "plan_name": "Basic",
