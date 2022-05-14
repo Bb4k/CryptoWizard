@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'CryptoWizard.apps.CryptowizardConfig',
-    'rest_framework'
+    'rest_framework',
+    'requests'
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True

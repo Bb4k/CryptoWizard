@@ -12,3 +12,4 @@ sqlparse==0.4.2
 SudachiDict-core==20211220
 SudachiPy==0.5.4
 tzdata==2022.1
+requests~=2.27.1
