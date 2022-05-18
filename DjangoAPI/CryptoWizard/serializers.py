@@ -27,7 +27,6 @@ class PriceSerializer(serializers.ModelSerializer):
         model = models.Price
         fields = '__all__'
 
-
 class PlanSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Plan

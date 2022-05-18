@@ -229,3 +229,39 @@ def price_create(request):
         return Response("Added Successfully!!")
     else:
         return Response("Failed to Add.")
+
+
+@api_view(['POST'])
+def investment_create(request):
+    data = JSONParser().parse(request)
+    inv = serializers.WizardUserInvestmentsSerializer(data=data)
+
+    if inv.is_valid():
+        inv.save()
+        return Response("Added Successfully!!")
+    else:
+        return Response("Failed to Add.")
+
+
+@api_view(['POST'])
+def transaction_create(request):
+    data = JSONParser().parse(request)
+    transaction = serializers.WizardUserTransactionsSerializer(data=data)
+
+    if transaction.is_valid():
+        transaction.save()
+        return Response("Added Successfully!!")
+    else:
+        return Response("Failed to Add.")
+
+
+@api_view(['POST'])
+def follow_create(request):
+    data = JSONParser().parse(request)
+    follow = serializers.WizardFollowSerializer(data=data)
+
+    if follow.is_valid():
+        follow.save()
+        return Response("Added Successfully!!")
+    else:
+        return Response("Failed to Add.")

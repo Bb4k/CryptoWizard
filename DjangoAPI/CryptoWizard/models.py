@@ -51,7 +51,7 @@ class WizardUserTransactions(models.Model):
     transaction_deposit = models.BooleanField()
     transaction_success = models.BooleanField()
     transaction_timestamp = models.DateTimeField(auto_now_add=True, blank=True)
-    transaction_token_sym = models.CharField()
+    transaction_token_sym = models.CharField(max_length=5)
 
 
 # - Password model -
