@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import { CustomInput } from '../../components';
 import { CustomButton } from '../../components';
 import { AppContext } from '../../context/app.context';
@@ -45,8 +45,11 @@ export default function LoginScreen({ navigation }) {
           buttonStyle={{ backgroundColor: themeColors.lightPrimary, marginTop: 115 }}
           text={"Submit"}
           onPress={() => {
-            // setUser(email);
-            handleLogin({ email, password });
+            // handleLogin({ email, password });
+            handleLogin({
+              email: 'gaga@mail.com',
+              password: 'taat'
+            })
           }}
         />
       </View>

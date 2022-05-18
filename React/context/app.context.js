@@ -23,6 +23,10 @@ function AppProvider(props) {
   const [darkArrow, setDarkArrow] = useState('https://i.ibb.co/nfY83my/right-arrow-dark.png');
 
   const [user, setUser] = useState(null);
+  const [investments, setInvestments] = useState(null);
+  const [plan, setPlan] = useState(null);
+  const [follows, setFollows] = useState(null);
+
   const [failedLogin, setFailedLogin] = useState(null);
   const [API_URL, SET_API_URL] = useState("http://192.168.0.111:8000/api");
 
@@ -37,15 +41,17 @@ function AppProvider(props) {
       headers: { "Content-Type": "multipart/form-data" },
     })
       .then((response) => {
-        if (response.status === 200) {
+        if (response.data === 'User exists in db') {
           setFailedLogin(null);
           axios({
             method: "get",
             url: `${API_URL}/user-data/${formData.email}`,
           })
             .then((responseData) => {
-              console.log(responseData.data);
-              setUser(responseData.data);
+              setPlan(responseData.data[0]);
+              setInvestments(responseData.data[1]);
+              setFollows(responseData.data[2]);
+              setUser(responseData.data[3]);
               navigate("Dashboard");
             })
             .catch((response) => {
@@ -56,7 +62,7 @@ function AppProvider(props) {
               }
             });
         } else {
-          setFailedLogin(response);
+          setFailedLogin(response.data);
         }
       })
       .catch((response) => {
@@ -77,11 +83,25 @@ function AppProvider(props) {
       headers: { "Content-Type": "multipart/form-data" },
     })
       .then((response) => {
-        if (response.status === 200) {
-          setUser(formData);
-          navigate("Dashboard");
-        } else {
-          console.log(response);
+        if (response.data != 'Failed to Add.') {
+          axios({
+            method: "get",
+            url: `${API_URL}/user-data/${formData.user_email}`,
+          })
+            .then((responseData) => {
+              setPlan(responseData.data[0]);
+              setInvestments([]);
+              setFollows([]);
+              setUser(responseData.data[3]);
+              navigate("Dashboard");
+            })
+            .catch((responseData) => {
+              try {
+                show({ message: response, type: "error" });
+              } catch (e) {
+                console.log("Response user-data: ", response);
+              }
+            });
         }
       })
       .catch((response) => {
@@ -108,6 +128,12 @@ function AppProvider(props) {
     user,
     setUser,
     failedLogin,
+    investments,
+    setInvestments,
+    plan,
+    setPlan,
+    follows,
+    setFollows,
 
     // API
     API_URL,

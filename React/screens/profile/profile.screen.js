@@ -3,11 +3,13 @@ import { View, Text, StyleSheet, ScrollView, Image, TouchableOpacity, FlatList }
 import { AppContext } from "../../context/app.context";
 import { HorizontalScroll, StatusCard } from '../../components';
 import { CustomButton } from '../../components';
+import { getPlans } from '../../utils/utils';
 
 export default function ProfileScreen({ navigation }) {
 
-  const { themeColors, deviceW, deviceH, lightArrow } = useContext(AppContext);
+  const { themeColors, deviceW, deviceH, lightArrow, API_URL, plan } = useContext(AppContext);
   const [selectedPlan, setSelectedPlan] = useState(false);
+  const [allPlans, setAllPlans] = useState(null);
 
   const styles = StyleSheet.create({
     canvas: {
@@ -79,12 +81,12 @@ export default function ProfileScreen({ navigation }) {
     return (
       <View style={styles.popupStyle}>
         <View style={styles.popupHeader}>
-          <Text style={styles.popupTitle}>{`${plan.name.toUpperCase()}\nFeatures`}</Text>
-          <Image source={{ uri: plan.image }} style={styles.popupImage} />
+          <Text style={styles.popupTitle}>{`${plan.plan_name.toUpperCase()}\nFeatures`}</Text>
+          <Image source={{ uri: plan.plan_img }} style={styles.popupImage} />
         </View>
 
         <FlatList
-          data={plan.benefits}
+          data={plan.plan_benefits.split('&')}
           keyExtractor={(item, index) => `${index}`}
           renderItem={({ index, item }) => (
             <>
@@ -107,33 +109,6 @@ export default function ProfileScreen({ navigation }) {
       </View>
     )
   }
-
-  const user = {
-    first_name: 'Sebastian',
-    plan: {
-      name: 'Star',
-      cost: '$25/mo.',
-      image: 'https://i.ibb.co/VmW8X2c/status-star.webp',
-    }
-  };
-
-  var cryptoCurrencies = [];
-  var cryptoCoin = {
-    name: 'Basic',
-    cost: 'FREE',
-    image: 'https://i.ibb.co/Ryz48Pp/status-bronze.webp',
-    benefits: ['See predictions for 2 crypto coins', 'Get in-app tips for when to buy/sell'],
-  }
-  cryptoCurrencies.push(cryptoCoin);
-  cryptoCoin = {
-    name: 'Star',
-    cost: '$25/mo.',
-    image: 'https://i.ibb.co/VmW8X2c/status-star.webp',
-    benefits: ['See predictions for UNLIMITED crypto coins', 'Get in-app tips for when to buy/sell', 'Get notifications when to buy/sell', 'Set the bot to automatically buy/sell crypto coins'],
-  }
-  cryptoCurrencies.push(cryptoCoin);
-  cryptoCurrencies.push(cryptoCoin);
-  cryptoCurrencies.push(cryptoCoin);
 
   var history = []
   var transaction = {
@@ -164,6 +139,15 @@ export default function ProfileScreen({ navigation }) {
     return unsub;
   }, [])
 
+  useEffect(() => {
+    const unsub = () => {
+      if (!allPlans)
+        getPlans(API_URL).then((plans) => setAllPlans(plans));
+    }
+    console.log(allPlans);
+    return unsub();
+  }, [allPlans]);
+
   return (
     <>
       <ScrollView style={styles.canvas} showsVerticalScrollIndicator={false}>
@@ -186,10 +170,10 @@ export default function ProfileScreen({ navigation }) {
 
         <StatusCard
           title1='Current status:'
-          value1={user.plan.name}
+          value1={plan.plan_name}
           title2='Cost:'
-          value2={user.plan.cost}
-          plan={user.plan.image}
+          value2={plan.plan_price}
+          plan={plan.plan_img}
           containerStyle={styles.container}
         />
 
@@ -200,10 +184,10 @@ export default function ProfileScreen({ navigation }) {
           customImageStyle={{ height: 50, width: 50 }}
           customBgStyle={{ padding: 3 }}
           subtitle='Cost:'
-          data={cryptoCurrencies}
-          attribute1='image'
-          attribute2='name'
-          attribute3='cost'
+          data={allPlans}
+          attribute1='plan_img'
+          attribute2='plan_name'
+          attribute3='plan_price'
         />
 
         <View style={{

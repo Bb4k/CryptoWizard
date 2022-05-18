@@ -101,6 +101,6 @@ def populate_plans():
         print(response.text)
 
 
-#populate_tokens()
-#populate_price()
+populate_tokens()
+populate_price()
 populate_plans()

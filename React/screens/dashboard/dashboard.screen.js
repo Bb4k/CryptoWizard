@@ -1,11 +1,14 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import { AppContext } from "../../context/app.context";
 import { HorizontalScroll, StatusCard } from '../../components';
+import { createInvestmentCard, createFollowCard } from '../../utils/utils';
 
 export default function DashboardScreen({ navigation }) {
 
-  const { themeColors, deviceW, deviceH, user } = useContext(AppContext);
+  const { themeColors, deviceW, deviceH, user, investments, follows, plan, API_URL } = useContext(AppContext);
+  const [cryptoCurrencies, setCryptoCurrencies] = useState([]);
+  const [followCards, setFollowCards] = useState([]);
 
   const styles = StyleSheet.create({
     canvas: {
@@ -20,22 +23,30 @@ export default function DashboardScreen({ navigation }) {
     },
   });
 
-  var cryptoCurrencies = [];
-  var cryptoCoin = {
-    image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
-    name: "EGLD",
-    profit: "-10.34"
-  }
-  cryptoCurrencies.push(cryptoCoin);
-  cryptoCoin = {
-    image: "https://cryptologos.cc/logos/elrond-egld-egld-logo.png?v=022",
-    name: "EGLD",
-    profit: "10.34"
-  }
-  cryptoCurrencies.push(cryptoCoin);
-  cryptoCurrencies.push(cryptoCoin);
-  cryptoCurrencies.push(cryptoCoin);
-  cryptoCurrencies.push(cryptoCoin);
+  useEffect(() => {
+    const unsub = () => {
+      if (cryptoCurrencies.length !== investments.length)
+        for (const investment of investments) {
+          createInvestmentCard(investment, API_URL).then((card) => setCryptoCurrencies([...cryptoCurrencies, card]));
+        }
+    }
+    return unsub();
+  }, [cryptoCurrencies]);
+
+  // useEffect(() => {
+  //   const unsub = () => {
+  //     if (followCards.length !== follows.length)
+  //       for (const follow of follows) {
+  //         createFollowCard(follow, API_URL).then((card) => setFollowCards([...followCards, card]));
+  //       }
+  //   }
+  //   return unsub();
+  // }, [followCards]);
+
+  // console.log("User: ", user);
+  // console.log("Investments: ", investments);
+  // console.log("Follows: ", follows);
+  // console.log("Plan: ", plan);
 
   return (
     <ScrollView style={styles.canvas}>
@@ -49,7 +60,7 @@ export default function DashboardScreen({ navigation }) {
         value1='$456.90'
         title2='Profit:'
         value2='+$36.90'
-        plan={user.plan}
+        plan={plan.plan_img}
         containerStyle={styles.container}
       />
 
