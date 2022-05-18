@@ -23,41 +23,53 @@ function AppProvider(props) {
   const [darkArrow, setDarkArrow] = useState('https://i.ibb.co/nfY83my/right-arrow-dark.png');
 
   const [user, setUser] = useState(null);
-
+  const [failedLogin, setFailedLogin] = useState(null);
   const [API_URL, SET_API_URL] = useState("http://192.168.0.111:8000/api");
 
   const [deviceW, setDeviceW] = useState(Dimensions.get('window').width);
   const [deviceH, setDeviceH] = useState(Dimensions.get('window').height);
 
   const handleLogin = (formData) => {
-
-    const bodyFormData = new FormData();
-    bodyFormData.append("username", formData.username);
-    bodyFormData.append("password", formData.password);
-    bodyFormData.append("role", formData.role);
-
     axios({
       method: "post",
-      url: `${API_URL}/auth-login`,
-      data: bodyFormData,
+      url: `${API_URL}/user-login/${formData.email}`,
+      data: { user_password: formData.password },
       headers: { "Content-Type": "multipart/form-data" },
     })
       .then((response) => {
-        setUser(response.data);
-        navigate("Dashboard");
+        if (response.status === 200) {
+          setFailedLogin(null);
+          axios({
+            method: "get",
+            url: `${API_URL}/user-data/${formData.email}`,
+          })
+            .then((responseData) => {
+              console.log(responseData.data);
+              setUser(responseData.data);
+              navigate("Dashboard");
+            })
+            .catch((response) => {
+              try {
+                show({ message: response, type: "error" });
+              } catch (e) {
+                console.log("Response user-data: ", response);
+              }
+            });
+        } else {
+          setFailedLogin(response);
+        }
       })
       .catch((response) => {
         try {
-          show({ message: response.response.data.message, type: "error" });
+          show({ message: response, type: "error" });
         } catch (e) {
-          console.log("Response h3e4a: ", response);
+          console.log("Response login attempt: ", response);
         }
       });
   };
 
   const handleSignup = async (formData) => {
 
-    console.log(formData);
     axios({
       method: "post",
       url: `${API_URL}/user-create/`,
@@ -95,6 +107,7 @@ function AppProvider(props) {
     // User data
     user,
     setUser,
+    failedLogin,
 
     // API
     API_URL,

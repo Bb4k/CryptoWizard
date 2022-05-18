@@ -37,13 +37,13 @@ def user_data(request, email):
     user_investments = requests.get(f"http://192.168.0.111:8000/api/investments/{user_serializer.data['user_id']}")
     user_follows = requests.get(f"http://192.168.0.111:8000/api/follows/{user_serializer.data['user_id']}")
 
-    print(user_plan.json())
+    #print(user_plan.json())
     print(user_investments.json())
-    print(user_follows.json())
+   # print(user_follows.json())
     print(user_serializer.data)
 
-    print([user_plan.json()] + [user_investments.json()] + [user_follows.json()] + [user_serializer.data])
-    return Response([user_serializer.data] + [user_plan.json()] + [user_investments.json()] + [user_follows.json()])
+    #print([user_plan.json()] + [user_investments.json()] + [user_follows.json()] + [user_serializer.data])
+    return Response([user_plan.json()] + [user_investments.json()] + [user_follows.json()] + [user_serializer.data])
 
 
 @api_view(['GET'])
@@ -80,7 +80,7 @@ def token_details(request, pk):
 
 @api_view(['GET'])
 def user_investments(request, user_id):
-    investments = models.WizardUserInvestments.objects.filter(investment_user_id=user_id)
+    investments = models.WizardUserInvestments.objects.filter(investment_user_id_id=user_id)
     serializer = serializers.WizardUserInvestmentsSerializer(investments, many=True)
 
     return Response(serializer.data)
@@ -88,7 +88,7 @@ def user_investments(request, user_id):
 
 @api_view(['GET'])
 def user_transactions(request, user_id):
-    transactions = models.WizardUserTransactions.objects.filter(investment_user_id=user_id)
+    transactions = models.WizardUserTransactions.objects.filter(investment_user_id_id=user_id)
     serializer = serializers.WizardUserTransactionsSerializer(transactions, many=True)
 
     return Response(serializer.data)
@@ -134,11 +134,11 @@ def get_password(request, user_id):
 
 
 @api_view(['POST'])
-def user_login(request, user_email):
-    if models.WizardUser.objects.filter(user_email=user_email).exists():
-        user = models.WizardUser.objects.get(user_email=user_email)
+def user_login(request, email):
+    if models.WizardUser.objects.filter(user_email=email).exists():
+        user = models.WizardUser.objects.get(user_email=email)
         user_serializer = serializers.UserSerializer(user, many=False)
-        password_raw_data = requests.get(f"http://127.0.0.1:8000/api/password/{user_serializer.data['user_id']}")
+        password_raw_data = requests.get(f"http://192.168.0.111:8000/api/password/{user_serializer.data['user_id']}")
         password_data = password_raw_data.json()
         request_data = JSONParser().parse(request)
         if password_data[0]['pw_encr_str'] == request_data["user_password"]:

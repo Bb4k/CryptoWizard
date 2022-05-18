@@ -7,7 +7,7 @@ import { AppContext } from '../../context/app.context';
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
-  const { themeColors, handleLogin, setUser } = useContext(AppContext);
+  const { themeColors, handleLogin, setUser, failedLogin } = useContext(AppContext);
 
   return (
     <View
@@ -31,12 +31,22 @@ export default function LoginScreen({ navigation }) {
           onChangeText={setPassword}
           password
         />
+        {failedLogin &&
+          <Text
+            style={{
+              color: themeColors.lightPrimary,
+              fontSize: 10, fontFamily:
+                'Montserrat-Medium'
+            }}>
+            {failedLogin}
+          </Text>}
+
         <CustomButton
           buttonStyle={{ backgroundColor: themeColors.lightPrimary, marginTop: 115 }}
           text={"Submit"}
           onPress={() => {
-            setUser(email);
-            // handleLogin({ email, password });
+            // setUser(email);
+            handleLogin({ email, password });
           }}
         />
       </View>

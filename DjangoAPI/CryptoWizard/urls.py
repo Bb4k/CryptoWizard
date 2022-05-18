@@ -7,6 +7,9 @@ urlpatterns = [
     path('user-create/', views.user_create, name="create-user"),
     path('user/<str:email>', views.user_id, name="get-user"),
     path('user-data/<str:email>', views.user_data, name="user-data"),
+    path('user-login/<str:email>', views.user_login, name="user-login"),
+
+    path('password/<str:user_id>', views.get_password, name="user-password"),
 
     path('tokens/', views.token_list, name="token-list"),
     path('token/<str:pk>', views.token_details, name="token"),
