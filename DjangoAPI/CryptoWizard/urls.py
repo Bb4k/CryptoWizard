@@ -24,6 +24,8 @@ urlpatterns = [
     path('price-create/', views.price_create, name="price-create"),
     path('price/<str:token_id>', views.price_get_by_token, name="price-get-by-token"),
 
-
+    path('investment-create/', views.investment_create, name="investment-create"),
+    path('transaction-create/', views.transaction_create, name="transaction-create"),
+    path('follow-create/', views.follow_create, name="follow-create"),
 
 ]
