@@ -39,7 +39,7 @@ class Migration(migrations.Migration):
                 ('user_email', models.EmailField(max_length=254, unique=True)),
                 ('user_f_name', models.CharField(max_length=32)),
                 ('user_l_name', models.CharField(max_length=32)),
-                ('user_dob', models.DateField(blank=True, null=True)),
+                ('user_dob', models.DateField(blank=True)),
                 ('user_last_access', models.DateTimeField(auto_now_add=True)),
                 ('user_active', models.BooleanField(blank=True, default=False)),
                 ('user_created', models.DateTimeField(auto_now_add=True)),

@@ -20,6 +20,9 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
+    # populate_database.populate_tokens()
+    # populate_database.populate_plans()
+
 
 if __name__ == '__main__':
 
