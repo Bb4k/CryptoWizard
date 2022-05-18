@@ -170,7 +170,6 @@ def token_create(request):
 
 
 # -- update method --
-# te lasa sa faci update daca oferi parametru la toate datele => facem celelalte campuri blank = True
 @api_view(['PUT'])
 def token_update(request, token_sym):
     token_data = models.Token.objects.get(token_sym=token_sym)
