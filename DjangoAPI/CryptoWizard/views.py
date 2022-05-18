@@ -33,9 +33,9 @@ def user_data(request, email):
     _user = models.WizardUser.objects.get(user_email=email)
     user_serializer = serializers.UserSerializer(_user, many=False)
 
-    user_plan = requests.get(f"http://127.0.0.1:8000/api/plan/{user_serializer.data['user_id']}")
-    user_investments = requests.get(f"http://127.0.0.1:8000/api/investments/{user_serializer.data['user_id']}")
-    user_follows = requests.get(f"http://127.0.0.1:8000/api/follows/{user_serializer.data['user_id']}")
+    user_plan = requests.get(f"http://192.168.0.111:8000/api/plan/{user_serializer.data['user_id']}")
+    user_investments = requests.get(f"http://192.168.0.111:8000/api/investments/{user_serializer.data['user_id']}")
+    user_follows = requests.get(f"http://192.168.0.111:8000/api/follows/{user_serializer.data['user_id']}")
 
     print(user_plan.json())
     print(user_investments.json())
@@ -44,6 +44,7 @@ def user_data(request, email):
 
     print([user_plan.json()] + [user_investments.json()] + [user_follows.json()] + [user_serializer.data])
     return Response([user_serializer.data] + [user_plan.json()] + [user_investments.json()] + [user_follows.json()])
+
 
 @api_view(['GET'])
 def plan_list(request):
@@ -135,12 +136,12 @@ def user_create(request):
     if user_serializer.is_valid():
         user_serializer.save()
 
-        user_data = requests.get(f"http://127.0.0.1:8000/api/user/{user_data['user_email']}")
+        user_data = requests.get(f"http://192.168.0.111:8000/api/user/{user_data['user_email']}")
 
         pw_data = {
-                    "pw_user_id": user_data.json()['user_id'],
-                    "pw_encr_str": user_pw
-                  }
+            "pw_user_id": user_data.json()['user_id'],
+            "pw_encr_str": user_pw
+        }
 
         pw_serializer = serializers.PasswordSerializer(data=pw_data)
 
@@ -164,6 +165,20 @@ def token_create(request):
         print("token ok")
         token.save()
         print(token.data)
+        return Response("Added Successfully!!")
+    else:
+        return Response("Failed to Add.")
+
+
+@api_view(['POST'])
+def plan_create(request):
+    data = JSONParser().parse(request)
+    plan = serializers.PlanSerializer(data=data)
+
+    if plan.is_valid():
+        print("plan ok")
+        plan.save()
+        print(plan.data)
         return Response("Added Successfully!!")
     else:
         return Response("Failed to Add.")

@@ -155,14 +155,14 @@ for crypto_currency in crypto_currencies:
     # f.close()
 
     headers = {'content-type': 'application/json'}
-    url_put_token = 'http://127.0.0.1:8000/api/token-update/' + crypto_currency['name']
+    url_put_token = 'http://192.168.0.111:8000/api/token-update/' + crypto_currency['name']
     response_put = requests.put(url_put_token, headers=headers, data=json.dumps({
         "token_sym": crypto_currency['name'],
         "token_next_price": float(prediction[0])
     }))
     print(response_put.text)
 
-    url_post_price = 'http://127.0.0.1:8000/api/price-create/'
+    url_post_price = 'http://192.168.0.111:8000/api/price-create/'
     date_value = datetime.datetime.fromtimestamp(float(str(test_data.index[-1].timestamp())))
     response_post = requests.post(url_post_price, data=json.dumps({
         "price_token_id": crypto_currency['id'],

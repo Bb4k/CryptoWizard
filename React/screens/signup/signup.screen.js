@@ -8,10 +8,9 @@ export default function Signup({ navigation }) {
   const [firstname, setFirstname] = useState();
   const [lastname, setLastname] = useState();
   const [email, setEmail] = useState();
-  const [dob, setDob] = useState();
   const [password, setPassword] = useState();
   const [repassword, setRepassword] = useState();
-  const { themeColors, setUser } = useContext(AppContext);
+  const { themeColors, setUser, handleSignup } = useContext(AppContext);
 
   return (
     <View
@@ -41,11 +40,6 @@ export default function Signup({ navigation }) {
             onChangeText={setEmail}
           />
           <CustomInput
-            title={'birthday'}
-            value={dob}
-            onChangeText={setDob}
-          />
-          <CustomInput
             title={'password'}
             value={password}
             onChangeText={setPassword}
@@ -61,12 +55,11 @@ export default function Signup({ navigation }) {
         <CustomButton
           text={"Submit"}
           onPress={() => {
-            setUser({
+            handleSignup({
               firstname,
               lastname,
               email,
-              dob,
-              plan: 'https://i.ibb.co/VmW8X2c/status-star.webp',
+              password
             });
           }}
         />

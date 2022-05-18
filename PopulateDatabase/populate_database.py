@@ -43,7 +43,7 @@ tokens = [
 
 
 def populate_tokens():
-    url_post_tokens = 'http://127.0.0.1:8000/api/token-create/'
+    url_post_tokens = 'http://192.168.0.111:8000/api/token-create/'
 
     for token in tokens:
         response = requests.post(url_post_tokens, data=json.dumps(token))
@@ -51,7 +51,7 @@ def populate_tokens():
 
 
 def populate_price():
-    url_post_prices = 'http://127.0.0.1:8000/api/price-create/'
+    url_post_prices = 'http://192.168.0.111:8000/api/price-create/'
     for i, token in enumerate(tokens):
         f = open('price_history/' + token['token_sym'] + '.json')
         data = json.load(f)
@@ -69,8 +69,38 @@ def populate_price():
 
 
 def populate_plans():
-    pass
+    url_post_plans = 'http://192.168.0.111:8000/api/plan-create/'
+    plans = [
+        {
+            "plan_name": "Basic",
+            "plan_price": "FREE",
+            "plan_img": "https://i.ibb.co/Ryz48Pp/status-bronze.webp",
+            "plan_benefits": "See predictions for 5 cryptos"
+        },
+        {
+            "plan_name": "Gold",
+            "plan_price": "$10/mo.",
+            "plan_img": "https://i.ibb.co/VJxt4hR/status-gold.webp",
+            "plan_benefits": "See predictions for 10 cryptos & Get tips when to buy/sell"
+        },
+        {
+            "plan_name": "Star",
+            "plan_price": "$25/mo.",
+            "plan_img": "https://i.ibb.co/VmW8X2c/status-star.webp",
+            "plan_benefits": "See predictions for UNLIMITED cryptos&Get tips when to buy/sell&Get notifications when to buy/sell"
+        },
+        {
+            "plan_name": "Plus",
+            "plan_price": "$50/mo.",
+            "plan_img": "https://i.ibb.co/Fns4MG6/status-diamond.webp",
+            "plan_benefits": "See predictions for UNLIMITED cryptos&Get tips when to buy/sell&Get notifications when to buy/sell&Set the bot to automatically buy/sell crypto coins"
+        },
+    ]
+    for plan in plans:
+        response = requests.post(url_post_plans, data=json.dumps(plan))
+        print(response.text)
 
 
 populate_tokens()
 populate_price()
+populate_plans()
