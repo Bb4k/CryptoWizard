@@ -35,7 +35,7 @@ def user_data(request, email):
     user_serializer = serializers.UserSerializer(_user, many=False)
 
 
-    user_plan = requests.get(f"http://192.168.0.111:8000/api/plan/{user_serializer.data['user_id']}")
+    user_plan = requests.get(f"http://192.168.0.111:8000/api/plan/{user_serializer.data['user_plan']}")
 
     user_investments = requests.get(f"http://192.168.0.111:8000/api/investments/{user_serializer.data['user_id']}")
 
@@ -163,7 +163,7 @@ def user_create(request):
         user_serializer.save()
 
 
-        user_data = requests.get(f"http://192.168.0.111:8000/api/user/{user_data['user_email']}")
+        user_data = requests.get(f"http://127.0.0.1:8000/api/user/{user_data['user_email']}")
 
 
         pw_data = {
