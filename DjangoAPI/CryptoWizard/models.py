@@ -16,8 +16,8 @@ class WizardUser(models.Model):
     user_email = models.EmailField(max_length=254, unique=True)
     user_f_name = models.CharField(max_length=32)
     user_l_name = models.CharField(max_length=32)
-    user_dob = models.DateField(null=True, blank=True)
-    user_last_access = models.DateTimeField(auto_now_add=True, blank=True)
+    user_dob = models.DateField(null=models.SET_NULL, blank=True)
+    user_last_access = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     user_active = models.BooleanField(default=False, blank=True)
     user_created = models.DateTimeField(auto_now_add=True, blank=True)
     user_updated = models.DateTimeField(auto_now=True, blank=True)
@@ -51,7 +51,9 @@ class WizardUserTransactions(models.Model):
     transaction_deposit = models.BooleanField()
     transaction_success = models.BooleanField()
     transaction_timestamp = models.DateTimeField(auto_now_add=True, blank=True)
+    transaction_currency = models.CharField(max_length=10)
     transaction_token_sym = models.CharField(max_length=5)
+    transaction_token_count = models.IntegerField()
 
 
 # - Password model -
@@ -65,7 +67,7 @@ class Password(models.Model):
 class WizardUserFollow(models.Model):
     follow_id = models.AutoField(primary_key=True)
     follow_user_id = models.ForeignKey(WizardUser, on_delete=models.DO_NOTHING)
-    follow_token = models.ForeignKey(Token, on_delete=models.DO_NOTHING)
+    follow_token_sym = models.CharField(max_length=5)
 
 
 # - Price model -

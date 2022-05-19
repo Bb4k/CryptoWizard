@@ -18,14 +18,16 @@ urlpatterns = [
     path('plan-create/', views.plan_create, name="plan-create"),
 
     path('investments/<str:user_id>', views.user_investments, name="user-investments"),
+    path('investment-create/', views.investment_create, name="investment-create"),
+
+    path('transactions/<str:user_id>', views.user_transactions, name="user-transactions"),
+    path('transaction-create/', views.transaction_create, name="transaction-create"),
 
     path('follows/<str:user_id>', views.user_follow, name="user-follows"),
+    path('follow-create/', views.follow_create, name="follow-create"),
 
     path('price-create/', views.price_create, name="price-create"),
     path('price/<str:token_id>', views.price_get_by_token, name="price-get-by-token"),
 
-    path('investment-create/', views.investment_create, name="investment-create"),
-    path('transaction-create/', views.transaction_create, name="transaction-create"),
-    path('follow-create/', views.follow_create, name="follow-create"),
 
 ]
