@@ -92,7 +92,7 @@ def user_investments(request, user_id):
 
 @api_view(['GET'])
 def user_transactions(request, user_id):
-    transactions = models.WizardUserTransactions.objects.filter(investment_user_id_id=user_id)
+    transactions = models.WizardUserTransactions.objects.filter(transaction_user_id_id=user_id)
     serializer = serializers.WizardUserTransactionsSerializer(transactions, many=True)
 
     return Response(serializer.data)

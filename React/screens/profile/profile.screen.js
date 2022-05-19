@@ -3,13 +3,14 @@ import { View, Text, StyleSheet, ScrollView, Image, TouchableOpacity, FlatList }
 import { AppContext } from "../../context/app.context";
 import { HorizontalScroll, StatusCard } from '../../components';
 import { CustomButton } from '../../components';
-import { getPlans } from '../../utils/utils';
+import { getPlans, getTransactions, formatDate } from '../../utils/utils';
 
 export default function ProfileScreen({ navigation }) {
 
-  const { themeColors, deviceW, deviceH, lightArrow, API_URL, plan } = useContext(AppContext);
+  const { themeColors, deviceW, deviceH, lightArrow, API_URL, plan, user } = useContext(AppContext);
   const [selectedPlan, setSelectedPlan] = useState(false);
   const [allPlans, setAllPlans] = useState(null);
+  const [transactions, setTransactions] = useState(null);
 
   const styles = StyleSheet.create({
     canvas: {
@@ -67,15 +68,17 @@ export default function ProfileScreen({ navigation }) {
     </View>
   )
 
-  const renderTransacation = (data, index) => (
-    <View style={{ paddingBottom: 20, flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
-      {renderBubble(index)}
-      <View>
-        <Text style={styles.dominantText}>{`${data.withdraw ? 'Withdrawn' : 'Deposited'} $${data.value} ${data.withdraw ? 'from' : 'into'} ${data.crypto}`}</Text>
-        <Text style={{ color: themeColors.subtext, fontFamily: 'Montserrat-Medium', fontSize: 12 }}>{`${data.status ? 'Success' : 'Failed'}, ${data.date}`}</Text>
+  const renderTransacation = (data, index) => {
+    return (
+      <View style={{ paddingBottom: 20, flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+        {renderBubble(index)}
+        <View>
+          <Text style={styles.dominantText}>{`${data.transaction_deposit ? 'Deposited' : 'Withdrawn'} $${Number(data.transaction_value.toFixed(2))} ${data.transaction_deposit ? 'into' : 'from'} ${data.transaction_token_sym}`}</Text>
+          <Text style={{ color: themeColors.subtext, fontFamily: 'Montserrat-Medium', fontSize: 12 }}>{`${data.transaction_success ? 'Success' : 'Failed'}, ${formatDate(data.transaction_timestamp)}`}</Text>
+        </View>
       </View>
-    </View>
-  )
+    )
+  }
 
   const renderPlan = (plan) => {
     return (
@@ -110,21 +113,6 @@ export default function ProfileScreen({ navigation }) {
     )
   }
 
-  var history = []
-  var transaction = {
-    value: 1000,
-    crypto: 'BTC',
-    withdraw: false,
-    status: true,
-    date: '26 Nov 2022 - 13:42',
-  }
-  history.push(transaction);
-  history.push(transaction);
-  history.push(transaction);
-  history.push(transaction);
-  history.push(transaction);
-  history.push(transaction);
-
   useEffect(() => {
     const unsub = navigation.addListener('beforeRemove', (e) => {
       if (selectedPlan) {
@@ -146,6 +134,14 @@ export default function ProfileScreen({ navigation }) {
     }
     return unsub();
   }, [allPlans]);
+
+  useEffect(() => {
+    const unsub = () => {
+      if (!transactions)
+        getTransactions(user.user_id, API_URL).then((history) => setTransactions(history));
+    }
+    return unsub();
+  }, [transactions]);
 
   return (
     <>
@@ -210,7 +206,7 @@ export default function ProfileScreen({ navigation }) {
             left: deviceW * 0.1 + 13,
           }} />
           <FlatList
-            data={history}
+            data={transactions}
             keyExtractor={(item, index) => `${index}`}
             renderItem={({ index, item }) => (
               renderTransacation(item, index)

@@ -2,10 +2,10 @@ import axios from "axios";
 
 export function filterBy(arr, attribute) {
     var f = [];
-    return arr.filter(function(n) {
-      return f.indexOf(n[attribute]) == -1 && f.push(n[attribute])
+    return arr.filter(function (n) {
+        return f.indexOf(n[attribute]) == -1 && f.push(n[attribute])
     });
-  }
+}
 
 export function createInvestmentCard(investment, API_URL) {
     return (axios({
@@ -86,3 +86,37 @@ export function getPlans(API_URL) {
         }));
 }
 
+export function getTransactions(user_id, API_URL) {
+    return (axios({
+        method: "get",
+        url: `${API_URL}/transactions/${user_id}`,
+    })
+        .then((response) => {
+            return (response.data);
+        })
+        .catch((response) => {
+            try {
+                show({ message: response, type: "error" });
+            } catch (e) {
+                console.log("Response plans-data: ", response);
+            }
+        }));
+}
+
+export function formatDate(date) {
+    var d = new Date(date),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear(),
+        hour = d.getHours(),
+        minute = d.getMinutes();
+
+    if (minute < 10)
+        minute = '0' + minute;
+    if (month.length < 2)
+        month = '0' + month;
+    if (day.length < 2)
+        day = '0' + day;
+
+    return [day, month, year].join('-') + ', ' + [hour, minute].join(':');
+}

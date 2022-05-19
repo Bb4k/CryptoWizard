@@ -61,20 +61,20 @@ export default function HorizontalScroll({ data, onPress, title, subtitle, attri
 
                 <Text style={styles.subtext}>{subtitle}</Text>
                 {data[attribute3] > 0 && profit &&
-                    <Text style={styles.price}>+${Number(data[attribute3].toFixed(2))}</Text>
+                    <Text style={styles.price}>+${data[attribute3].toFixed(2)}</Text>
                 }
                 {data[attribute3] < 0 && profit &&
-                    <Text style={[styles.price, { color: themeColors.loss }]}>{Number(data[attribute3].toFixed(2)).replace('-', '-$')}</Text>
+                    <Text style={[styles.price, { color: themeColors.loss }]}>{data[attribute3].toFixed(2).replace('-', '-$')}</Text>
                 }
                 {!profit && typeof data[attribute3] == 'number' &&
-                    <Text style={[styles.price]}>{('$' + Number(data[attribute3].toFixed(2))).replace('$-', '-$')}</Text>
+                    <Text style={[styles.price]}>{('$' + data[attribute3].toFixed(2)).replace('$-', '-$')}</Text>
                 }
                 {!profit && typeof data[attribute3] == 'string' &&
                     <Text style={[styles.price]}>{data[attribute3]}</Text>
                 }
             </View>
         </TouchableOpacity>
-    )
+    );
 
     return (
         <View style={{ marginBottom: 17 }}>
