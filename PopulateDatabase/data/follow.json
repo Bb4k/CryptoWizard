@@ -1,0 +1,404 @@
+{
+  "data": [
+  {
+    "follow_user_id": 0,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 1,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 2,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 3,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 4,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 5,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 6,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 7,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 8,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 9,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 10,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 11,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 12,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 13,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 14,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 15,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 16,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 17,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 18,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 19,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 20,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 21,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 22,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 23,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 24,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 25,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 26,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 27,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 28,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 29,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 30,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 31,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 32,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 33,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 34,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 35,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 36,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 37,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 38,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 39,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 40,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 41,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 42,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 43,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 44,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 45,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 46,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 47,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 48,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 49,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 50,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 51,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 52,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 53,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 54,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 55,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 56,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 57,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 58,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 59,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 60,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 61,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 62,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 63,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 64,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 65,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 66,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 67,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 68,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 69,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 70,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 71,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 72,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 73,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 74,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 75,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 76,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 77,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 78,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 79,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 80,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 81,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 82,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 83,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 84,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 85,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 86,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 87,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 88,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 89,
+    "follow_token_sym": "BNB"
+  },
+  {
+    "follow_user_id": 90,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 91,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 92,
+    "follow_token_sym": "BTC"
+  },
+  {
+    "follow_user_id": 93,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 94,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 95,
+    "follow_token_sym": "ETH"
+  },
+  {
+    "follow_user_id": 96,
+    "follow_token_sym": "EGLD"
+  },
+  {
+    "follow_user_id": 97,
+    "follow_token_sym": "SOL"
+  },
+  {
+    "follow_user_id": 98,
+    "follow_token_sym": "DOGE"
+  },
+  {
+    "follow_user_id": 99,
+    "follow_token_sym": "ETH"
+  }
+]
+}

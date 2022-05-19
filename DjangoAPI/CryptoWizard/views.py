@@ -7,6 +7,7 @@ from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 import json
 import requests
+from urllib3.exceptions import ConnectTimeoutError
 
 from . import models
 from . import serializers
@@ -33,9 +34,12 @@ def user_data(request, email):
     _user = models.WizardUser.objects.get(user_email=email)
     user_serializer = serializers.UserSerializer(_user, many=False)
 
-    user_plan = requests.get(f"http://192.168.0.111:8000/api/plan/{user_serializer.data['user_id']}")
-    user_investments = requests.get(f"http://192.168.0.111:8000/api/investments/{user_serializer.data['user_id']}")
-    user_follows = requests.get(f"http://192.168.0.111:8000/api/follows/{user_serializer.data['user_id']}")
+
+    user_plan = requests.get(f"http://127.0.0.1:8000/api/plan/{user_serializer.data['user_id']}")
+
+    user_investments = requests.get(f"http://127.0.0.1:8000/api/investments/{user_serializer.data['user_id']}")
+
+    user_follows = requests.get(f"http://127.0.0.1:8000/api/follows/{user_serializer.data['user_id']}")
 
     #print(user_plan.json())
     print(user_investments.json())
@@ -158,7 +162,9 @@ def user_create(request):
     if user_serializer.is_valid():
         user_serializer.save()
 
-        user_data = requests.get(f"http://192.168.0.111:8000/api/user/{user_data['user_email']}")
+
+        user_data = requests.get(f"http://127.0.0.1:8000/api/user/{user_data['user_email']}")
+
 
         pw_data = {
             "pw_user_id": user_data.json()['user_id'],

@@ -1,0 +1,7006 @@
+{
+  "data":
+          [
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 41722.39,
+    "investment_cur_value": 90713.74,
+    "investment_tokens": 74,
+    "investment_user_id": 42
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 61393.11,
+    "investment_cur_value": 94120.44,
+    "investment_tokens": 85,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 49705.27,
+    "investment_cur_value": 9671.45,
+    "investment_tokens": 40,
+    "investment_user_id": 5
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 16893.02,
+    "investment_cur_value": 31351.29,
+    "investment_tokens": 29,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 648.63,
+    "investment_cur_value": 74876.18,
+    "investment_tokens": 67,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 89240.57,
+    "investment_cur_value": 6744.18,
+    "investment_tokens": 94,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 45161.89,
+    "investment_cur_value": 86952.98,
+    "investment_tokens": 27,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 48643.17,
+    "investment_cur_value": 96963.68,
+    "investment_tokens": 82,
+    "investment_user_id": 23
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 92862.05,
+    "investment_cur_value": 75345.03,
+    "investment_tokens": 23,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 67205.43,
+    "investment_cur_value": 3077.71,
+    "investment_tokens": 72,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 94562.39,
+    "investment_cur_value": 32747.79,
+    "investment_tokens": 13,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 37509.25,
+    "investment_cur_value": 71107.54,
+    "investment_tokens": 66,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 85797.19,
+    "investment_cur_value": 91399.59,
+    "investment_tokens": 100,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 45388.57,
+    "investment_cur_value": 10863.74,
+    "investment_tokens": 64,
+    "investment_user_id": 90
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 68772.93,
+    "investment_cur_value": 63103.98,
+    "investment_tokens": 7,
+    "investment_user_id": 17
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 21933.68,
+    "investment_cur_value": 53791.88,
+    "investment_tokens": 9,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 78841.45,
+    "investment_cur_value": 21608.45,
+    "investment_tokens": 8,
+    "investment_user_id": 59
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 1936.22,
+    "investment_cur_value": 27719.17,
+    "investment_tokens": 18,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 12928.19,
+    "investment_cur_value": 62203.28,
+    "investment_tokens": 59,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 72304.45,
+    "investment_cur_value": 32316.73,
+    "investment_tokens": 46,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 96541.64,
+    "investment_cur_value": 79368.27,
+    "investment_tokens": 57,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 10252.56,
+    "investment_cur_value": 10440.57,
+    "investment_tokens": 76,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 13116.65,
+    "investment_cur_value": 20225.89,
+    "investment_tokens": 24,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 29524.73,
+    "investment_cur_value": 10381.89,
+    "investment_tokens": 71,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 30129.04,
+    "investment_cur_value": 29625.17,
+    "investment_tokens": 81,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 30276.27,
+    "investment_cur_value": 71944.42,
+    "investment_tokens": 91,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 89917.76,
+    "investment_cur_value": 49571.49,
+    "investment_tokens": 67,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 69322.75,
+    "investment_cur_value": 44740.27,
+    "investment_tokens": 92,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 85754.65,
+    "investment_cur_value": 50735.95,
+    "investment_tokens": 49,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 89382.87,
+    "investment_cur_value": 91787.74,
+    "investment_tokens": 24,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 57395.71,
+    "investment_cur_value": 32583.09,
+    "investment_tokens": 53,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 94337.47,
+    "investment_cur_value": 88715.56,
+    "investment_tokens": 42,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 91316.52,
+    "investment_cur_value": 93205.82,
+    "investment_tokens": 52,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 6632.75,
+    "investment_cur_value": 28385.91,
+    "investment_tokens": 24,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 37200.33,
+    "investment_cur_value": 42981.12,
+    "investment_tokens": 32,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 73416.29,
+    "investment_cur_value": 38794.79,
+    "investment_tokens": 41,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 70656.33,
+    "investment_cur_value": 35496.84,
+    "investment_tokens": 40,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 64332.81,
+    "investment_cur_value": 31960.86,
+    "investment_tokens": 42,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 28817.05,
+    "investment_cur_value": 25450.68,
+    "investment_tokens": 1,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 5029.64,
+    "investment_cur_value": 425.46,
+    "investment_tokens": 14,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 2761.11,
+    "investment_cur_value": 70328.74,
+    "investment_tokens": 32,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 68669.75,
+    "investment_cur_value": 75400.99,
+    "investment_tokens": 86,
+    "investment_user_id": 56
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 79826.48,
+    "investment_cur_value": 76523.24,
+    "investment_tokens": 5,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 46502.99,
+    "investment_cur_value": 13213.53,
+    "investment_tokens": 32,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 18101.02,
+    "investment_cur_value": 13888.88,
+    "investment_tokens": 81,
+    "investment_user_id": 28
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 15553.66,
+    "investment_cur_value": 12900.25,
+    "investment_tokens": 63,
+    "investment_user_id": 60
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 55475.11,
+    "investment_cur_value": 40550.37,
+    "investment_tokens": 61,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 51667.72,
+    "investment_cur_value": 66972.08,
+    "investment_tokens": 82,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 24821.26,
+    "investment_cur_value": 78825.88,
+    "investment_tokens": 92,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 33471.01,
+    "investment_cur_value": 99069.34,
+    "investment_tokens": 43,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 77820.46,
+    "investment_cur_value": 91880.03,
+    "investment_tokens": 3,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 51603.89,
+    "investment_cur_value": 70570.19,
+    "investment_tokens": 77,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 70529.91,
+    "investment_cur_value": 63228.36,
+    "investment_tokens": 62,
+    "investment_user_id": 45
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 28815.44,
+    "investment_cur_value": 1088.85,
+    "investment_tokens": 52,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 34678.46,
+    "investment_cur_value": 72118.88,
+    "investment_tokens": 40,
+    "investment_user_id": 29
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 88169.36,
+    "investment_cur_value": 91647.89,
+    "investment_tokens": 95,
+    "investment_user_id": 28
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 4317.05,
+    "investment_cur_value": 7425.71,
+    "investment_tokens": 30,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 32931.36,
+    "investment_cur_value": 79124.53,
+    "investment_tokens": 54,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 41635.08,
+    "investment_cur_value": 98590.59,
+    "investment_tokens": 92,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 51498.73,
+    "investment_cur_value": 46427.24,
+    "investment_tokens": 50,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 26369.11,
+    "investment_cur_value": 46996.32,
+    "investment_tokens": 89,
+    "investment_user_id": 66
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 54177.04,
+    "investment_cur_value": 79264.82,
+    "investment_tokens": 68,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 98347.62,
+    "investment_cur_value": 11906.42,
+    "investment_tokens": 2,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 31399.46,
+    "investment_cur_value": 30724.72,
+    "investment_tokens": 66,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 2344.85,
+    "investment_cur_value": 69365.52,
+    "investment_tokens": 59,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 8855.09,
+    "investment_cur_value": 15154.39,
+    "investment_tokens": 9,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 6067.85,
+    "investment_cur_value": 31978.38,
+    "investment_tokens": 11,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 4210.43,
+    "investment_cur_value": 25893.22,
+    "investment_tokens": 70,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 5348.19,
+    "investment_cur_value": 97978.07,
+    "investment_tokens": 59,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 43817.89,
+    "investment_cur_value": 90975.82,
+    "investment_tokens": 17,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 95854.16,
+    "investment_cur_value": 47353.95,
+    "investment_tokens": 18,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 79339.37,
+    "investment_cur_value": 5923.42,
+    "investment_tokens": 84,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 14369.53,
+    "investment_cur_value": 77784.76,
+    "investment_tokens": 83,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 87677.75,
+    "investment_cur_value": 20107.93,
+    "investment_tokens": 78,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 91433.68,
+    "investment_cur_value": 52536.28,
+    "investment_tokens": 42,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 40111.87,
+    "investment_cur_value": 27235.89,
+    "investment_tokens": 75,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 32454.54,
+    "investment_cur_value": 55022.92,
+    "investment_tokens": 5,
+    "investment_user_id": 10
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 1349.22,
+    "investment_cur_value": 73103.62,
+    "investment_tokens": 24,
+    "investment_user_id": 45
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 62275.97,
+    "investment_cur_value": 85010.59,
+    "investment_tokens": 9,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 92712.31,
+    "investment_cur_value": 19333.56,
+    "investment_tokens": 67,
+    "investment_user_id": 83
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 10298.74,
+    "investment_cur_value": 64704.24,
+    "investment_tokens": 11,
+    "investment_user_id": 60
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 64203.24,
+    "investment_cur_value": 93944.44,
+    "investment_tokens": 89,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 51599.66,
+    "investment_cur_value": 15078.27,
+    "investment_tokens": 91,
+    "investment_user_id": 23
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 1215.83,
+    "investment_cur_value": 19544.75,
+    "investment_tokens": 36,
+    "investment_user_id": 55
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 24392.49,
+    "investment_cur_value": 19494.87,
+    "investment_tokens": 85,
+    "investment_user_id": 90
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 41019.42,
+    "investment_cur_value": 23759.76,
+    "investment_tokens": 29,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 87582.07,
+    "investment_cur_value": 56437.44,
+    "investment_tokens": 14,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 58441.79,
+    "investment_cur_value": 92786.56,
+    "investment_tokens": 59,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 90949.11,
+    "investment_cur_value": 11541.02,
+    "investment_tokens": 64,
+    "investment_user_id": 90
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 15500.12,
+    "investment_cur_value": 26384.02,
+    "investment_tokens": 45,
+    "investment_user_id": 22
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 4032.03,
+    "investment_cur_value": 96417.05,
+    "investment_tokens": 46,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 47107.37,
+    "investment_cur_value": 33700.99,
+    "investment_tokens": 60,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 29200.89,
+    "investment_cur_value": 34254.61,
+    "investment_tokens": 7,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 50295.81,
+    "investment_cur_value": 84174.11,
+    "investment_tokens": 94,
+    "investment_user_id": 73
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 87982.93,
+    "investment_cur_value": 57588.14,
+    "investment_tokens": 41,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 23470.67,
+    "investment_cur_value": 5050.46,
+    "investment_tokens": 65,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 3525.35,
+    "investment_cur_value": 26286.69,
+    "investment_tokens": 24,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 66452.79,
+    "investment_cur_value": 83160.03,
+    "investment_tokens": 24,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 61359.28,
+    "investment_cur_value": 82778.94,
+    "investment_tokens": 5,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 68082.58,
+    "investment_cur_value": 5614.26,
+    "investment_tokens": 42,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 99819.33,
+    "investment_cur_value": 59537.77,
+    "investment_tokens": 90,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 45836.91,
+    "investment_cur_value": 50803.94,
+    "investment_tokens": 7,
+    "investment_user_id": 60
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 54331.24,
+    "investment_cur_value": 41688.98,
+    "investment_tokens": 58,
+    "investment_user_id": 3
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 20883.29,
+    "investment_cur_value": 5646.81,
+    "investment_tokens": 73,
+    "investment_user_id": 33
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 56153.39,
+    "investment_cur_value": 13809.83,
+    "investment_tokens": 42,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 42089.76,
+    "investment_cur_value": 76810.18,
+    "investment_tokens": 95,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 48190.82,
+    "investment_cur_value": 81674.23,
+    "investment_tokens": 87,
+    "investment_user_id": 1
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 74491.32,
+    "investment_cur_value": 74231.22,
+    "investment_tokens": 73,
+    "investment_user_id": 33
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 32027.06,
+    "investment_cur_value": 98211.05,
+    "investment_tokens": 5,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 90712.79,
+    "investment_cur_value": 32906.24,
+    "investment_tokens": 23,
+    "investment_user_id": 67
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 90864.28,
+    "investment_cur_value": 96364.87,
+    "investment_tokens": 62,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 37160.87,
+    "investment_cur_value": 43614.16,
+    "investment_tokens": 5,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 30215.05,
+    "investment_cur_value": 77400.14,
+    "investment_tokens": 66,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 38278.95,
+    "investment_cur_value": 86049.47,
+    "investment_tokens": 5,
+    "investment_user_id": 23
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 96721.44,
+    "investment_cur_value": 90737.76,
+    "investment_tokens": 69,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 33253.93,
+    "investment_cur_value": 39076.31,
+    "investment_tokens": 21,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 79100.52,
+    "investment_cur_value": 1191.83,
+    "investment_tokens": 61,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 38789.55,
+    "investment_cur_value": 44212.22,
+    "investment_tokens": 86,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 63767.93,
+    "investment_cur_value": 87951.51,
+    "investment_tokens": 50,
+    "investment_user_id": 1
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 80730.09,
+    "investment_cur_value": 98269.74,
+    "investment_tokens": 57,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 71800.99,
+    "investment_cur_value": 73816.55,
+    "investment_tokens": 96,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 57721.77,
+    "investment_cur_value": 70997.66,
+    "investment_tokens": 20,
+    "investment_user_id": 17
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 24581.25,
+    "investment_cur_value": 63943.07,
+    "investment_tokens": 100,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 26072.67,
+    "investment_cur_value": 85691.59,
+    "investment_tokens": 18,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 67127.48,
+    "investment_cur_value": 34364.09,
+    "investment_tokens": 81,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 9327.29,
+    "investment_cur_value": 22366.51,
+    "investment_tokens": 75,
+    "investment_user_id": 59
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 58128.51,
+    "investment_cur_value": 76103.85,
+    "investment_tokens": 75,
+    "investment_user_id": 28
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 90259.83,
+    "investment_cur_value": 50865.99,
+    "investment_tokens": 76,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 29842.97,
+    "investment_cur_value": 98691.41,
+    "investment_tokens": 33,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 60235.21,
+    "investment_cur_value": 16171.25,
+    "investment_tokens": 13,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 18103.53,
+    "investment_cur_value": 47935.35,
+    "investment_tokens": 66,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 19354.26,
+    "investment_cur_value": 27219.46,
+    "investment_tokens": 11,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 76308.46,
+    "investment_cur_value": 35410.22,
+    "investment_tokens": 40,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 26367.94,
+    "investment_cur_value": 83159.94,
+    "investment_tokens": 54,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 85923.04,
+    "investment_cur_value": 53596.47,
+    "investment_tokens": 60,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 49179.83,
+    "investment_cur_value": 60980.37,
+    "investment_tokens": 16,
+    "investment_user_id": 41
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 27097.26,
+    "investment_cur_value": 28106.53,
+    "investment_tokens": 59,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 21750.94,
+    "investment_cur_value": 14197.38,
+    "investment_tokens": 31,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 42067.65,
+    "investment_cur_value": 50853.97,
+    "investment_tokens": 54,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 27870.39,
+    "investment_cur_value": 98150.66,
+    "investment_tokens": 5,
+    "investment_user_id": 37
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 8915.84,
+    "investment_cur_value": 49873.52,
+    "investment_tokens": 46,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 15085.99,
+    "investment_cur_value": 69507.17,
+    "investment_tokens": 95,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 82552.45,
+    "investment_cur_value": 95724.14,
+    "investment_tokens": 12,
+    "investment_user_id": 31
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 31870.02,
+    "investment_cur_value": 9049.82,
+    "investment_tokens": 38,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 4224.77,
+    "investment_cur_value": 48316.92,
+    "investment_tokens": 78,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 57796.06,
+    "investment_cur_value": 27722.53,
+    "investment_tokens": 73,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 51972.76,
+    "investment_cur_value": 72218.31,
+    "investment_tokens": 11,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 18253.37,
+    "investment_cur_value": 71345.58,
+    "investment_tokens": 97,
+    "investment_user_id": 30
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 60499.68,
+    "investment_cur_value": 94581.63,
+    "investment_tokens": 2,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 16856.98,
+    "investment_cur_value": 92009.96,
+    "investment_tokens": 67,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 92728.86,
+    "investment_cur_value": 71042.95,
+    "investment_tokens": 62,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 73286.68,
+    "investment_cur_value": 99220.08,
+    "investment_tokens": 55,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 49165.68,
+    "investment_cur_value": 92805.75,
+    "investment_tokens": 48,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 76220.06,
+    "investment_cur_value": 47459.82,
+    "investment_tokens": 75,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 36010.24,
+    "investment_cur_value": 19249.53,
+    "investment_tokens": 82,
+    "investment_user_id": 77
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 59407.87,
+    "investment_cur_value": 42714.47,
+    "investment_tokens": 68,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 99637.53,
+    "investment_cur_value": 72305.36,
+    "investment_tokens": 18,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 11974.73,
+    "investment_cur_value": 22197.92,
+    "investment_tokens": 96,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 49212.42,
+    "investment_cur_value": 56494.43,
+    "investment_tokens": 47,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 89610.06,
+    "investment_cur_value": 90112.47,
+    "investment_tokens": 46,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 72357.07,
+    "investment_cur_value": 41799.15,
+    "investment_tokens": 54,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 19611.48,
+    "investment_cur_value": 24186.69,
+    "investment_tokens": 4,
+    "investment_user_id": 77
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 28831.06,
+    "investment_cur_value": 80797.88,
+    "investment_tokens": 26,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 49771.96,
+    "investment_cur_value": 76100.96,
+    "investment_tokens": 92,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 41476.17,
+    "investment_cur_value": 9832.04,
+    "investment_tokens": 84,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 51188.95,
+    "investment_cur_value": 14678.18,
+    "investment_tokens": 1,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 35431.65,
+    "investment_cur_value": 57553.75,
+    "investment_tokens": 81,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 72845.27,
+    "investment_cur_value": 80932.15,
+    "investment_tokens": 38,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 13833.78,
+    "investment_cur_value": 45575.79,
+    "investment_tokens": 88,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 95370.84,
+    "investment_cur_value": 44705.15,
+    "investment_tokens": 74,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 92961.01,
+    "investment_cur_value": 99968.37,
+    "investment_tokens": 54,
+    "investment_user_id": 33
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 13934.68,
+    "investment_cur_value": 28108.06,
+    "investment_tokens": 29,
+    "investment_user_id": 17
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 43576.91,
+    "investment_cur_value": 71451.86,
+    "investment_tokens": 38,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 2314.29,
+    "investment_cur_value": 27712.89,
+    "investment_tokens": 72,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 15926.74,
+    "investment_cur_value": 86181.32,
+    "investment_tokens": 50,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 27186.58,
+    "investment_cur_value": 76390.06,
+    "investment_tokens": 20,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 47677.82,
+    "investment_cur_value": 28315.97,
+    "investment_tokens": 87,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 75734.62,
+    "investment_cur_value": 33517.38,
+    "investment_tokens": 64,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 9670.13,
+    "investment_cur_value": 38434.16,
+    "investment_tokens": 78,
+    "investment_user_id": 64
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 35023.91,
+    "investment_cur_value": 51832.31,
+    "investment_tokens": 28,
+    "investment_user_id": 64
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 56011.05,
+    "investment_cur_value": 95871.82,
+    "investment_tokens": 1,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 77777.91,
+    "investment_cur_value": 65376.94,
+    "investment_tokens": 31,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 82206.95,
+    "investment_cur_value": 95893.53,
+    "investment_tokens": 95,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 89306.32,
+    "investment_cur_value": 67057.26,
+    "investment_tokens": 88,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 37566.66,
+    "investment_cur_value": 40414.97,
+    "investment_tokens": 5,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 52071.51,
+    "investment_cur_value": 53098.35,
+    "investment_tokens": 95,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 13844.34,
+    "investment_cur_value": 11596.11,
+    "investment_tokens": 69,
+    "investment_user_id": 60
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 48398.55,
+    "investment_cur_value": 12766.65,
+    "investment_tokens": 45,
+    "investment_user_id": 56
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 9340.82,
+    "investment_cur_value": 57250.51,
+    "investment_tokens": 6,
+    "investment_user_id": 29
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 4149.92,
+    "investment_cur_value": 4721.06,
+    "investment_tokens": 50,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 49025.37,
+    "investment_cur_value": 54756.73,
+    "investment_tokens": 67,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 36525.23,
+    "investment_cur_value": 60410.97,
+    "investment_tokens": 62,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 35519.17,
+    "investment_cur_value": 6968.84,
+    "investment_tokens": 59,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 21775.39,
+    "investment_cur_value": 72720.63,
+    "investment_tokens": 91,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 1441.17,
+    "investment_cur_value": 41328.85,
+    "investment_tokens": 6,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 81048.32,
+    "investment_cur_value": 45962.97,
+    "investment_tokens": 98,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 51394.05,
+    "investment_cur_value": 58718.31,
+    "investment_tokens": 83,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 38199.11,
+    "investment_cur_value": 19486.91,
+    "investment_tokens": 42,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 8054.95,
+    "investment_cur_value": 67903.26,
+    "investment_tokens": 90,
+    "investment_user_id": 63
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 3363.75,
+    "investment_cur_value": 69927.15,
+    "investment_tokens": 93,
+    "investment_user_id": 81
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 60475.93,
+    "investment_cur_value": 30179.48,
+    "investment_tokens": 55,
+    "investment_user_id": 3
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 25053.98,
+    "investment_cur_value": 41985.53,
+    "investment_tokens": 34,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 15458.39,
+    "investment_cur_value": 86429.65,
+    "investment_tokens": 46,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 49390.24,
+    "investment_cur_value": 79720.61,
+    "investment_tokens": 77,
+    "investment_user_id": 59
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 84988.35,
+    "investment_cur_value": 96533.53,
+    "investment_tokens": 40,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 17952.98,
+    "investment_cur_value": 83999.47,
+    "investment_tokens": 59,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 35168.61,
+    "investment_cur_value": 68540.93,
+    "investment_tokens": 38,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 39740.85,
+    "investment_cur_value": 67344.27,
+    "investment_tokens": 82,
+    "investment_user_id": 29
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 77511.67,
+    "investment_cur_value": 30951.15,
+    "investment_tokens": 86,
+    "investment_user_id": 99
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 61481.06,
+    "investment_cur_value": 72510.61,
+    "investment_tokens": 84,
+    "investment_user_id": 45
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 97984.98,
+    "investment_cur_value": 43340.65,
+    "investment_tokens": 74,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 94725.53,
+    "investment_cur_value": 48606.29,
+    "investment_tokens": 77,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 62871.73,
+    "investment_cur_value": 46863.68,
+    "investment_tokens": 4,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 88155.47,
+    "investment_cur_value": 17805.09,
+    "investment_tokens": 21,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 85921.01,
+    "investment_cur_value": 72506.09,
+    "investment_tokens": 11,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 16882.43,
+    "investment_cur_value": 34838.37,
+    "investment_tokens": 62,
+    "investment_user_id": 63
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 99413.95,
+    "investment_cur_value": 29271.57,
+    "investment_tokens": 5,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 43727.22,
+    "investment_cur_value": 43154.39,
+    "investment_tokens": 38,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 83953.73,
+    "investment_cur_value": 69347.03,
+    "investment_tokens": 93,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 81689.37,
+    "investment_cur_value": 83386.66,
+    "investment_tokens": 80,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 17367.61,
+    "investment_cur_value": 47020.05,
+    "investment_tokens": 84,
+    "investment_user_id": 30
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 87781.59,
+    "investment_cur_value": 44756.88,
+    "investment_tokens": 33,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 80617.74,
+    "investment_cur_value": 76449.14,
+    "investment_tokens": 11,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 89861.82,
+    "investment_cur_value": 4561.09,
+    "investment_tokens": 7,
+    "investment_user_id": 41
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 72187.98,
+    "investment_cur_value": 54947.29,
+    "investment_tokens": 92,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 52493.03,
+    "investment_cur_value": 19437.37,
+    "investment_tokens": 23,
+    "investment_user_id": 55
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 11692.86,
+    "investment_cur_value": 67431.65,
+    "investment_tokens": 30,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 6391.69,
+    "investment_cur_value": 46905.98,
+    "investment_tokens": 22,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 9437.55,
+    "investment_cur_value": 64642.23,
+    "investment_tokens": 55,
+    "investment_user_id": 23
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 78058.81,
+    "investment_cur_value": 83347.28,
+    "investment_tokens": 30,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 18991.73,
+    "investment_cur_value": 5529.46,
+    "investment_tokens": 96,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 32537.46,
+    "investment_cur_value": 86239.67,
+    "investment_tokens": 43,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 18474.63,
+    "investment_cur_value": 89151.87,
+    "investment_tokens": 17,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 50372.98,
+    "investment_cur_value": 66528.36,
+    "investment_tokens": 53,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 59292.25,
+    "investment_cur_value": 38790.53,
+    "investment_tokens": 28,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 58827.55,
+    "investment_cur_value": 63953.91,
+    "investment_tokens": 28,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 57443.67,
+    "investment_cur_value": 26660.85,
+    "investment_tokens": 14,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 12626.48,
+    "investment_cur_value": 10978.84,
+    "investment_tokens": 43,
+    "investment_user_id": 17
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 32014.99,
+    "investment_cur_value": 28959.41,
+    "investment_tokens": 99,
+    "investment_user_id": 64
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 75398.34,
+    "investment_cur_value": 24678.23,
+    "investment_tokens": 73,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 82601.08,
+    "investment_cur_value": 30758.21,
+    "investment_tokens": 16,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 70303.76,
+    "investment_cur_value": 65736.21,
+    "investment_tokens": 23,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 85145.51,
+    "investment_cur_value": 79715.14,
+    "investment_tokens": 51,
+    "investment_user_id": 31
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 38439.25,
+    "investment_cur_value": 56038.31,
+    "investment_tokens": 9,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 22302.61,
+    "investment_cur_value": 32072.69,
+    "investment_tokens": 52,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 50528.19,
+    "investment_cur_value": 93276.72,
+    "investment_tokens": 96,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 95548.49,
+    "investment_cur_value": 33641.47,
+    "investment_tokens": 39,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 44029.12,
+    "investment_cur_value": 52458.73,
+    "investment_tokens": 9,
+    "investment_user_id": 95
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 19096.78,
+    "investment_cur_value": 72713.37,
+    "investment_tokens": 5,
+    "investment_user_id": 17
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 27307.56,
+    "investment_cur_value": 14988.89,
+    "investment_tokens": 72,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 79185.52,
+    "investment_cur_value": 30511.47,
+    "investment_tokens": 70,
+    "investment_user_id": 42
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 16033.07,
+    "investment_cur_value": 49406.79,
+    "investment_tokens": 70,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 24423.96,
+    "investment_cur_value": 55830.77,
+    "investment_tokens": 49,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 22467.65,
+    "investment_cur_value": 72634.63,
+    "investment_tokens": 33,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 37152.49,
+    "investment_cur_value": 73000.36,
+    "investment_tokens": 69,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 50344.45,
+    "investment_cur_value": 13365.65,
+    "investment_tokens": 66,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 20959.31,
+    "investment_cur_value": 71178.98,
+    "investment_tokens": 70,
+    "investment_user_id": 38
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 3458.08,
+    "investment_cur_value": 42221.78,
+    "investment_tokens": 71,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 26544.51,
+    "investment_cur_value": 51232.79,
+    "investment_tokens": 91,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 17805.42,
+    "investment_cur_value": 9665.25,
+    "investment_tokens": 38,
+    "investment_user_id": 81
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 40372.42,
+    "investment_cur_value": 21062.14,
+    "investment_tokens": 59,
+    "investment_user_id": 66
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 84406.39,
+    "investment_cur_value": 25934.12,
+    "investment_tokens": 84,
+    "investment_user_id": 95
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 68695.43,
+    "investment_cur_value": 29974.38,
+    "investment_tokens": 39,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 57801.26,
+    "investment_cur_value": 49280.32,
+    "investment_tokens": 84,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 49908.15,
+    "investment_cur_value": 80990.49,
+    "investment_tokens": 58,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 82215.05,
+    "investment_cur_value": 73946.43,
+    "investment_tokens": 33,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 71037.03,
+    "investment_cur_value": 95879.61,
+    "investment_tokens": 61,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 48321.77,
+    "investment_cur_value": 74167.35,
+    "investment_tokens": 53,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 54224.88,
+    "investment_cur_value": 60703.42,
+    "investment_tokens": 97,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 57242.89,
+    "investment_cur_value": 64208.14,
+    "investment_tokens": 9,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 81325.02,
+    "investment_cur_value": 75414.36,
+    "investment_tokens": 96,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 30458.41,
+    "investment_cur_value": 98412.29,
+    "investment_tokens": 95,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 42569.36,
+    "investment_cur_value": 84492.39,
+    "investment_tokens": 69,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 46693.05,
+    "investment_cur_value": 53454.78,
+    "investment_tokens": 87,
+    "investment_user_id": 60
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 54906.08,
+    "investment_cur_value": 31286.82,
+    "investment_tokens": 52,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 32500.76,
+    "investment_cur_value": 82192.06,
+    "investment_tokens": 19,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 19744.61,
+    "investment_cur_value": 54649.02,
+    "investment_tokens": 59,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 5951.57,
+    "investment_cur_value": 38100.64,
+    "investment_tokens": 45,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 76819.19,
+    "investment_cur_value": 46236.53,
+    "investment_tokens": 75,
+    "investment_user_id": 67
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 48738.48,
+    "investment_cur_value": 38270.53,
+    "investment_tokens": 50,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 79773.02,
+    "investment_cur_value": 17008.86,
+    "investment_tokens": 78,
+    "investment_user_id": 83
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 15111.54,
+    "investment_cur_value": 74203.63,
+    "investment_tokens": 34,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 48213.08,
+    "investment_cur_value": 7350.01,
+    "investment_tokens": 48,
+    "investment_user_id": 55
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 62138.24,
+    "investment_cur_value": 81406.38,
+    "investment_tokens": 66,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 91699.04,
+    "investment_cur_value": 69536.18,
+    "investment_tokens": 45,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 76919.15,
+    "investment_cur_value": 93199.78,
+    "investment_tokens": 63,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 11431.08,
+    "investment_cur_value": 32466.63,
+    "investment_tokens": 57,
+    "investment_user_id": 10
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 31947.54,
+    "investment_cur_value": 35228.58,
+    "investment_tokens": 98,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 76001.17,
+    "investment_cur_value": 59863.19,
+    "investment_tokens": 21,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 79297.56,
+    "investment_cur_value": 89494.51,
+    "investment_tokens": 68,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 78018.05,
+    "investment_cur_value": 45557.83,
+    "investment_tokens": 85,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 8721.69,
+    "investment_cur_value": 8436.11,
+    "investment_tokens": 91,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 77759.71,
+    "investment_cur_value": 85649.66,
+    "investment_tokens": 31,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 84188.77,
+    "investment_cur_value": 48705.89,
+    "investment_tokens": 3,
+    "investment_user_id": 63
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 65848.11,
+    "investment_cur_value": 78992.07,
+    "investment_tokens": 40,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 43310.32,
+    "investment_cur_value": 5003.31,
+    "investment_tokens": 68,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 82873.75,
+    "investment_cur_value": 29143.72,
+    "investment_tokens": 97,
+    "investment_user_id": 33
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 41777.83,
+    "investment_cur_value": 59190.02,
+    "investment_tokens": 62,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 71634.34,
+    "investment_cur_value": 25777.56,
+    "investment_tokens": 72,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 7870.41,
+    "investment_cur_value": 29714.07,
+    "investment_tokens": 65,
+    "investment_user_id": 66
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 98378.48,
+    "investment_cur_value": 8300.06,
+    "investment_tokens": 2,
+    "investment_user_id": 27
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 73632.43,
+    "investment_cur_value": 18892.37,
+    "investment_tokens": 94,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 74397.34,
+    "investment_cur_value": 16698.44,
+    "investment_tokens": 95,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 13479.95,
+    "investment_cur_value": 49960.29,
+    "investment_tokens": 50,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 88197.82,
+    "investment_cur_value": 75230.28,
+    "investment_tokens": 100,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 17662.15,
+    "investment_cur_value": 97668.62,
+    "investment_tokens": 52,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 9490.33,
+    "investment_cur_value": 14737.05,
+    "investment_tokens": 49,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 42001.29,
+    "investment_cur_value": 20301.49,
+    "investment_tokens": 78,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 96912.63,
+    "investment_cur_value": 6263.05,
+    "investment_tokens": 60,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 92305.27,
+    "investment_cur_value": 82881.94,
+    "investment_tokens": 88,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 87447.94,
+    "investment_cur_value": 26062.14,
+    "investment_tokens": 49,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 76837.97,
+    "investment_cur_value": 41110.61,
+    "investment_tokens": 24,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 18339.92,
+    "investment_cur_value": 55427.54,
+    "investment_tokens": 75,
+    "investment_user_id": 28
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 1381.71,
+    "investment_cur_value": 51163.16,
+    "investment_tokens": 64,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 61646.53,
+    "investment_cur_value": 6675.45,
+    "investment_tokens": 85,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 6093.44,
+    "investment_cur_value": 511.53,
+    "investment_tokens": 78,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 65819.68,
+    "investment_cur_value": 63313.05,
+    "investment_tokens": 12,
+    "investment_user_id": 33
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 960.82,
+    "investment_cur_value": 96518.82,
+    "investment_tokens": 91,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 46596.46,
+    "investment_cur_value": 33649.51,
+    "investment_tokens": 39,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 74118.43,
+    "investment_cur_value": 10575.79,
+    "investment_tokens": 64,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 72397.72,
+    "investment_cur_value": 26416.66,
+    "investment_tokens": 38,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 65494.44,
+    "investment_cur_value": 82572.36,
+    "investment_tokens": 64,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 92361.13,
+    "investment_cur_value": 40949.24,
+    "investment_tokens": 82,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 38183.26,
+    "investment_cur_value": 50403.29,
+    "investment_tokens": 34,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 83874.16,
+    "investment_cur_value": 72637.38,
+    "investment_tokens": 48,
+    "investment_user_id": 29
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 1643.57,
+    "investment_cur_value": 43541.71,
+    "investment_tokens": 86,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 32318.15,
+    "investment_cur_value": 64314.64,
+    "investment_tokens": 86,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 86646.55,
+    "investment_cur_value": 1439.41,
+    "investment_tokens": 50,
+    "investment_user_id": 55
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 92925.69,
+    "investment_cur_value": 30937.21,
+    "investment_tokens": 49,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 23007.21,
+    "investment_cur_value": 44733.95,
+    "investment_tokens": 24,
+    "investment_user_id": 3
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 88743.23,
+    "investment_cur_value": 77269.53,
+    "investment_tokens": 28,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 34584.97,
+    "investment_cur_value": 12639.73,
+    "investment_tokens": 52,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 62229.88,
+    "investment_cur_value": 2156.51,
+    "investment_tokens": 49,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 62455.49,
+    "investment_cur_value": 73658.17,
+    "investment_tokens": 66,
+    "investment_user_id": 3
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 62304.71,
+    "investment_cur_value": 92350.92,
+    "investment_tokens": 61,
+    "investment_user_id": 5
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 99997.69,
+    "investment_cur_value": 97072.62,
+    "investment_tokens": 54,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 84212.52,
+    "investment_cur_value": 4308.31,
+    "investment_tokens": 78,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 34955.83,
+    "investment_cur_value": 46268.27,
+    "investment_tokens": 79,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 80427.19,
+    "investment_cur_value": 852.25,
+    "investment_tokens": 12,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 31477.32,
+    "investment_cur_value": 88004.77,
+    "investment_tokens": 92,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 67950.14,
+    "investment_cur_value": 38961.63,
+    "investment_tokens": 32,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 92085.73,
+    "investment_cur_value": 27502.25,
+    "investment_tokens": 84,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 14180.96,
+    "investment_cur_value": 84095.07,
+    "investment_tokens": 39,
+    "investment_user_id": 99
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 31012.37,
+    "investment_cur_value": 29345.72,
+    "investment_tokens": 77,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 8484.18,
+    "investment_cur_value": 84429.32,
+    "investment_tokens": 2,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 2163.89,
+    "investment_cur_value": 91279.31,
+    "investment_tokens": 29,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 56241.21,
+    "investment_cur_value": 4584.85,
+    "investment_tokens": 80,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 48567.34,
+    "investment_cur_value": 17577.27,
+    "investment_tokens": 36,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 73936.03,
+    "investment_cur_value": 92975.23,
+    "investment_tokens": 79,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 38676.94,
+    "investment_cur_value": 86544.07,
+    "investment_tokens": 42,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 47312.27,
+    "investment_cur_value": 16864.36,
+    "investment_tokens": 97,
+    "investment_user_id": 56
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 69471.43,
+    "investment_cur_value": 11716.47,
+    "investment_tokens": 65,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 29453.03,
+    "investment_cur_value": 58985.99,
+    "investment_tokens": 68,
+    "investment_user_id": 37
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 6699.77,
+    "investment_cur_value": 27139.58,
+    "investment_tokens": 1,
+    "investment_user_id": 22
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 77832.28,
+    "investment_cur_value": 39137.83,
+    "investment_tokens": 88,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 56920.64,
+    "investment_cur_value": 39113.79,
+    "investment_tokens": 5,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 74215.81,
+    "investment_cur_value": 35755.17,
+    "investment_tokens": 29,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 22218.57,
+    "investment_cur_value": 44904.95,
+    "investment_tokens": 98,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 36698.92,
+    "investment_cur_value": 11061.17,
+    "investment_tokens": 34,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 14550.19,
+    "investment_cur_value": 85675.94,
+    "investment_tokens": 96,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 12588.49,
+    "investment_cur_value": 44253.22,
+    "investment_tokens": 58,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 7908.67,
+    "investment_cur_value": 99802.44,
+    "investment_tokens": 39,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 55655.31,
+    "investment_cur_value": 73951.59,
+    "investment_tokens": 74,
+    "investment_user_id": 55
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 77293.13,
+    "investment_cur_value": 48291.92,
+    "investment_tokens": 99,
+    "investment_user_id": 42
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 68065.74,
+    "investment_cur_value": 11878.67,
+    "investment_tokens": 81,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 26625.63,
+    "investment_cur_value": 17502.78,
+    "investment_tokens": 66,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 56711.19,
+    "investment_cur_value": 7331.98,
+    "investment_tokens": 76,
+    "investment_user_id": 1
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 37763.93,
+    "investment_cur_value": 11508.45,
+    "investment_tokens": 51,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 52693.27,
+    "investment_cur_value": 99942.79,
+    "investment_tokens": 66,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 13037.63,
+    "investment_cur_value": 17056.52,
+    "investment_tokens": 34,
+    "investment_user_id": 55
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 91738.41,
+    "investment_cur_value": 41675.34,
+    "investment_tokens": 43,
+    "investment_user_id": 29
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 11011.45,
+    "investment_cur_value": 77289.68,
+    "investment_tokens": 33,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 53181.88,
+    "investment_cur_value": 41168.33,
+    "investment_tokens": 89,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 91921.25,
+    "investment_cur_value": 35546.12,
+    "investment_tokens": 46,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 93088.11,
+    "investment_cur_value": 73309.65,
+    "investment_tokens": 72,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 49544.72,
+    "investment_cur_value": 5759.05,
+    "investment_tokens": 38,
+    "investment_user_id": 95
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 14259.94,
+    "investment_cur_value": 63841.46,
+    "investment_tokens": 65,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 12209.79,
+    "investment_cur_value": 99744.54,
+    "investment_tokens": 82,
+    "investment_user_id": 59
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 89506.61,
+    "investment_cur_value": 12698.49,
+    "investment_tokens": 75,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 80631.88,
+    "investment_cur_value": 44100.15,
+    "investment_tokens": 81,
+    "investment_user_id": 10
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 58324.56,
+    "investment_cur_value": 50661.17,
+    "investment_tokens": 25,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 17818.42,
+    "investment_cur_value": 52095.67,
+    "investment_tokens": 55,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 32811.55,
+    "investment_cur_value": 24179.35,
+    "investment_tokens": 90,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 4156.98,
+    "investment_cur_value": 57228.75,
+    "investment_tokens": 39,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 20855.49,
+    "investment_cur_value": 92500.07,
+    "investment_tokens": 76,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 45192.01,
+    "investment_cur_value": 19950.47,
+    "investment_tokens": 39,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 38783.54,
+    "investment_cur_value": 22841.01,
+    "investment_tokens": 74,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 93834.89,
+    "investment_cur_value": 35820.89,
+    "investment_tokens": 65,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 29416.07,
+    "investment_cur_value": 29239.04,
+    "investment_tokens": 44,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 23019.24,
+    "investment_cur_value": 67955.58,
+    "investment_tokens": 91,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 72529.09,
+    "investment_cur_value": 33985.32,
+    "investment_tokens": 16,
+    "investment_user_id": 10
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 80458.26,
+    "investment_cur_value": 39645.19,
+    "investment_tokens": 99,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 79277.22,
+    "investment_cur_value": 61300.99,
+    "investment_tokens": 8,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 88549.92,
+    "investment_cur_value": 31978.57,
+    "investment_tokens": 48,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 67306.69,
+    "investment_cur_value": 87717.23,
+    "investment_tokens": 71,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 27.31,
+    "investment_cur_value": 87666.48,
+    "investment_tokens": 56,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 34166.96,
+    "investment_cur_value": 92836.19,
+    "investment_tokens": 32,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 89609.13,
+    "investment_cur_value": 64179.06,
+    "investment_tokens": 46,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 59446.25,
+    "investment_cur_value": 9744.13,
+    "investment_tokens": 20,
+    "investment_user_id": 83
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 45045.47,
+    "investment_cur_value": 23417.32,
+    "investment_tokens": 29,
+    "investment_user_id": 1
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 80428.05,
+    "investment_cur_value": 44464.97,
+    "investment_tokens": 74,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 41924.53,
+    "investment_cur_value": 54163.96,
+    "investment_tokens": 2,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 55454.34,
+    "investment_cur_value": 10538.74,
+    "investment_tokens": 50,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 34565.35,
+    "investment_cur_value": 26122.08,
+    "investment_tokens": 61,
+    "investment_user_id": 1
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 93405.88,
+    "investment_cur_value": 69141.46,
+    "investment_tokens": 12,
+    "investment_user_id": 66
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 29724.34,
+    "investment_cur_value": 84618.89,
+    "investment_tokens": 15,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 57910.34,
+    "investment_cur_value": 56325.24,
+    "investment_tokens": 62,
+    "investment_user_id": 42
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 83832.15,
+    "investment_cur_value": 77072.19,
+    "investment_tokens": 23,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 13576.22,
+    "investment_cur_value": 83874.87,
+    "investment_tokens": 58,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 52109.05,
+    "investment_cur_value": 36523.19,
+    "investment_tokens": 14,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 45805.06,
+    "investment_cur_value": 62564.33,
+    "investment_tokens": 4,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 97112.16,
+    "investment_cur_value": 82183.15,
+    "investment_tokens": 87,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 68358.71,
+    "investment_cur_value": 93730.02,
+    "investment_tokens": 44,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 88325.82,
+    "investment_cur_value": 9718.97,
+    "investment_tokens": 1,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 38249.46,
+    "investment_cur_value": 65366.58,
+    "investment_tokens": 25,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 88424.69,
+    "investment_cur_value": 24624.25,
+    "investment_tokens": 54,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 58366.89,
+    "investment_cur_value": 52975.98,
+    "investment_tokens": 41,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 68173.62,
+    "investment_cur_value": 79484.16,
+    "investment_tokens": 16,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 62261.48,
+    "investment_cur_value": 35093.77,
+    "investment_tokens": 97,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 7869.21,
+    "investment_cur_value": 87915.43,
+    "investment_tokens": 35,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 34501.96,
+    "investment_cur_value": 68260.04,
+    "investment_tokens": 25,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 94912.24,
+    "investment_cur_value": 34529.65,
+    "investment_tokens": 37,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 800.55,
+    "investment_cur_value": 88634.88,
+    "investment_tokens": 86,
+    "investment_user_id": 30
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 8423.68,
+    "investment_cur_value": 55774.15,
+    "investment_tokens": 40,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 31955.54,
+    "investment_cur_value": 16642.66,
+    "investment_tokens": 97,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 95379.87,
+    "investment_cur_value": 33279.91,
+    "investment_tokens": 6,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 45275.14,
+    "investment_cur_value": 52955.17,
+    "investment_tokens": 58,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 70383.92,
+    "investment_cur_value": 12474.57,
+    "investment_tokens": 55,
+    "investment_user_id": 37
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 11634.72,
+    "investment_cur_value": 37095.37,
+    "investment_tokens": 43,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 37735.89,
+    "investment_cur_value": 3067.17,
+    "investment_tokens": 47,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 65101.69,
+    "investment_cur_value": 99539.26,
+    "investment_tokens": 10,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 42607.81,
+    "investment_cur_value": 22966.92,
+    "investment_tokens": 91,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 24985.93,
+    "investment_cur_value": 49590.91,
+    "investment_tokens": 39,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 9274.93,
+    "investment_cur_value": 44009.77,
+    "investment_tokens": 6,
+    "investment_user_id": 17
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 48840.26,
+    "investment_cur_value": 70316.89,
+    "investment_tokens": 63,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 89356.95,
+    "investment_cur_value": 64696.38,
+    "investment_tokens": 73,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 15967.54,
+    "investment_cur_value": 1498.23,
+    "investment_tokens": 96,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 1095.73,
+    "investment_cur_value": 66899.47,
+    "investment_tokens": 44,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 20450.15,
+    "investment_cur_value": 32588.39,
+    "investment_tokens": 81,
+    "investment_user_id": 30
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 9784.68,
+    "investment_cur_value": 90062.16,
+    "investment_tokens": 41,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 1391.03,
+    "investment_cur_value": 27030.58,
+    "investment_tokens": 16,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 75505.59,
+    "investment_cur_value": 59154.27,
+    "investment_tokens": 38,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 43645.94,
+    "investment_cur_value": 82118.13,
+    "investment_tokens": 51,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 98444.33,
+    "investment_cur_value": 77887.82,
+    "investment_tokens": 44,
+    "investment_user_id": 63
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 38864.94,
+    "investment_cur_value": 41706.03,
+    "investment_tokens": 51,
+    "investment_user_id": 10
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 41082.32,
+    "investment_cur_value": 78175.93,
+    "investment_tokens": 23,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 21684.39,
+    "investment_cur_value": 82769.73,
+    "investment_tokens": 27,
+    "investment_user_id": 27
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 62924.06,
+    "investment_cur_value": 13938.84,
+    "investment_tokens": 64,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 27574.63,
+    "investment_cur_value": 41960.31,
+    "investment_tokens": 6,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 18755.98,
+    "investment_cur_value": 24587.87,
+    "investment_tokens": 63,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 51820.91,
+    "investment_cur_value": 97036.23,
+    "investment_tokens": 1,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 91867.06,
+    "investment_cur_value": 3295.12,
+    "investment_tokens": 16,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 19321.34,
+    "investment_cur_value": 98840.05,
+    "investment_tokens": 53,
+    "investment_user_id": 59
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 99239.37,
+    "investment_cur_value": 15251.24,
+    "investment_tokens": 17,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 74497.82,
+    "investment_cur_value": 67287.14,
+    "investment_tokens": 82,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 9864.38,
+    "investment_cur_value": 82602.29,
+    "investment_tokens": 60,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 44839.51,
+    "investment_cur_value": 91551.99,
+    "investment_tokens": 37,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 80732.52,
+    "investment_cur_value": 76996.89,
+    "investment_tokens": 34,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 37997.06,
+    "investment_cur_value": 87246.52,
+    "investment_tokens": 45,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 51571.33,
+    "investment_cur_value": 18068.46,
+    "investment_tokens": 21,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 36466.59,
+    "investment_cur_value": 15128.17,
+    "investment_tokens": 37,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 88997.54,
+    "investment_cur_value": 62950.88,
+    "investment_tokens": 74,
+    "investment_user_id": 23
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 27368.06,
+    "investment_cur_value": 90318.99,
+    "investment_tokens": 30,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 61225.33,
+    "investment_cur_value": 18410.11,
+    "investment_tokens": 16,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 91302.61,
+    "investment_cur_value": 59245.46,
+    "investment_tokens": 42,
+    "investment_user_id": 23
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 95643.52,
+    "investment_cur_value": 98710.88,
+    "investment_tokens": 34,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 19458.18,
+    "investment_cur_value": 66286.85,
+    "investment_tokens": 54,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 88961.26,
+    "investment_cur_value": 77430.59,
+    "investment_tokens": 56,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 24751.78,
+    "investment_cur_value": 46001.96,
+    "investment_tokens": 11,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 31137.61,
+    "investment_cur_value": 61092.12,
+    "investment_tokens": 63,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 33038.08,
+    "investment_cur_value": 27962.92,
+    "investment_tokens": 16,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 58298.29,
+    "investment_cur_value": 73130.15,
+    "investment_tokens": 50,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 39.02,
+    "investment_cur_value": 54389.14,
+    "investment_tokens": 98,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 36369.42,
+    "investment_cur_value": 59759.85,
+    "investment_tokens": 44,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 60158.48,
+    "investment_cur_value": 28661.37,
+    "investment_tokens": 21,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 25915.68,
+    "investment_cur_value": 23982.28,
+    "investment_tokens": 82,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 34129.56,
+    "investment_cur_value": 21428.76,
+    "investment_tokens": 5,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 91614.98,
+    "investment_cur_value": 65557.95,
+    "investment_tokens": 21,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 93657.64,
+    "investment_cur_value": 7809.05,
+    "investment_tokens": 66,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 87751.95,
+    "investment_cur_value": 91445.04,
+    "investment_tokens": 49,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 23011.47,
+    "investment_cur_value": 73994.46,
+    "investment_tokens": 43,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 89198.98,
+    "investment_cur_value": 80142.41,
+    "investment_tokens": 29,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 77111.89,
+    "investment_cur_value": 70841.42,
+    "investment_tokens": 18,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 53100.49,
+    "investment_cur_value": 22075.19,
+    "investment_tokens": 63,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 76977.46,
+    "investment_cur_value": 46826.95,
+    "investment_tokens": 68,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 74490.48,
+    "investment_cur_value": 45704.49,
+    "investment_tokens": 23,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 88521.73,
+    "investment_cur_value": 1790.13,
+    "investment_tokens": 93,
+    "investment_user_id": 60
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 22355.44,
+    "investment_cur_value": 98504.31,
+    "investment_tokens": 43,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 66973.46,
+    "investment_cur_value": 59988.66,
+    "investment_tokens": 92,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 5223.03,
+    "investment_cur_value": 14775.96,
+    "investment_tokens": 62,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 55547.63,
+    "investment_cur_value": 54318.23,
+    "investment_tokens": 96,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 77772.98,
+    "investment_cur_value": 37259.49,
+    "investment_tokens": 14,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 19701.21,
+    "investment_cur_value": 48004.26,
+    "investment_tokens": 24,
+    "investment_user_id": 27
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 62611.57,
+    "investment_cur_value": 80140.14,
+    "investment_tokens": 22,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 84353.25,
+    "investment_cur_value": 6406.41,
+    "investment_tokens": 42,
+    "investment_user_id": 41
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 88223.76,
+    "investment_cur_value": 16175.87,
+    "investment_tokens": 66,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 76240.11,
+    "investment_cur_value": 13761.65,
+    "investment_tokens": 42,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 50782.24,
+    "investment_cur_value": 46680.33,
+    "investment_tokens": 41,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 35643.89,
+    "investment_cur_value": 76138.52,
+    "investment_tokens": 27,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 28391.22,
+    "investment_cur_value": 91909.26,
+    "investment_tokens": 24,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 35606.33,
+    "investment_cur_value": 13470.73,
+    "investment_tokens": 17,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 12985.22,
+    "investment_cur_value": 23255.65,
+    "investment_tokens": 45,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 15702.32,
+    "investment_cur_value": 10846.22,
+    "investment_tokens": 28,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 80657.88,
+    "investment_cur_value": 96412.74,
+    "investment_tokens": 22,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 3103.91,
+    "investment_cur_value": 163.61,
+    "investment_tokens": 88,
+    "investment_user_id": 33
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 78831.19,
+    "investment_cur_value": 10872.02,
+    "investment_tokens": 13,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 43619.56,
+    "investment_cur_value": 84745.04,
+    "investment_tokens": 95,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 8183.19,
+    "investment_cur_value": 6448.85,
+    "investment_tokens": 28,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 71683.49,
+    "investment_cur_value": 98866.43,
+    "investment_tokens": 9,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 10442.57,
+    "investment_cur_value": 18422.76,
+    "investment_tokens": 76,
+    "investment_user_id": 37
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 80391.11,
+    "investment_cur_value": 30546.91,
+    "investment_tokens": 86,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 17430.45,
+    "investment_cur_value": 3812.65,
+    "investment_tokens": 49,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 9108.91,
+    "investment_cur_value": 59636.46,
+    "investment_tokens": 97,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 94230.27,
+    "investment_cur_value": 75827.96,
+    "investment_tokens": 96,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 61756.42,
+    "investment_cur_value": 98043.87,
+    "investment_tokens": 83,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 64724.97,
+    "investment_cur_value": 83889.74,
+    "investment_tokens": 76,
+    "investment_user_id": 99
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 27083.43,
+    "investment_cur_value": 36101.73,
+    "investment_tokens": 64,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 11594.82,
+    "investment_cur_value": 51581.67,
+    "investment_tokens": 44,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 35669.96,
+    "investment_cur_value": 12433.14,
+    "investment_tokens": 37,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 11524.22,
+    "investment_cur_value": 60770.73,
+    "investment_tokens": 6,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 32790.52,
+    "investment_cur_value": 82075.82,
+    "investment_tokens": 93,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 92247.46,
+    "investment_cur_value": 49419.89,
+    "investment_tokens": 90,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 97338.25,
+    "investment_cur_value": 77846.66,
+    "investment_tokens": 43,
+    "investment_user_id": 30
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 20320.73,
+    "investment_cur_value": 10342.28,
+    "investment_tokens": 76,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 21254.04,
+    "investment_cur_value": 77803.05,
+    "investment_tokens": 26,
+    "investment_user_id": 31
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 31235.45,
+    "investment_cur_value": 36473.39,
+    "investment_tokens": 5,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 3155.36,
+    "investment_cur_value": 99331.64,
+    "investment_tokens": 10,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 16752.87,
+    "investment_cur_value": 48258.77,
+    "investment_tokens": 67,
+    "investment_user_id": 45
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 79941.62,
+    "investment_cur_value": 73312.51,
+    "investment_tokens": 61,
+    "investment_user_id": 64
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 74231.36,
+    "investment_cur_value": 8006.39,
+    "investment_tokens": 30,
+    "investment_user_id": 27
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 85737.08,
+    "investment_cur_value": 12546.53,
+    "investment_tokens": 68,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 92666.65,
+    "investment_cur_value": 12367.92,
+    "investment_tokens": 89,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 85920.19,
+    "investment_cur_value": 53147.63,
+    "investment_tokens": 16,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 63498.75,
+    "investment_cur_value": 12380.28,
+    "investment_tokens": 2,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 71911.14,
+    "investment_cur_value": 12916.98,
+    "investment_tokens": 13,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 44605.38,
+    "investment_cur_value": 44011.52,
+    "investment_tokens": 96,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 54692.31,
+    "investment_cur_value": 74160.93,
+    "investment_tokens": 15,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 82741.13,
+    "investment_cur_value": 91292.61,
+    "investment_tokens": 9,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 16533.31,
+    "investment_cur_value": 57654.67,
+    "investment_tokens": 30,
+    "investment_user_id": 5
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 44334.92,
+    "investment_cur_value": 64303.62,
+    "investment_tokens": 48,
+    "investment_user_id": 37
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 85707.33,
+    "investment_cur_value": 20199.68,
+    "investment_tokens": 82,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 86518.47,
+    "investment_cur_value": 55481.71,
+    "investment_tokens": 32,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 5738.64,
+    "investment_cur_value": 17621.87,
+    "investment_tokens": 58,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 40595.68,
+    "investment_cur_value": 24891.55,
+    "investment_tokens": 55,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 80642.45,
+    "investment_cur_value": 35847.05,
+    "investment_tokens": 69,
+    "investment_user_id": 31
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 33415.22,
+    "investment_cur_value": 12331.68,
+    "investment_tokens": 99,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 62625.69,
+    "investment_cur_value": 10794.96,
+    "investment_tokens": 60,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 22232.66,
+    "investment_cur_value": 70260.04,
+    "investment_tokens": 65,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 82209.26,
+    "investment_cur_value": 31762.92,
+    "investment_tokens": 45,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 56899.55,
+    "investment_cur_value": 41424.57,
+    "investment_tokens": 72,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 44694.86,
+    "investment_cur_value": 70652.33,
+    "investment_tokens": 4,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 24016.87,
+    "investment_cur_value": 83297.67,
+    "investment_tokens": 76,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 45783.89,
+    "investment_cur_value": 18342.45,
+    "investment_tokens": 78,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 52310.94,
+    "investment_cur_value": 75430.45,
+    "investment_tokens": 35,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 58858.47,
+    "investment_cur_value": 29351.86,
+    "investment_tokens": 90,
+    "investment_user_id": 45
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 41425.63,
+    "investment_cur_value": 11718.97,
+    "investment_tokens": 15,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 54836.55,
+    "investment_cur_value": 37161.79,
+    "investment_tokens": 35,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 77606.68,
+    "investment_cur_value": 59159.29,
+    "investment_tokens": 47,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 14985.04,
+    "investment_cur_value": 34726.72,
+    "investment_tokens": 56,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 98523.38,
+    "investment_cur_value": 50069.69,
+    "investment_tokens": 70,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 60560.71,
+    "investment_cur_value": 67042.29,
+    "investment_tokens": 62,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 34304.68,
+    "investment_cur_value": 93872.22,
+    "investment_tokens": 97,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 14942.91,
+    "investment_cur_value": 84497.76,
+    "investment_tokens": 2,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 64359.03,
+    "investment_cur_value": 99406.22,
+    "investment_tokens": 75,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 60311.99,
+    "investment_cur_value": 21182.36,
+    "investment_tokens": 24,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 76129.49,
+    "investment_cur_value": 44798.25,
+    "investment_tokens": 75,
+    "investment_user_id": 59
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 1685.83,
+    "investment_cur_value": 54199.72,
+    "investment_tokens": 87,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 70122.13,
+    "investment_cur_value": 86701.91,
+    "investment_tokens": 54,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 81425.61,
+    "investment_cur_value": 98667.74,
+    "investment_tokens": 40,
+    "investment_user_id": 64
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 41415.34,
+    "investment_cur_value": 73766.69,
+    "investment_tokens": 84,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 90051.89,
+    "investment_cur_value": 78558.27,
+    "investment_tokens": 39,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 13067.44,
+    "investment_cur_value": 20280.78,
+    "investment_tokens": 21,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 34431.36,
+    "investment_cur_value": 72187.41,
+    "investment_tokens": 80,
+    "investment_user_id": 56
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 34412.99,
+    "investment_cur_value": 66138.29,
+    "investment_tokens": 40,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 83394.46,
+    "investment_cur_value": 74605.65,
+    "investment_tokens": 26,
+    "investment_user_id": 5
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 1261.35,
+    "investment_cur_value": 60762.25,
+    "investment_tokens": 18,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 10608.99,
+    "investment_cur_value": 8739.06,
+    "investment_tokens": 17,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 99607.38,
+    "investment_cur_value": 53165.11,
+    "investment_tokens": 15,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 24637.78,
+    "investment_cur_value": 41458.59,
+    "investment_tokens": 39,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 62690.97,
+    "investment_cur_value": 92015.59,
+    "investment_tokens": 74,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 20701.04,
+    "investment_cur_value": 28298.15,
+    "investment_tokens": 18,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 40156.15,
+    "investment_cur_value": 68704.09,
+    "investment_tokens": 65,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 58817.98,
+    "investment_cur_value": 87249.82,
+    "investment_tokens": 83,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 10695.08,
+    "investment_cur_value": 92468.21,
+    "investment_tokens": 90,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 81341.81,
+    "investment_cur_value": 28263.27,
+    "investment_tokens": 41,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 45517.01,
+    "investment_cur_value": 61209.06,
+    "investment_tokens": 68,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 47017.26,
+    "investment_cur_value": 56837.98,
+    "investment_tokens": 89,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 33280.14,
+    "investment_cur_value": 94103.88,
+    "investment_tokens": 9,
+    "investment_user_id": 42
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 62942.12,
+    "investment_cur_value": 58689.76,
+    "investment_tokens": 63,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 46421.88,
+    "investment_cur_value": 63524.27,
+    "investment_tokens": 11,
+    "investment_user_id": 5
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 15430.49,
+    "investment_cur_value": 73288.83,
+    "investment_tokens": 39,
+    "investment_user_id": 67
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 82331.33,
+    "investment_cur_value": 46651.68,
+    "investment_tokens": 65,
+    "investment_user_id": 66
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 20156.22,
+    "investment_cur_value": 11701.29,
+    "investment_tokens": 67,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 36020.03,
+    "investment_cur_value": 35933.97,
+    "investment_tokens": 33,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 88224.81,
+    "investment_cur_value": 11622.52,
+    "investment_tokens": 55,
+    "investment_user_id": 22
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 55728.91,
+    "investment_cur_value": 11900.87,
+    "investment_tokens": 33,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 19588.91,
+    "investment_cur_value": 21655.59,
+    "investment_tokens": 98,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 20636.37,
+    "investment_cur_value": 44184.48,
+    "investment_tokens": 23,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 8550.32,
+    "investment_cur_value": 20511.78,
+    "investment_tokens": 73,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 44188.92,
+    "investment_cur_value": 10983.37,
+    "investment_tokens": 64,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 36436.53,
+    "investment_cur_value": 70408.21,
+    "investment_tokens": 17,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 47582.41,
+    "investment_cur_value": 36995.11,
+    "investment_tokens": 2,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 28215.91,
+    "investment_cur_value": 29890.48,
+    "investment_tokens": 70,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 34551.27,
+    "investment_cur_value": 22881.47,
+    "investment_tokens": 12,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 69153.25,
+    "investment_cur_value": 43699.06,
+    "investment_tokens": 50,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 55700.73,
+    "investment_cur_value": 92911.12,
+    "investment_tokens": 65,
+    "investment_user_id": 1
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 75213.03,
+    "investment_cur_value": 32720.55,
+    "investment_tokens": 84,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 13276.98,
+    "investment_cur_value": 70609.03,
+    "investment_tokens": 22,
+    "investment_user_id": 3
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 614.43,
+    "investment_cur_value": 2969.51,
+    "investment_tokens": 41,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 48205.64,
+    "investment_cur_value": 3424.02,
+    "investment_tokens": 81,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 98318.57,
+    "investment_cur_value": 60843.59,
+    "investment_tokens": 43,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 86725.31,
+    "investment_cur_value": 76361.34,
+    "investment_tokens": 78,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 97046.85,
+    "investment_cur_value": 7331.71,
+    "investment_tokens": 3,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 8533.09,
+    "investment_cur_value": 68090.33,
+    "investment_tokens": 53,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 41088.05,
+    "investment_cur_value": 55793.78,
+    "investment_tokens": 62,
+    "investment_user_id": 56
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 93121.74,
+    "investment_cur_value": 56645.64,
+    "investment_tokens": 23,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 63386.93,
+    "investment_cur_value": 13114.29,
+    "investment_tokens": 72,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 58451.86,
+    "investment_cur_value": 74502.36,
+    "investment_tokens": 7,
+    "investment_user_id": 81
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 63241.46,
+    "investment_cur_value": 71785.57,
+    "investment_tokens": 93,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 97313.57,
+    "investment_cur_value": 4585.94,
+    "investment_tokens": 25,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 2438.64,
+    "investment_cur_value": 89609.05,
+    "investment_tokens": 34,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 97697.64,
+    "investment_cur_value": 75332.36,
+    "investment_tokens": 19,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 4885.34,
+    "investment_cur_value": 97285.48,
+    "investment_tokens": 19,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 53296.57,
+    "investment_cur_value": 68435.07,
+    "investment_tokens": 32,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 61098.52,
+    "investment_cur_value": 41224.16,
+    "investment_tokens": 70,
+    "investment_user_id": 42
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 96679.88,
+    "investment_cur_value": 15420.35,
+    "investment_tokens": 38,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 9526.84,
+    "investment_cur_value": 39685.77,
+    "investment_tokens": 98,
+    "investment_user_id": 27
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 28672.47,
+    "investment_cur_value": 44387.24,
+    "investment_tokens": 45,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 66951.65,
+    "investment_cur_value": 46713.44,
+    "investment_tokens": 2,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 29570.59,
+    "investment_cur_value": 67019.08,
+    "investment_tokens": 39,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 51616.66,
+    "investment_cur_value": 24817.81,
+    "investment_tokens": 27,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 60893.07,
+    "investment_cur_value": 42136.27,
+    "investment_tokens": 47,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 97857.11,
+    "investment_cur_value": 96256.68,
+    "investment_tokens": 100,
+    "investment_user_id": 73
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 56565.14,
+    "investment_cur_value": 74663.27,
+    "investment_tokens": 73,
+    "investment_user_id": 28
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 89147.33,
+    "investment_cur_value": 31560.22,
+    "investment_tokens": 56,
+    "investment_user_id": 64
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 34264.07,
+    "investment_cur_value": 45683.97,
+    "investment_tokens": 93,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 22048.37,
+    "investment_cur_value": 38657.51,
+    "investment_tokens": 68,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 90726.22,
+    "investment_cur_value": 44602.71,
+    "investment_tokens": 54,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 12729.48,
+    "investment_cur_value": 55407.11,
+    "investment_tokens": 97,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 769.67,
+    "investment_cur_value": 80502.23,
+    "investment_tokens": 73,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 38628.96,
+    "investment_cur_value": 94213.92,
+    "investment_tokens": 97,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 30134.53,
+    "investment_cur_value": 27660.16,
+    "investment_tokens": 8,
+    "investment_user_id": 10
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 2241.77,
+    "investment_cur_value": 72098.69,
+    "investment_tokens": 61,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 71844.39,
+    "investment_cur_value": 14822.54,
+    "investment_tokens": 51,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 42801.43,
+    "investment_cur_value": 97051.74,
+    "investment_tokens": 22,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 76952.32,
+    "investment_cur_value": 78701.53,
+    "investment_tokens": 1,
+    "investment_user_id": 73
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 10346.61,
+    "investment_cur_value": 15802.65,
+    "investment_tokens": 78,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 28042.19,
+    "investment_cur_value": 78181.54,
+    "investment_tokens": 61,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 99153.81,
+    "investment_cur_value": 71681.26,
+    "investment_tokens": 46,
+    "investment_user_id": 10
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 50445.44,
+    "investment_cur_value": 77486.47,
+    "investment_tokens": 64,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 49812.19,
+    "investment_cur_value": 46876.79,
+    "investment_tokens": 26,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 99478.12,
+    "investment_cur_value": 92783.02,
+    "investment_tokens": 23,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 76391.08,
+    "investment_cur_value": 22242.32,
+    "investment_tokens": 79,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 29059.66,
+    "investment_cur_value": 96760.73,
+    "investment_tokens": 64,
+    "investment_user_id": 63
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 36035.91,
+    "investment_cur_value": 60404.37,
+    "investment_tokens": 67,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 75592.99,
+    "investment_cur_value": 34092.43,
+    "investment_tokens": 88,
+    "investment_user_id": 22
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 96806.46,
+    "investment_cur_value": 54955.99,
+    "investment_tokens": 42,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 9543.25,
+    "investment_cur_value": 57238.97,
+    "investment_tokens": 95,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 49308.51,
+    "investment_cur_value": 49978.23,
+    "investment_tokens": 39,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 9440.83,
+    "investment_cur_value": 57778.39,
+    "investment_tokens": 63,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 71235.66,
+    "investment_cur_value": 56748.11,
+    "investment_tokens": 66,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 71898.13,
+    "investment_cur_value": 8287.36,
+    "investment_tokens": 96,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 90468.26,
+    "investment_cur_value": 56486.47,
+    "investment_tokens": 100,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 20195.28,
+    "investment_cur_value": 35951.32,
+    "investment_tokens": 65,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 17462.38,
+    "investment_cur_value": 89326.22,
+    "investment_tokens": 23,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 2099.74,
+    "investment_cur_value": 76910.81,
+    "investment_tokens": 59,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 22083.96,
+    "investment_cur_value": 6091.52,
+    "investment_tokens": 33,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 19854.94,
+    "investment_cur_value": 28059.49,
+    "investment_tokens": 16,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 82530.38,
+    "investment_cur_value": 91082.01,
+    "investment_tokens": 69,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 55572.07,
+    "investment_cur_value": 75777.38,
+    "investment_tokens": 29,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 5812.42,
+    "investment_cur_value": 15668.65,
+    "investment_tokens": 19,
+    "investment_user_id": 5
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 52616.39,
+    "investment_cur_value": 42501.73,
+    "investment_tokens": 56,
+    "investment_user_id": 95
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 6350.16,
+    "investment_cur_value": 60554.71,
+    "investment_tokens": 15,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 21468.76,
+    "investment_cur_value": 41850.28,
+    "investment_tokens": 77,
+    "investment_user_id": 90
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 38851.45,
+    "investment_cur_value": 76368.11,
+    "investment_tokens": 13,
+    "investment_user_id": 73
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 72190.77,
+    "investment_cur_value": 67329.93,
+    "investment_tokens": 92,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 67907.91,
+    "investment_cur_value": 36233.11,
+    "investment_tokens": 28,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 63066.45,
+    "investment_cur_value": 54637.54,
+    "investment_tokens": 69,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 12783.56,
+    "investment_cur_value": 39083.14,
+    "investment_tokens": 64,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 1698.31,
+    "investment_cur_value": 39184.75,
+    "investment_tokens": 5,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 14265.66,
+    "investment_cur_value": 68062.79,
+    "investment_tokens": 63,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 41706.06,
+    "investment_cur_value": 36359.21,
+    "investment_tokens": 51,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 86836.41,
+    "investment_cur_value": 79031.38,
+    "investment_tokens": 5,
+    "investment_user_id": 100
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 54178.58,
+    "investment_cur_value": 99290.61,
+    "investment_tokens": 10,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 11678.43,
+    "investment_cur_value": 23609.62,
+    "investment_tokens": 5,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 49863.24,
+    "investment_cur_value": 19748.71,
+    "investment_tokens": 44,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 46507.33,
+    "investment_cur_value": 59857.76,
+    "investment_tokens": 85,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 54879.99,
+    "investment_cur_value": 26384.52,
+    "investment_tokens": 79,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 80741.94,
+    "investment_cur_value": 43827.34,
+    "investment_tokens": 74,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 31678.16,
+    "investment_cur_value": 39986.09,
+    "investment_tokens": 94,
+    "investment_user_id": 77
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 38981.95,
+    "investment_cur_value": 41899.46,
+    "investment_tokens": 67,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 77735.27,
+    "investment_cur_value": 46509.38,
+    "investment_tokens": 90,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 68874.83,
+    "investment_cur_value": 58893.78,
+    "investment_tokens": 72,
+    "investment_user_id": 28
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 39706.16,
+    "investment_cur_value": 80454.93,
+    "investment_tokens": 95,
+    "investment_user_id": 27
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 11707.93,
+    "investment_cur_value": 67599.28,
+    "investment_tokens": 99,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 4829.36,
+    "investment_cur_value": 67050.86,
+    "investment_tokens": 46,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 44600.52,
+    "investment_cur_value": 37188.06,
+    "investment_tokens": 45,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 23594.41,
+    "investment_cur_value": 89031.58,
+    "investment_tokens": 100,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 70581.66,
+    "investment_cur_value": 93951.96,
+    "investment_tokens": 67,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 58358.86,
+    "investment_cur_value": 99181.68,
+    "investment_tokens": 20,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 79883.82,
+    "investment_cur_value": 14318.32,
+    "investment_tokens": 89,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 66200.81,
+    "investment_cur_value": 40563.68,
+    "investment_tokens": 91,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 31388.24,
+    "investment_cur_value": 15796.01,
+    "investment_tokens": 41,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 59059.47,
+    "investment_cur_value": 30650.87,
+    "investment_tokens": 40,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 16686.94,
+    "investment_cur_value": 41410.27,
+    "investment_tokens": 85,
+    "investment_user_id": 56
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 63421.04,
+    "investment_cur_value": 45598.99,
+    "investment_tokens": 26,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 43219.63,
+    "investment_cur_value": 62261.01,
+    "investment_tokens": 97,
+    "investment_user_id": 1
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 18021.05,
+    "investment_cur_value": 31537.77,
+    "investment_tokens": 45,
+    "investment_user_id": 42
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 46214.44,
+    "investment_cur_value": 56031.51,
+    "investment_tokens": 9,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 71856.38,
+    "investment_cur_value": 50419.25,
+    "investment_tokens": 97,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 37849.72,
+    "investment_cur_value": 59913.63,
+    "investment_tokens": 12,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 52354.53,
+    "investment_cur_value": 67620.89,
+    "investment_tokens": 94,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 51215.33,
+    "investment_cur_value": 33249.84,
+    "investment_tokens": 50,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 40948.68,
+    "investment_cur_value": 327.34,
+    "investment_tokens": 94,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 18270.09,
+    "investment_cur_value": 32271.47,
+    "investment_tokens": 19,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 67773.84,
+    "investment_cur_value": 20585.16,
+    "investment_tokens": 97,
+    "investment_user_id": 13
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 81771.24,
+    "investment_cur_value": 99674.39,
+    "investment_tokens": 95,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 75941.12,
+    "investment_cur_value": 15923.19,
+    "investment_tokens": 44,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 85304.65,
+    "investment_cur_value": 66385.69,
+    "investment_tokens": 4,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 51481.38,
+    "investment_cur_value": 44921.85,
+    "investment_tokens": 43,
+    "investment_user_id": 38
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 26810.92,
+    "investment_cur_value": 55566.59,
+    "investment_tokens": 41,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 74622.82,
+    "investment_cur_value": 17649.43,
+    "investment_tokens": 48,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 84583.16,
+    "investment_cur_value": 71876.06,
+    "investment_tokens": 3,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 15289.92,
+    "investment_cur_value": 44035.75,
+    "investment_tokens": 63,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 3374.78,
+    "investment_cur_value": 20723.69,
+    "investment_tokens": 100,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 96215.58,
+    "investment_cur_value": 19298.26,
+    "investment_tokens": 29,
+    "investment_user_id": 76
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 75632.74,
+    "investment_cur_value": 45959.04,
+    "investment_tokens": 16,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 90862.95,
+    "investment_cur_value": 22597.16,
+    "investment_tokens": 76,
+    "investment_user_id": 60
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 1624.43,
+    "investment_cur_value": 22670.55,
+    "investment_tokens": 73,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 75734.01,
+    "investment_cur_value": 32592.49,
+    "investment_tokens": 56,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 21240.74,
+    "investment_cur_value": 11766.12,
+    "investment_tokens": 18,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 74649.28,
+    "investment_cur_value": 77897.92,
+    "investment_tokens": 1,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 81848.28,
+    "investment_cur_value": 18195.75,
+    "investment_tokens": 91,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 55932.06,
+    "investment_cur_value": 90875.63,
+    "investment_tokens": 1,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 20882.79,
+    "investment_cur_value": 44789.55,
+    "investment_tokens": 2,
+    "investment_user_id": 23
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 28878.79,
+    "investment_cur_value": 54651.43,
+    "investment_tokens": 28,
+    "investment_user_id": 36
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 89435.93,
+    "investment_cur_value": 24102.65,
+    "investment_tokens": 9,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 76087.23,
+    "investment_cur_value": 52303.85,
+    "investment_tokens": 63,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 70850.04,
+    "investment_cur_value": 9193.15,
+    "investment_tokens": 17,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 75707.88,
+    "investment_cur_value": 17967.64,
+    "investment_tokens": 99,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 25091.41,
+    "investment_cur_value": 28704.12,
+    "investment_tokens": 82,
+    "investment_user_id": 56
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 61534.29,
+    "investment_cur_value": 58742.04,
+    "investment_tokens": 66,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 50326.03,
+    "investment_cur_value": 18625.26,
+    "investment_tokens": 14,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 13883.61,
+    "investment_cur_value": 73333.67,
+    "investment_tokens": 100,
+    "investment_user_id": 37
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 30660.17,
+    "investment_cur_value": 93799.31,
+    "investment_tokens": 90,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 53491.52,
+    "investment_cur_value": 72764.61,
+    "investment_tokens": 54,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 15369.14,
+    "investment_cur_value": 2179.18,
+    "investment_tokens": 75,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 79222.42,
+    "investment_cur_value": 61239.15,
+    "investment_tokens": 70,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 54190.88,
+    "investment_cur_value": 81859.17,
+    "investment_tokens": 58,
+    "investment_user_id": 22
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 7904.63,
+    "investment_cur_value": 86148.65,
+    "investment_tokens": 37,
+    "investment_user_id": 19
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 95333.19,
+    "investment_cur_value": 33336.02,
+    "investment_tokens": 52,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 60291.24,
+    "investment_cur_value": 97848.78,
+    "investment_tokens": 19,
+    "investment_user_id": 6
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 23014.36,
+    "investment_cur_value": 71507.66,
+    "investment_tokens": 95,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 15678.92,
+    "investment_cur_value": 74605.27,
+    "investment_tokens": 56,
+    "investment_user_id": 63
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 84938.67,
+    "investment_cur_value": 66170.25,
+    "investment_tokens": 57,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 85782.75,
+    "investment_cur_value": 77815.11,
+    "investment_tokens": 89,
+    "investment_user_id": 90
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 43938.62,
+    "investment_cur_value": 74513.68,
+    "investment_tokens": 32,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 25568.02,
+    "investment_cur_value": 58474.48,
+    "investment_tokens": 19,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 26498.38,
+    "investment_cur_value": 64454.01,
+    "investment_tokens": 44,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 85627.55,
+    "investment_cur_value": 60958.31,
+    "investment_tokens": 61,
+    "investment_user_id": 99
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 11014.96,
+    "investment_cur_value": 3950.59,
+    "investment_tokens": 66,
+    "investment_user_id": 17
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 70972.67,
+    "investment_cur_value": 49847.53,
+    "investment_tokens": 35,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 65041.79,
+    "investment_cur_value": 84628.13,
+    "investment_tokens": 22,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 16454.28,
+    "investment_cur_value": 50916.92,
+    "investment_tokens": 91,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 3171.94,
+    "investment_cur_value": 56850.56,
+    "investment_tokens": 38,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 38198.37,
+    "investment_cur_value": 31494.41,
+    "investment_tokens": 62,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 83501.98,
+    "investment_cur_value": 67551.99,
+    "investment_tokens": 78,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 10027.52,
+    "investment_cur_value": 56465.35,
+    "investment_tokens": 3,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 67863.34,
+    "investment_cur_value": 55393.55,
+    "investment_tokens": 3,
+    "investment_user_id": 27
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 75774.09,
+    "investment_cur_value": 80192.64,
+    "investment_tokens": 9,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 50257.32,
+    "investment_cur_value": 94684.98,
+    "investment_tokens": 13,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 10878.66,
+    "investment_cur_value": 28485.88,
+    "investment_tokens": 72,
+    "investment_user_id": 73
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 71313.91,
+    "investment_cur_value": 10110.35,
+    "investment_tokens": 49,
+    "investment_user_id": 37
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 35787.68,
+    "investment_cur_value": 42931.98,
+    "investment_tokens": 48,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 57497.55,
+    "investment_cur_value": 75318.55,
+    "investment_tokens": 9,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 98252.63,
+    "investment_cur_value": 28032.63,
+    "investment_tokens": 95,
+    "investment_user_id": 99
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 82764.85,
+    "investment_cur_value": 74369.82,
+    "investment_tokens": 31,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 55110.43,
+    "investment_cur_value": 66458.31,
+    "investment_tokens": 4,
+    "investment_user_id": 22
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 72929.88,
+    "investment_cur_value": 87970.93,
+    "investment_tokens": 41,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 27854.07,
+    "investment_cur_value": 74665.68,
+    "investment_tokens": 8,
+    "investment_user_id": 23
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 20955.99,
+    "investment_cur_value": 86169.48,
+    "investment_tokens": 98,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 50905.23,
+    "investment_cur_value": 18006.93,
+    "investment_tokens": 88,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 2997.94,
+    "investment_cur_value": 36225.24,
+    "investment_tokens": 71,
+    "investment_user_id": 3
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 23663.16,
+    "investment_cur_value": 62274.84,
+    "investment_tokens": 10,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 95296.93,
+    "investment_cur_value": 83203.75,
+    "investment_tokens": 67,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 19528.52,
+    "investment_cur_value": 69139.41,
+    "investment_tokens": 1,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 74246.15,
+    "investment_cur_value": 55461.69,
+    "investment_tokens": 41,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 21903.14,
+    "investment_cur_value": 1293.96,
+    "investment_tokens": 39,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 27920.05,
+    "investment_cur_value": 49604.98,
+    "investment_tokens": 45,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 23456.14,
+    "investment_cur_value": 66956.02,
+    "investment_tokens": 95,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 61349.01,
+    "investment_cur_value": 32182.21,
+    "investment_tokens": 22,
+    "investment_user_id": 25
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 39523.59,
+    "investment_cur_value": 56177.28,
+    "investment_tokens": 71,
+    "investment_user_id": 26
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 42270.22,
+    "investment_cur_value": 28250.38,
+    "investment_tokens": 26,
+    "investment_user_id": 83
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 20241.22,
+    "investment_cur_value": 63411.68,
+    "investment_tokens": 29,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 98111.03,
+    "investment_cur_value": 27417.96,
+    "investment_tokens": 25,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 75688.63,
+    "investment_cur_value": 60624.96,
+    "investment_tokens": 77,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 1146.41,
+    "investment_cur_value": 74317.92,
+    "investment_tokens": 18,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 71253.34,
+    "investment_cur_value": 78639.11,
+    "investment_tokens": 85,
+    "investment_user_id": 16
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 14571.17,
+    "investment_cur_value": 26715.23,
+    "investment_tokens": 23,
+    "investment_user_id": 27
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 3213.55,
+    "investment_cur_value": 3527.68,
+    "investment_tokens": 64,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 27184.05,
+    "investment_cur_value": 96203.97,
+    "investment_tokens": 31,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 24253.66,
+    "investment_cur_value": 97978.73,
+    "investment_tokens": 54,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 42712.78,
+    "investment_cur_value": 99577.71,
+    "investment_tokens": 22,
+    "investment_user_id": 41
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 47527.44,
+    "investment_cur_value": 34924.06,
+    "investment_tokens": 89,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 46201.01,
+    "investment_cur_value": 30246.17,
+    "investment_tokens": 35,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 10804.75,
+    "investment_cur_value": 13411.65,
+    "investment_tokens": 36,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 24630.27,
+    "investment_cur_value": 57068.01,
+    "investment_tokens": 28,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 48376.86,
+    "investment_cur_value": 43655.67,
+    "investment_tokens": 16,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 24225.38,
+    "investment_cur_value": 75462.51,
+    "investment_tokens": 98,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 57789.28,
+    "investment_cur_value": 88609.04,
+    "investment_tokens": 97,
+    "investment_user_id": 10
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 45859.09,
+    "investment_cur_value": 17101.05,
+    "investment_tokens": 31,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 43603.77,
+    "investment_cur_value": 69761.74,
+    "investment_tokens": 19,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 83615.98,
+    "investment_cur_value": 89979.84,
+    "investment_tokens": 57,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 75970.65,
+    "investment_cur_value": 49164.69,
+    "investment_tokens": 81,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 91735.52,
+    "investment_cur_value": 37606.92,
+    "investment_tokens": 81,
+    "investment_user_id": 22
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 86647.43,
+    "investment_cur_value": 19113.35,
+    "investment_tokens": 100,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 7830.74,
+    "investment_cur_value": 84841.83,
+    "investment_tokens": 42,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 35209.02,
+    "investment_cur_value": 93586.63,
+    "investment_tokens": 72,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 90809.07,
+    "investment_cur_value": 40480.13,
+    "investment_tokens": 24,
+    "investment_user_id": 73
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 78967.29,
+    "investment_cur_value": 73954.07,
+    "investment_tokens": 88,
+    "investment_user_id": 81
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 22058.53,
+    "investment_cur_value": 22582.03,
+    "investment_tokens": 92,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 86747.22,
+    "investment_cur_value": 66149.75,
+    "investment_tokens": 56,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 70363.36,
+    "investment_cur_value": 8355.11,
+    "investment_tokens": 11,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 42703.67,
+    "investment_cur_value": 73673.11,
+    "investment_tokens": 12,
+    "investment_user_id": 15
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 25004.67,
+    "investment_cur_value": 44259.36,
+    "investment_tokens": 28,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 88107.04,
+    "investment_cur_value": 65075.81,
+    "investment_tokens": 31,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 64657.23,
+    "investment_cur_value": 92628.63,
+    "investment_tokens": 86,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 29066.77,
+    "investment_cur_value": 10482.32,
+    "investment_tokens": 28,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 90438.05,
+    "investment_cur_value": 75806.68,
+    "investment_tokens": 51,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 38668.86,
+    "investment_cur_value": 6774.32,
+    "investment_tokens": 55,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 60044.97,
+    "investment_cur_value": 44251.98,
+    "investment_tokens": 62,
+    "investment_user_id": 78
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 38753.49,
+    "investment_cur_value": 37571.23,
+    "investment_tokens": 15,
+    "investment_user_id": 74
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 61317.81,
+    "investment_cur_value": 98338.11,
+    "investment_tokens": 63,
+    "investment_user_id": 99
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 39631.63,
+    "investment_cur_value": 42490.25,
+    "investment_tokens": 54,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 76741.11,
+    "investment_cur_value": 47288.81,
+    "investment_tokens": 45,
+    "investment_user_id": 83
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 50386.91,
+    "investment_cur_value": 96277.24,
+    "investment_tokens": 16,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 47046.28,
+    "investment_cur_value": 63453.52,
+    "investment_tokens": 4,
+    "investment_user_id": 47
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 73957.83,
+    "investment_cur_value": 95919.96,
+    "investment_tokens": 10,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 42894.82,
+    "investment_cur_value": 24929.18,
+    "investment_tokens": 73,
+    "investment_user_id": 77
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 96840.32,
+    "investment_cur_value": 64146.85,
+    "investment_tokens": 37,
+    "investment_user_id": 18
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 75332.42,
+    "investment_cur_value": 36677.81,
+    "investment_tokens": 17,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 3084.47,
+    "investment_cur_value": 88546.49,
+    "investment_tokens": 39,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 27157.21,
+    "investment_cur_value": 18824.95,
+    "investment_tokens": 19,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 40401.19,
+    "investment_cur_value": 13684.36,
+    "investment_tokens": 58,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 76633.66,
+    "investment_cur_value": 77653.79,
+    "investment_tokens": 17,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 6565.86,
+    "investment_cur_value": 38760.03,
+    "investment_tokens": 58,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 35397.94,
+    "investment_cur_value": 29883.68,
+    "investment_tokens": 3,
+    "investment_user_id": 43
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 78366.04,
+    "investment_cur_value": 66021.01,
+    "investment_tokens": 10,
+    "investment_user_id": 33
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 68284.58,
+    "investment_cur_value": 6929.78,
+    "investment_tokens": 3,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 71632.47,
+    "investment_cur_value": 49675.15,
+    "investment_tokens": 31,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 85225.41,
+    "investment_cur_value": 83545.88,
+    "investment_tokens": 87,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 8546.73,
+    "investment_cur_value": 4984.06,
+    "investment_tokens": 67,
+    "investment_user_id": 73
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 71662.36,
+    "investment_cur_value": 74131.12,
+    "investment_tokens": 19,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 62244.59,
+    "investment_cur_value": 97202.01,
+    "investment_tokens": 86,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 34370.66,
+    "investment_cur_value": 31311.23,
+    "investment_tokens": 70,
+    "investment_user_id": 26
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 36741.96,
+    "investment_cur_value": 3623.78,
+    "investment_tokens": 85,
+    "investment_user_id": 95
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 43062.92,
+    "investment_cur_value": 91113.09,
+    "investment_tokens": 47,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 59045.27,
+    "investment_cur_value": 73183.42,
+    "investment_tokens": 56,
+    "investment_user_id": 41
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 87331.51,
+    "investment_cur_value": 9670.03,
+    "investment_tokens": 15,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 62166.85,
+    "investment_cur_value": 883.09,
+    "investment_tokens": 21,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 419.55,
+    "investment_cur_value": 67774.16,
+    "investment_tokens": 15,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 4744.17,
+    "investment_cur_value": 8583.96,
+    "investment_tokens": 59,
+    "investment_user_id": 38
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 22487.47,
+    "investment_cur_value": 76910.01,
+    "investment_tokens": 68,
+    "investment_user_id": 35
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 14387.76,
+    "investment_cur_value": 54776.73,
+    "investment_tokens": 30,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 30119.44,
+    "investment_cur_value": 23264.19,
+    "investment_tokens": 30,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 81452.44,
+    "investment_cur_value": 61764.66,
+    "investment_tokens": 95,
+    "investment_user_id": 52
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 35226.78,
+    "investment_cur_value": 22576.37,
+    "investment_tokens": 18,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 3247.95,
+    "investment_cur_value": 73832.35,
+    "investment_tokens": 61,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 80647.23,
+    "investment_cur_value": 36346.48,
+    "investment_tokens": 79,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 37599.51,
+    "investment_cur_value": 46446.12,
+    "investment_tokens": 26,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 99975.95,
+    "investment_cur_value": 5436.69,
+    "investment_tokens": 70,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 13774.45,
+    "investment_cur_value": 92026.95,
+    "investment_tokens": 25,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 57041.81,
+    "investment_cur_value": 20306.05,
+    "investment_tokens": 18,
+    "investment_user_id": 53
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 10282.17,
+    "investment_cur_value": 15021.26,
+    "investment_tokens": 90,
+    "investment_user_id": 86
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 55290.87,
+    "investment_cur_value": 43132.36,
+    "investment_tokens": 29,
+    "investment_user_id": 29
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 48516.08,
+    "investment_cur_value": 13296.56,
+    "investment_tokens": 73,
+    "investment_user_id": 64
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 41677.89,
+    "investment_cur_value": 18697.89,
+    "investment_tokens": 84,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 97209.78,
+    "investment_cur_value": 9820.63,
+    "investment_tokens": 34,
+    "investment_user_id": 42
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 56024.71,
+    "investment_cur_value": 75649.66,
+    "investment_tokens": 41,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 49794.58,
+    "investment_cur_value": 31553.38,
+    "investment_tokens": 65,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 17980.75,
+    "investment_cur_value": 35419.13,
+    "investment_tokens": 27,
+    "investment_user_id": 17
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 51829.54,
+    "investment_cur_value": 47624.38,
+    "investment_tokens": 25,
+    "investment_user_id": 63
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 81138.49,
+    "investment_cur_value": 29068.65,
+    "investment_tokens": 72,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 40488.08,
+    "investment_cur_value": 73161.61,
+    "investment_tokens": 31,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 12545.21,
+    "investment_cur_value": 36836.89,
+    "investment_tokens": 34,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 55352.96,
+    "investment_cur_value": 59980.59,
+    "investment_tokens": 2,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 44154.38,
+    "investment_cur_value": 68245.41,
+    "investment_tokens": 76,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 8149.33,
+    "investment_cur_value": 53233.86,
+    "investment_tokens": 71,
+    "investment_user_id": 45
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 63884.59,
+    "investment_cur_value": 28456.98,
+    "investment_tokens": 21,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 61194.12,
+    "investment_cur_value": 45909.08,
+    "investment_tokens": 66,
+    "investment_user_id": 22
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 35265.98,
+    "investment_cur_value": 942.03,
+    "investment_tokens": 69,
+    "investment_user_id": 62
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 26754.96,
+    "investment_cur_value": 20587.23,
+    "investment_tokens": 65,
+    "investment_user_id": 75
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 79484.05,
+    "investment_cur_value": 49480.22,
+    "investment_tokens": 86,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 37041.28,
+    "investment_cur_value": 96631.37,
+    "investment_tokens": 17,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 71573.67,
+    "investment_cur_value": 66248.96,
+    "investment_tokens": 34,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 88908.47,
+    "investment_cur_value": 60612.49,
+    "investment_tokens": 21,
+    "investment_user_id": 5
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 37866.02,
+    "investment_cur_value": 64973.72,
+    "investment_tokens": 25,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 52465.21,
+    "investment_cur_value": 42641.49,
+    "investment_tokens": 50,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 41205.22,
+    "investment_cur_value": 73015.01,
+    "investment_tokens": 1,
+    "investment_user_id": 88
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 51270.09,
+    "investment_cur_value": 6036.55,
+    "investment_tokens": 1,
+    "investment_user_id": 30
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 46830.91,
+    "investment_cur_value": 43440.28,
+    "investment_tokens": 91,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 25639.53,
+    "investment_cur_value": 36475.42,
+    "investment_tokens": 73,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 56938.84,
+    "investment_cur_value": 7456.18,
+    "investment_tokens": 20,
+    "investment_user_id": 46
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 16920.63,
+    "investment_cur_value": 67121.88,
+    "investment_tokens": 8,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 87642.33,
+    "investment_cur_value": 18133.58,
+    "investment_tokens": 44,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 76900.68,
+    "investment_cur_value": 17874.14,
+    "investment_tokens": 81,
+    "investment_user_id": 71
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 1148.94,
+    "investment_cur_value": 39173.91,
+    "investment_tokens": 77,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 35371.43,
+    "investment_cur_value": 81007.29,
+    "investment_tokens": 26,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 97841.84,
+    "investment_cur_value": 84321.23,
+    "investment_tokens": 45,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 52042.45,
+    "investment_cur_value": 24766.08,
+    "investment_tokens": 74,
+    "investment_user_id": 79
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 84816.71,
+    "investment_cur_value": 76791.47,
+    "investment_tokens": 76,
+    "investment_user_id": 45
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 37991.98,
+    "investment_cur_value": 4382.27,
+    "investment_tokens": 43,
+    "investment_user_id": 68
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 37057.81,
+    "investment_cur_value": 52950.59,
+    "investment_tokens": 89,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 57702.18,
+    "investment_cur_value": 93815.11,
+    "investment_tokens": 13,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 40903.79,
+    "investment_cur_value": 24716.29,
+    "investment_tokens": 34,
+    "investment_user_id": 56
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 77679.28,
+    "investment_cur_value": 49838.52,
+    "investment_tokens": 49,
+    "investment_user_id": 94
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 90766.44,
+    "investment_cur_value": 92889.65,
+    "investment_tokens": 4,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 92450.39,
+    "investment_cur_value": 25883.94,
+    "investment_tokens": 49,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 14011.85,
+    "investment_cur_value": 49666.16,
+    "investment_tokens": 58,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 7876.49,
+    "investment_cur_value": 75699.67,
+    "investment_tokens": 5,
+    "investment_user_id": 89
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 28227.26,
+    "investment_cur_value": 63441.89,
+    "investment_tokens": 43,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 77977.34,
+    "investment_cur_value": 23265.38,
+    "investment_tokens": 80,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 19447.53,
+    "investment_cur_value": 82217.46,
+    "investment_tokens": 31,
+    "investment_user_id": 84
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 15043.11,
+    "investment_cur_value": 42195.06,
+    "investment_tokens": 18,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 27273.68,
+    "investment_cur_value": 58976.03,
+    "investment_tokens": 25,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 88473.79,
+    "investment_cur_value": 93249.38,
+    "investment_tokens": 81,
+    "investment_user_id": 38
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 29791.89,
+    "investment_cur_value": 24693.78,
+    "investment_tokens": 51,
+    "investment_user_id": 95
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 35118.35,
+    "investment_cur_value": 28702.28,
+    "investment_tokens": 4,
+    "investment_user_id": 83
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 98824.09,
+    "investment_cur_value": 5819.69,
+    "investment_tokens": 14,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 17961.91,
+    "investment_cur_value": 23259.35,
+    "investment_tokens": 98,
+    "investment_user_id": 73
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 85458.63,
+    "investment_cur_value": 83749.82,
+    "investment_tokens": 59,
+    "investment_user_id": 34
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 43890.68,
+    "investment_cur_value": 73080.33,
+    "investment_tokens": 68,
+    "investment_user_id": 85
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 8647.32,
+    "investment_cur_value": 71296.43,
+    "investment_tokens": 68,
+    "investment_user_id": 8
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 72141.44,
+    "investment_cur_value": 68405.66,
+    "investment_tokens": 64,
+    "investment_user_id": 59
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 64825.37,
+    "investment_cur_value": 84176.99,
+    "investment_tokens": 65,
+    "investment_user_id": 95
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 78793.88,
+    "investment_cur_value": 42665.77,
+    "investment_tokens": 89,
+    "investment_user_id": 48
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 32878.52,
+    "investment_cur_value": 26091.14,
+    "investment_tokens": 45,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 91224.46,
+    "investment_cur_value": 69314.43,
+    "investment_tokens": 56,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 18560.75,
+    "investment_cur_value": 57571.74,
+    "investment_tokens": 25,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 429.37,
+    "investment_cur_value": 36130.53,
+    "investment_tokens": 25,
+    "investment_user_id": 97
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 74416.68,
+    "investment_cur_value": 96733.59,
+    "investment_tokens": 5,
+    "investment_user_id": 9
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 67692.26,
+    "investment_cur_value": 82293.33,
+    "investment_tokens": 2,
+    "investment_user_id": 5
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 51594.78,
+    "investment_cur_value": 24715.91,
+    "investment_tokens": 34,
+    "investment_user_id": 96
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 83319.11,
+    "investment_cur_value": 81864.03,
+    "investment_tokens": 46,
+    "investment_user_id": 83
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 10193.11,
+    "investment_cur_value": 86382.46,
+    "investment_tokens": 32,
+    "investment_user_id": 28
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 34829.96,
+    "investment_cur_value": 73302.62,
+    "investment_tokens": 7,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 1804.07,
+    "investment_cur_value": 12463.47,
+    "investment_tokens": 62,
+    "investment_user_id": 63
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 78385.53,
+    "investment_cur_value": 53563.43,
+    "investment_tokens": 81,
+    "investment_user_id": 82
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 16787.89,
+    "investment_cur_value": 68015.85,
+    "investment_tokens": 99,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 5916.17,
+    "investment_cur_value": 98740.46,
+    "investment_tokens": 16,
+    "investment_user_id": 65
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 91341.89,
+    "investment_cur_value": 64856.08,
+    "investment_tokens": 82,
+    "investment_user_id": 51
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 55069.85,
+    "investment_cur_value": 58736.01,
+    "investment_tokens": 37,
+    "investment_user_id": 40
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 88685.49,
+    "investment_cur_value": 16031.63,
+    "investment_tokens": 35,
+    "investment_user_id": 92
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 37246.83,
+    "investment_cur_value": 24378.29,
+    "investment_tokens": 19,
+    "investment_user_id": 55
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 79522.88,
+    "investment_cur_value": 10200.53,
+    "investment_tokens": 51,
+    "investment_user_id": 72
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 92580.31,
+    "investment_cur_value": 9676.72,
+    "investment_tokens": 69,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 25565.32,
+    "investment_cur_value": 42834.42,
+    "investment_tokens": 68,
+    "investment_user_id": 12
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 46978.59,
+    "investment_cur_value": 72186.06,
+    "investment_tokens": 11,
+    "investment_user_id": 54
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 34739.73,
+    "investment_cur_value": 75189.26,
+    "investment_tokens": 96,
+    "investment_user_id": 98
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 23371.15,
+    "investment_cur_value": 71709.99,
+    "investment_tokens": 51,
+    "investment_user_id": 7
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 57706.74,
+    "investment_cur_value": 47980.43,
+    "investment_tokens": 10,
+    "investment_user_id": 37
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 96870.12,
+    "investment_cur_value": 61793.59,
+    "investment_tokens": 64,
+    "investment_user_id": 57
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 24615.83,
+    "investment_cur_value": 88114.41,
+    "investment_tokens": 71,
+    "investment_user_id": 69
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 34899.85,
+    "investment_cur_value": 91751.16,
+    "investment_tokens": 84,
+    "investment_user_id": 55
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 65739.42,
+    "investment_cur_value": 96366.94,
+    "investment_tokens": 28,
+    "investment_user_id": 66
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 51716.65,
+    "investment_cur_value": 55348.12,
+    "investment_tokens": 10,
+    "investment_user_id": 60
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 4428.86,
+    "investment_cur_value": 93062.85,
+    "investment_tokens": 99,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 69917.03,
+    "investment_cur_value": 21166.31,
+    "investment_tokens": 49,
+    "investment_user_id": 70
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 50846.74,
+    "investment_cur_value": 71975.01,
+    "investment_tokens": 78,
+    "investment_user_id": 61
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 15236.07,
+    "investment_cur_value": 26454.94,
+    "investment_tokens": 67,
+    "investment_user_id": 99
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 92614.69,
+    "investment_cur_value": 31483.44,
+    "investment_tokens": 21,
+    "investment_user_id": 39
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 57859.66,
+    "investment_cur_value": 55868.53,
+    "investment_tokens": 57,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 16329.91,
+    "investment_cur_value": 97289.72,
+    "investment_tokens": 41,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 11323.05,
+    "investment_cur_value": 10330.23,
+    "investment_tokens": 42,
+    "investment_user_id": 4
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 49934.97,
+    "investment_cur_value": 10118.97,
+    "investment_tokens": 48,
+    "investment_user_id": 66
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 13231.51,
+    "investment_cur_value": 54492.21,
+    "investment_tokens": 21,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 80081.52,
+    "investment_cur_value": 68466.42,
+    "investment_tokens": 17,
+    "investment_user_id": 50
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 58538.53,
+    "investment_cur_value": 56712.77,
+    "investment_tokens": 28,
+    "investment_user_id": 77
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 12027.52,
+    "investment_cur_value": 24254.08,
+    "investment_tokens": 3,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "DOGE",
+    "investment_init_value": 93784.26,
+    "investment_cur_value": 86249.72,
+    "investment_tokens": 48,
+    "investment_user_id": 59
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 46277.71,
+    "investment_cur_value": 33204.09,
+    "investment_tokens": 40,
+    "investment_user_id": 58
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 42943.09,
+    "investment_cur_value": 33241.72,
+    "investment_tokens": 1,
+    "investment_user_id": 41
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 31583.56,
+    "investment_cur_value": 7629.81,
+    "investment_tokens": 66,
+    "investment_user_id": 41
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 65835.75,
+    "investment_cur_value": 32982.38,
+    "investment_tokens": 18,
+    "investment_user_id": 49
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 76525.35,
+    "investment_cur_value": 11372.62,
+    "investment_tokens": 49,
+    "investment_user_id": 30
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 34145.51,
+    "investment_cur_value": 74276.21,
+    "investment_tokens": 36,
+    "investment_user_id": 80
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 52326.04,
+    "investment_cur_value": 15363.47,
+    "investment_tokens": 40,
+    "investment_user_id": 33
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 49841.75,
+    "investment_cur_value": 9690.12,
+    "investment_tokens": 86,
+    "investment_user_id": 32
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 38870.59,
+    "investment_cur_value": 86518.18,
+    "investment_tokens": 24,
+    "investment_user_id": 87
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 90847.65,
+    "investment_cur_value": 61796.69,
+    "investment_tokens": 57,
+    "investment_user_id": 91
+  },
+  {
+    "investment_sym": "BNB",
+    "investment_init_value": 47247.71,
+    "investment_cur_value": 67246.77,
+    "investment_tokens": 40,
+    "investment_user_id": 2
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 69303.06,
+    "investment_cur_value": 56207.65,
+    "investment_tokens": 81,
+    "investment_user_id": 24
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 73714.08,
+    "investment_cur_value": 60367.96,
+    "investment_tokens": 78,
+    "investment_user_id": 20
+  },
+  {
+    "investment_sym": "SOL",
+    "investment_init_value": 65305.88,
+    "investment_cur_value": 5941.93,
+    "investment_tokens": 25,
+    "investment_user_id": 11
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 77182.06,
+    "investment_cur_value": 41839.23,
+    "investment_tokens": 86,
+    "investment_user_id": 14
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 53015.99,
+    "investment_cur_value": 97607.69,
+    "investment_tokens": 23,
+    "investment_user_id": 64
+  },
+  {
+    "investment_sym": "EGLD",
+    "investment_init_value": 18780.83,
+    "investment_cur_value": 1154.17,
+    "investment_tokens": 50,
+    "investment_user_id": 21
+  },
+  {
+    "investment_sym": "BTC",
+    "investment_init_value": 67987.83,
+    "investment_cur_value": 81209.78,
+    "investment_tokens": 77,
+    "investment_user_id": 44
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 98700.19,
+    "investment_cur_value": 5056.83,
+    "investment_tokens": 33,
+    "investment_user_id": 93
+  },
+  {
+    "investment_sym": "ETH",
+    "investment_init_value": 13511.88,
+    "investment_cur_value": 3536.13,
+    "investment_tokens": 86,
+    "investment_user_id": 91
+  }
+]
+
+}
