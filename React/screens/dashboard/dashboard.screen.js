@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import { AppContext } from "../../context/app.context";
 import { HorizontalScroll, StatusCard } from '../../components';
-import { createInvestmentCard, createFollowCard } from '../../utils/utils';
+import { createInvestmentCard, createFollowCard, filterBy } from '../../utils/utils';
 
 export default function DashboardScreen({ navigation }) {
 
@@ -25,23 +25,26 @@ export default function DashboardScreen({ navigation }) {
 
   useEffect(() => {
     const unsub = () => {
-      if (cryptoCurrencies.length !== investments.length)
-        for (const investment of investments) {
-          createInvestmentCard(investment, API_URL).then((card) => setCryptoCurrencies([...cryptoCurrencies, card]));
+      if (cryptoCurrencies.length == 0) {
+        const investmentSet = filterBy(investments, "investment_sym");
+        for (const investment of investmentSet) {
+          createInvestmentCard(investment, API_URL).then((card) => setCryptoCurrencies(cryptoCurrencies => [...cryptoCurrencies, card]));
         }
+      }
     }
     return unsub();
   }, [cryptoCurrencies]);
 
-  // useEffect(() => {
-  //   const unsub = () => {
-  //     if (followCards.length !== follows.length)
-  //       for (const follow of follows) {
-  //         createFollowCard(follow, API_URL).then((card) => setFollowCards([...followCards, card]));
-  //       }
-  //   }
-  //   return unsub();
-  // }, [followCards]);
+  useEffect(() => {
+    const unsub = () => {
+      if (followCards.length == 0) {
+        for (const follow of follows) {
+          createFollowCard(follow, API_URL).then((card) => setFollowCards(followCards => [...followCards, card]));
+        }
+      }
+    }
+    return unsub();
+  }, [followCards]);
 
   // console.log("User: ", user);
   // console.log("Investments: ", investments);
@@ -80,10 +83,11 @@ export default function DashboardScreen({ navigation }) {
           title='Follows'
           containerStyle={styles.container}
           subtitle='Current price'
-          data={cryptoCurrencies}
+          data={followCards}
           attribute1='image'
           attribute2='name'
           attribute3='profit'
+          onPress={(data) => { navigation.navigate('Graph', { data }) }}
         />
       </View>
     </ScrollView>

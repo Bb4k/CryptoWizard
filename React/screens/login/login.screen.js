@@ -47,8 +47,8 @@ export default function LoginScreen({ navigation }) {
           onPress={() => {
             // handleLogin({ email, password });
             handleLogin({
-              email: 'gaga@mail.com',
-              password: 'taat'
+              email: 'rios_chan@flexigen.kw',
+              password: '.Rios77Chan!'
             })
           }}
         />

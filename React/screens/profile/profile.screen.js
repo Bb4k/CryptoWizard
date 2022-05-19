@@ -144,7 +144,6 @@ export default function ProfileScreen({ navigation }) {
       if (!allPlans)
         getPlans(API_URL).then((plans) => setAllPlans(plans));
     }
-    console.log(allPlans);
     return unsub();
   }, [allPlans]);
 
