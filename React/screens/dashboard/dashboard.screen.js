@@ -25,7 +25,7 @@ export default function DashboardScreen({ navigation }) {
 
   useEffect(() => {
     const unsub = () => {
-      if (cryptoCurrencies.length == 0) {
+      if (cryptoCurrencies.length == 0 && investments.length != 0) {
         const investmentSet = filterBy(investments, "investment_sym");
         for (const investment of investmentSet) {
           createInvestmentCard(investment, API_URL).then((card) => setCryptoCurrencies(cryptoCurrencies => [...cryptoCurrencies, card]));
@@ -37,7 +37,7 @@ export default function DashboardScreen({ navigation }) {
 
   useEffect(() => {
     const unsub = () => {
-      if (followCards.length == 0) {
+      if (followCards.length == 0 && follows.length != 0) {
         for (const follow of follows) {
           createFollowCard(follow, API_URL).then((card) => setFollowCards(followCards => [...followCards, card]));
         }

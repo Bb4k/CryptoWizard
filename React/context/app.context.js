@@ -89,6 +89,7 @@ function AppProvider(props) {
             url: `${API_URL}/user-data/${formData.user_email}`,
           })
             .then((responseData) => {
+              console.log(responseData.data);
               setPlan(responseData.data[0]);
               setInvestments([]);
               setFollows([]);
@@ -99,7 +100,7 @@ function AppProvider(props) {
               try {
                 show({ message: response, type: "error" });
               } catch (e) {
-                console.log("Response user-data: ", response);
+                console.log("Response user-data: ", responseData);
               }
             });
         }
