@@ -1,6 +1,46 @@
 import json
 import datetime
 import requests
+import os
+
+ROOT_DATA = "PopulateDatabase\\data"
+NEXT_FILE = [
+    "plan.json",
+    "token.json",
+    "user.json",
+    "transaction.json",
+    "investment.json",
+    "follow.json"
+]
+
+
+def read_json(path):
+    file = open(path)
+    data = json.load(file)
+    return data['data']
+
+
+def request(post_url, data):
+    response = requests.post(post_url, data=json.dumps(data))
+    print(response.text)
+
+
+def populate():
+
+    for table in NEXT_FILE:
+        print(table)
+        path = os.path.join(ROOT_DATA, table)
+        if os.path.isdir(path):
+            for file in os.listdir(path):
+                data = read_json(os.path.join(path, file))
+                print(data)
+        else:
+            data = read_json(path)
+
+        for row in data:
+            print(row)
+            request(f"http://127.0.0.1:8000/api/{table[:-5]}-create/", row)
+
 
 tokens = [
     {
@@ -42,18 +82,10 @@ tokens = [
 ]
 
 
-def populate_tokens():
-    url_post_tokens = 'http://192.168.0.111:8000/api/token-create/'
-
-    for token in tokens:
-        response = requests.post(url_post_tokens, data=json.dumps(token))
-        print(response.text)
-
-
 def populate_price():
-    url_post_prices = 'http://192.168.0.111:8000/api/price-create/'
+    url_post_prices = 'http://127.0.0.1:8000/api/price-create/'
     for i, token in enumerate(tokens):
-        f = open('price_history/' + token['token_sym'] + '.json')
+        f = open('PopulateDatabase/data/price_history/' + token['token_sym'] + '.json')
         data = json.load(f)
         for price in data['data']:
             date_value = datetime.datetime.fromtimestamp(float(price[0]))
@@ -68,39 +100,9 @@ def populate_price():
         f.close()
 
 
-def populate_plans():
-    url_post_plans = 'http://192.168.0.111:8000/api/plan-create/'
-    plans = [
-        {
-            "plan_name": "Basic",
-            "plan_price": "FREE",
-            "plan_img": "https://i.ibb.co/Ryz48Pp/status-bronze.webp",
-            "plan_benefits": "See predictions for 5 cryptos"
-        },
-        {
-            "plan_name": "Gold",
-            "plan_price": "$10/mo.",
-            "plan_img": "https://i.ibb.co/VJxt4hR/status-gold.webp",
-            "plan_benefits": "See predictions for 10 cryptos & Get tips when to buy/sell"
-        },
-        {
-            "plan_name": "Star",
-            "plan_price": "$25/mo.",
-            "plan_img": "https://i.ibb.co/VmW8X2c/status-star.webp",
-            "plan_benefits": "See predictions for UNLIMITED cryptos&Get tips when to buy/sell&Get notifications when to buy/sell"
-        },
-        {
-            "plan_name": "Plus",
-            "plan_price": "$50/mo.",
-            "plan_img": "https://i.ibb.co/Fns4MG6/status-diamond.webp",
-            "plan_benefits": "See predictions for UNLIMITED cryptos&Get tips when to buy/sell&Get notifications when to buy/sell&Set the bot to automatically buy/sell crypto coins"
-        },
-    ]
-    for plan in plans:
-        response = requests.post(url_post_plans, data=json.dumps(plan))
-        print(response.text)
-
-
-populate_tokens()
+populate()
 populate_price()
-populate_plans()
+
+
+
+
