@@ -3,7 +3,7 @@ import datetime
 import requests
 import os
 
-ROOT_DATA = "PopulateDatabase\\data"
+ROOT_DATA = "data"
 NEXT_FILE = [
     "plan.json",
     "token.json",
@@ -12,6 +12,7 @@ NEXT_FILE = [
     "investment.json",
     "follow.json"
 ]
+IP_ADDRESS_LOCALHOST = ""
 
 
 def read_json(path):
@@ -26,7 +27,6 @@ def request(post_url, data):
 
 
 def populate():
-
     for table in NEXT_FILE:
         print(table)
         path = os.path.join(ROOT_DATA, table)
@@ -39,7 +39,7 @@ def populate():
 
         for row in data:
             print(row)
-            request(f"http://127.0.0.1:8000/api/{table[:-5]}-create/", row)
+            request(f"http://{IP_ADDRESS_LOCALHOST}:8000/api/{table[:-5]}-create/", row)
 
 
 tokens = [
@@ -83,9 +83,9 @@ tokens = [
 
 
 def populate_price():
-    url_post_prices = 'http://127.0.0.1:8000/api/price-create/'
+    url_post_prices = 'http://' + IP_ADDRESS_LOCALHOST + ':8000/api/price-create/'
     for i, token in enumerate(tokens):
-        f = open('PopulateDatabase/data/price_history/' + token['token_sym'] + '.json')
+        f = open('data/price_history/' + token['token_sym'] + '.json')
         data = json.load(f)
         for price in data['data']:
             date_value = datetime.datetime.fromtimestamp(float(price[0]))
@@ -100,9 +100,18 @@ def populate_price():
         f.close()
 
 
-populate()
-populate_price()
-
-
-
-
+while True:
+    ip_choice = int(input(
+        "\033[1mChoose the ip address (1 or 2):\n\033[1;32m1. 127.0.0.1\n\033[91m2. 192.168.0.111\n\033[93mYour choice: "))
+    if ip_choice == 1:
+        IP_ADDRESS_LOCALHOST = "127.0.0.1"
+        populate()
+        populate_price()
+        break
+    elif ip_choice == 2:
+        IP_ADDRESS_LOCALHOST = "192.168.0.111"
+        populate()
+        populate_price()
+        break
+    else:
+        print("Choose between options 1 and 2")
