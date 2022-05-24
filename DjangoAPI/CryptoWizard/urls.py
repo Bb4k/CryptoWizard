@@ -1,3 +1,6 @@
+from django.conf import settings
+from django.conf.urls.static import static
+
 from django.urls import path
 from . import views
 
@@ -32,4 +35,4 @@ urlpatterns = [
     path('price-create/', views.price_create, name="price-create"),
     path('price/<str:token_id>', views.price_get_by_token, name="price-get-by-token"),
 
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
