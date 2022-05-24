@@ -45,11 +45,11 @@ export default function LoginScreen({ navigation }) {
           buttonStyle={{ backgroundColor: themeColors.lightPrimary, marginTop: 115 }}
           text={"Submit"}
           onPress={() => {
-            // handleLogin({ email, password });
-            handleLogin({
-              email: 'rios_chan@flexigen.kw',
-              password: '.Rios77Chan!'
-            })
+            handleLogin({ email, password });
+            // handleLogin({
+            //   email: 'rios_chan@flexigen.kw',
+            //   password: '.Rios77Chan!'
+            // })
           }}
         />
       </View>
