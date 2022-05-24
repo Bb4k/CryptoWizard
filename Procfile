@@ -1,4 +1,5 @@
-release: python DjangoAPI/manage.py makemigrations DjangoAPI.CryptoWizard
-release: python DjangoAPI/manage.py migrate DjangoAPI.CryptoWizard
+release: cd DjangoAPI
+release: python manage.py makemigrations CryptoWizard
+release: python manage.py migrate CryptoWizard
 
 web: gunicorn DjangoAPI.DjangoAPI.wsgi
