@@ -28,7 +28,7 @@ function AppProvider(props) {
   const [follows, setFollows] = useState(null);
 
   const [failedLogin, setFailedLogin] = useState(null);
-  const [API_URL, SET_API_URL] = useState("http://192.168.0.111:8000/api");
+  const [API_URL, SET_API_URL] = useState("http://127.0.0.1:8000/api");
 
   const [deviceW, setDeviceW] = useState(Dimensions.get('window').width);
   const [deviceH, setDeviceH] = useState(Dimensions.get('window').height);
